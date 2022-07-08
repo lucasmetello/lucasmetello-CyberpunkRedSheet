@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmCyberpunkRedSheet3_svg" align="client" theme="light" margins="{top=1}">
+    <style>#frmCyberpunkRedSheet3_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
+#frmCyberpunkRedSheet3_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
+    <scrollBox align="client">
+        <rectangle width="1242" height="972" color="white">&#xD;
+            <image left="0" top="0" width="1242" height="972" src="images/3.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <layout left="446" top="108" width="26" height="19" compilerOrder="225">
+                <checkBox left="0" top="0" width="26" height="20" field="Audio_Box" compilerOrder="226"/>
+            </layout>&#xD;
+            <layout left="330" top="131" width="143" height="18" compilerOrder="5">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="Audio_1" compilerOrder="6"/>
+            </layout>&#xD;
+            <layout left="480" top="131" width="143" height="18" compilerOrder="1">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="A_Data_1" compilerOrder="2"/>
+            </layout>&#xD;
+            <layout left="909" top="133" width="130" height="18" compilerOrder="113">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="IC_1" compilerOrder="114"/>
+            </layout>&#xD;
+            <layout left="1047" top="133" width="132" height="18" compilerOrder="115">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ICD1" compilerOrder="116"/>
+            </layout>&#xD;
+            <layout left="330" top="152" width="143" height="18" compilerOrder="7">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="Audio_2" compilerOrder="8"/>
+            </layout>&#xD;
+            <layout left="480" top="153" width="143" height="18" compilerOrder="3">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="A_Data_2" compilerOrder="4"/>
+            </layout>&#xD;
+            <layout left="909" top="155" width="130" height="18" compilerOrder="117">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="IC_2" compilerOrder="118"/>
+            </layout>&#xD;
+            <layout left="1047" top="155" width="132" height="18" compilerOrder="119">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ICD3" compilerOrder="120"/>
+            </layout>&#xD;
+            <layout left="480" top="173" width="143" height="18" compilerOrder="11">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="A_Data_3" compilerOrder="12"/>
+            </layout>&#xD;
+            <layout left="330" top="174" width="143" height="18" compilerOrder="9">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="Audio_3" compilerOrder="10"/>
+            </layout>&#xD;
+            <layout left="1047" top="176" width="132" height="18" compilerOrder="127">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ICD4" compilerOrder="128"/>
+            </layout>&#xD;
+            <layout left="909" top="177" width="130" height="18" compilerOrder="125">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="IC_3" compilerOrder="126"/>
+            </layout>&#xD;
+            <layout left="1047" top="198" width="132" height="18" compilerOrder="123">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ICD5" compilerOrder="124"/>
+            </layout>&#xD;
+            <layout left="909" top="199" width="130" height="18" compilerOrder="121">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="IC_4" compilerOrder="122"/>
+            </layout>&#xD;
+            <layout left="909" top="219" width="130" height="18" compilerOrder="137">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="IC_5" compilerOrder="138"/>
+            </layout>&#xD;
+            <layout left="1047" top="219" width="132" height="18" compilerOrder="139">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ICD6" compilerOrder="140"/>
+            </layout>&#xD;
+            <layout left="210" top="221" width="26" height="18" compilerOrder="227">
+                <checkBox left="0" top="0" width="26" height="19" field="R_Eye_Box" compilerOrder="228"/>
+            </layout>&#xD;
+            <layout left="692" top="221" width="26" height="18" compilerOrder="229">
+                <checkBox left="0" top="0" width="26" height="19" field="L_Eye_Box" compilerOrder="230"/>
+            </layout>&#xD;
+            <layout left="909" top="241" width="130" height="18" compilerOrder="133">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="IC_6" compilerOrder="134"/>
+            </layout>&#xD;
+            <layout left="1047" top="241" width="132" height="18" compilerOrder="135">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ICD7" compilerOrder="136"/>
+            </layout>&#xD;
+            <layout left="243" top="243" width="143" height="18" compilerOrder="21">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="RE_Data_1" compilerOrder="22"/>
+            </layout>&#xD;
+            <layout left="726" top="243" width="143" height="18" compilerOrder="33">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="LE_Data_1" compilerOrder="34"/>
+            </layout>&#xD;
+            <layout left="93" top="244" width="143" height="18" compilerOrder="13">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Eye_1" compilerOrder="14"/>
+            </layout>&#xD;
+            <layout left="576" top="244" width="143" height="18" compilerOrder="25">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Eye_1" compilerOrder="26"/>
+            </layout>&#xD;
+            <layout left="1047" top="262" width="132" height="18" compilerOrder="131">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ICD8" compilerOrder="132"/>
+            </layout>&#xD;
+            <layout left="909" top="263" width="130" height="18" compilerOrder="129">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="IC_7" compilerOrder="130"/>
+            </layout>&#xD;
+            <layout left="93" top="264" width="143" height="18" compilerOrder="15">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Eye_2" compilerOrder="16"/>
+            </layout>&#xD;
+            <layout left="576" top="264" width="143" height="18" compilerOrder="27">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Eye_2" compilerOrder="28"/>
+            </layout>&#xD;
+            <layout left="243" top="265" width="143" height="18" compilerOrder="23">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="RE_Data_2" compilerOrder="24"/>
+            </layout>&#xD;
+            <layout left="726" top="265" width="143" height="18" compilerOrder="35">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="LE_Data_2" compilerOrder="36"/>
+            </layout>&#xD;
+            <layout left="93" top="286" width="143" height="18" compilerOrder="17">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Eye_3" compilerOrder="18"/>
+            </layout>&#xD;
+            <layout left="243" top="286" width="143" height="18" compilerOrder="19">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="RE_Data_3" compilerOrder="20"/>
+            </layout>&#xD;
+            <layout left="576" top="286" width="143" height="18" compilerOrder="29">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Eye_3" compilerOrder="30"/>
+            </layout>&#xD;
+            <layout left="726" top="286" width="143" height="18" compilerOrder="31">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="LE_Data_3" compilerOrder="32"/>
+            </layout>&#xD;
+            <layout left="1046" top="333" width="132" height="18" compilerOrder="145">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ECD1" compilerOrder="146"/>
+            </layout>&#xD;
+            <layout left="908" top="334" width="130" height="18" compilerOrder="141">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="EC_1" compilerOrder="142"/>
+            </layout>&#xD;
+            <layout left="203" top="339" width="26" height="19" compilerOrder="231">
+                <checkBox left="0" top="0" width="26" height="20" field="R_Arm_Box" compilerOrder="232"/>
+            </layout>&#xD;
+            <layout left="692" top="339" width="26" height="18" compilerOrder="233">
+                <checkBox left="0" top="0" width="26" height="19" field="L_Arm_Box" compilerOrder="234"/>
+            </layout>&#xD;
+            <layout left="908" top="355" width="130" height="18" compilerOrder="147">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="EC2" compilerOrder="148"/>
+            </layout>&#xD;
+            <layout left="1046" top="355" width="132" height="18" compilerOrder="149">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ECD2" compilerOrder="150"/>
+            </layout>&#xD;
+            <layout left="86" top="362" width="143" height="18" compilerOrder="37">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Arm_1" compilerOrder="38"/>
+            </layout>&#xD;
+            <layout left="237" top="362" width="143" height="18" compilerOrder="43">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="RArm_Data_1" compilerOrder="44"/>
+            </layout>&#xD;
+            <layout left="575" top="362" width="143" height="18" compilerOrder="53">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Arm_1" compilerOrder="54"/>
+            </layout>&#xD;
+            <layout left="726" top="362" width="143" height="18" compilerOrder="61">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="LArm_Data_1" compilerOrder="62"/>
+            </layout>&#xD;
+            <layout left="908" top="377" width="130" height="18" compilerOrder="155">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="EC3" compilerOrder="156"/>
+            </layout>&#xD;
+            <layout left="1046" top="377" width="132" height="18" compilerOrder="157">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ECD3" compilerOrder="158"/>
+            </layout>&#xD;
+            <layout left="575" top="382" width="143" height="18" compilerOrder="55">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Arm_2" compilerOrder="56"/>
+            </layout>&#xD;
+            <layout left="86" top="383" width="143" height="18" compilerOrder="39">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Arm_2" compilerOrder="40"/>
+            </layout>&#xD;
+            <layout left="726" top="383" width="143" height="18" compilerOrder="65">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="LArm_Data_2" compilerOrder="66"/>
+            </layout>&#xD;
+            <layout left="237" top="384" width="143" height="18" compilerOrder="47">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="RArm_Data_2" compilerOrder="48"/>
+            </layout>&#xD;
+            <layout left="908" top="399" width="130" height="18" compilerOrder="151">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="EC4" compilerOrder="152"/>
+            </layout>&#xD;
+            <layout left="1046" top="399" width="132" height="18" compilerOrder="153">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ECD4" compilerOrder="154"/>
+            </layout>&#xD;
+            <layout left="237" top="404" width="143" height="18" compilerOrder="45">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="RArm_Data_3" compilerOrder="46"/>
+            </layout>&#xD;
+            <layout left="726" top="404" width="143" height="18" compilerOrder="63">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="LArm_Data_3" compilerOrder="64"/>
+            </layout>&#xD;
+            <layout left="86" top="405" width="143" height="18" compilerOrder="41">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Arm_3" compilerOrder="42"/>
+            </layout>&#xD;
+            <layout left="575" top="405" width="143" height="18" compilerOrder="57">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Arm_3" compilerOrder="58"/>
+            </layout>&#xD;
+            <layout left="1046" top="419" width="132" height="18" compilerOrder="167">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ECD5" compilerOrder="168"/>
+            </layout>&#xD;
+            <layout left="908" top="420" width="130" height="18" compilerOrder="165">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="EC5" compilerOrder="166"/>
+            </layout>&#xD;
+            <layout left="237" top="425" width="143" height="18" compilerOrder="51">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="RArm_Data_4" compilerOrder="52"/>
+            </layout>&#xD;
+            <layout left="576" top="425" width="143" height="18" compilerOrder="59">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Arm_4" compilerOrder="60"/>
+            </layout>&#xD;
+            <layout left="726" top="425" width="143" height="18" compilerOrder="67">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="LArm_Data_4" compilerOrder="68"/>
+            </layout>&#xD;
+            <layout left="87" top="426" width="143" height="18" compilerOrder="49">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Arm_4" compilerOrder="50"/>
+            </layout>&#xD;
+            <layout left="908" top="441" width="130" height="18" compilerOrder="161">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="EC6" compilerOrder="162"/>
+            </layout>&#xD;
+            <layout left="1046" top="441" width="132" height="18" compilerOrder="163">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ECD6" compilerOrder="164"/>
+            </layout>&#xD;
+            <layout left="908" top="463" width="130" height="18" compilerOrder="159">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="EC7" compilerOrder="160"/>
+            </layout>&#xD;
+            <layout left="1046" top="463" width="132" height="18" compilerOrder="143">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="ECD7" compilerOrder="144"/>
+            </layout>&#xD;
+            <layout left="1047" top="534" width="132" height="18" compilerOrder="173">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="FWD1" compilerOrder="174"/>
+            </layout>&#xD;
+            <layout left="909" top="535" width="130" height="18" compilerOrder="169">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="FW1" compilerOrder="170"/>
+            </layout>&#xD;
+            <layout left="909" top="556" width="130" height="18" compilerOrder="175">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="FW2" compilerOrder="176"/>
+            </layout>&#xD;
+            <layout left="1047" top="556" width="132" height="18" compilerOrder="177">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="FWD2" compilerOrder="178"/>
+            </layout>&#xD;
+            <layout left="909" top="578" width="130" height="18" compilerOrder="183">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="FW3" compilerOrder="184"/>
+            </layout>&#xD;
+            <layout left="1047" top="578" width="132" height="18" compilerOrder="185">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="FWD3" compilerOrder="186"/>
+            </layout>&#xD;
+            <layout left="1047" top="599" width="132" height="18" compilerOrder="181">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="FWD4" compilerOrder="182"/>
+            </layout>&#xD;
+            <layout left="909" top="600" width="130" height="18" compilerOrder="179">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="FW4" compilerOrder="180"/>
+            </layout>&#xD;
+            <layout left="1047" top="620" width="132" height="18" compilerOrder="195">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="FWD5" compilerOrder="196"/>
+            </layout>&#xD;
+            <layout left="909" top="621" width="130" height="18" compilerOrder="193">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="FW5" compilerOrder="194"/>
+            </layout>&#xD;
+            <layout left="447" top="636" width="26" height="17" compilerOrder="235">
+                <checkBox left="0" top="0" width="26" height="18" field="Link_Box" compilerOrder="236"/>
+            </layout>&#xD;
+            <layout left="909" top="642" width="130" height="18" compilerOrder="189">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="FW6" compilerOrder="190"/>
+            </layout>&#xD;
+            <layout left="1047" top="642" width="132" height="18" compilerOrder="191">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="FWD6" compilerOrder="192"/>
+            </layout>&#xD;
+            <layout left="330" top="658" width="143" height="18" compilerOrder="69">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_1" compilerOrder="70"/>
+            </layout>&#xD;
+            <layout left="483" top="658" width="143" height="18" compilerOrder="71">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_Data_1" compilerOrder="72"/>
+            </layout>&#xD;
+            <layout left="909" top="664" width="130" height="18" compilerOrder="187">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="FW7" compilerOrder="188"/>
+            </layout>&#xD;
+            <layout left="1047" top="664" width="132" height="18" compilerOrder="171">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="FWD7" compilerOrder="172"/>
+            </layout>&#xD;
+            <layout left="483" top="679" width="143" height="18" compilerOrder="73">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_Data_2" compilerOrder="74"/>
+            </layout>&#xD;
+            <layout left="330" top="680" width="143" height="18" compilerOrder="75">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_2" compilerOrder="76"/>
+            </layout>&#xD;
+            <layout left="483" top="701" width="143" height="18" compilerOrder="83">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_Data_3" compilerOrder="84"/>
+            </layout>&#xD;
+            <layout left="330" top="702" width="143" height="18" compilerOrder="81">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_3" compilerOrder="82"/>
+            </layout>&#xD;
+            <layout left="330" top="723" width="143" height="18" compilerOrder="79">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_4" compilerOrder="80"/>
+            </layout>&#xD;
+            <layout left="483" top="723" width="143" height="18" compilerOrder="77">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_Data_4" compilerOrder="78"/>
+            </layout>&#xD;
+            <layout left="1046" top="735" width="132" height="18" compilerOrder="201">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="BorgD1" compilerOrder="202"/>
+            </layout>&#xD;
+            <layout left="908" top="736" width="130" height="18" compilerOrder="197">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="Borg1" compilerOrder="198"/>
+            </layout>&#xD;
+            <layout left="483" top="744" width="143" height="18" compilerOrder="87">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_Data_5" compilerOrder="88"/>
+            </layout>&#xD;
+            <layout left="330" top="745" width="143" height="18" compilerOrder="85">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="NLink_5" compilerOrder="86"/>
+            </layout>&#xD;
+            <layout left="908" top="757" width="130" height="18" compilerOrder="203">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="Borg2" compilerOrder="204"/>
+            </layout>&#xD;
+            <layout left="1046" top="757" width="132" height="18" compilerOrder="205">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="BorgD2" compilerOrder="206"/>
+            </layout>&#xD;
+            <layout left="908" top="779" width="130" height="18" compilerOrder="211">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="Borg3" compilerOrder="212"/>
+            </layout>&#xD;
+            <layout left="1046" top="779" width="132" height="18" compilerOrder="213">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="BorgD3" compilerOrder="214"/>
+            </layout>&#xD;
+            <layout left="692" top="800" width="26" height="18" compilerOrder="239">
+                <checkBox left="0" top="0" width="26" height="19" field="L_Leg_Box" compilerOrder="240"/>
+            </layout>&#xD;
+            <layout left="1046" top="800" width="132" height="18" compilerOrder="209">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="BorgD4" compilerOrder="210"/>
+            </layout>&#xD;
+            <layout left="208" top="801" width="26" height="17" compilerOrder="237">
+                <checkBox left="0" top="0" width="26" height="18" field="R_Leg_Box" compilerOrder="238"/>
+            </layout>&#xD;
+            <layout left="908" top="801" width="130" height="18" compilerOrder="207">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="Borg4" compilerOrder="208"/>
+            </layout>&#xD;
+            <layout left="1046" top="821" width="132" height="18" compilerOrder="223">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="BorgD5" compilerOrder="224"/>
+            </layout>&#xD;
+            <layout left="243" top="822" width="143" height="18" compilerOrder="91">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Leg_Data_1" compilerOrder="92"/>
+            </layout>&#xD;
+            <layout left="908" top="822" width="130" height="18" compilerOrder="221">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="Borg5" compilerOrder="222"/>
+            </layout>&#xD;
+            <layout left="93" top="823" width="143" height="18" compilerOrder="89">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Leg_1" compilerOrder="90"/>
+            </layout>&#xD;
+            <layout left="575" top="823" width="143" height="18" compilerOrder="101">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Leg_1" compilerOrder="102"/>
+            </layout>&#xD;
+            <layout left="726" top="823" width="143" height="18" compilerOrder="103">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Leg_Data_1" compilerOrder="104"/>
+            </layout>&#xD;
+            <layout left="93" top="843" width="143" height="18" compilerOrder="95">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Leg_2" compilerOrder="96"/>
+            </layout>&#xD;
+            <layout left="575" top="843" width="143" height="18" compilerOrder="107">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Leg_2" compilerOrder="108"/>
+            </layout>&#xD;
+            <layout left="908" top="843" width="130" height="18" compilerOrder="217">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="Borg6" compilerOrder="218"/>
+            </layout>&#xD;
+            <layout left="1046" top="843" width="132" height="18" compilerOrder="219">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="BorgD6" compilerOrder="220"/>
+            </layout>&#xD;
+            <layout left="243" top="844" width="143" height="18" compilerOrder="93">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Leg_Data_2" compilerOrder="94"/>
+            </layout>&#xD;
+            <layout left="726" top="844" width="143" height="18" compilerOrder="105">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Leg_Data_2" compilerOrder="106"/>
+            </layout>&#xD;
+            <layout left="93" top="865" width="143" height="18" compilerOrder="97">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Leg_3" compilerOrder="98"/>
+            </layout>&#xD;
+            <layout left="243" top="865" width="143" height="18" compilerOrder="99">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="R_Leg_Data_3" compilerOrder="100"/>
+            </layout>&#xD;
+            <layout left="726" top="865" width="143" height="18" compilerOrder="109">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Leg_Data_3" compilerOrder="110"/>
+            </layout>&#xD;
+            <layout left="908" top="865" width="130" height="18" compilerOrder="215">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="19" field="Borg7" compilerOrder="216"/>
+            </layout>&#xD;
+            <layout left="1046" top="865" width="132" height="18" compilerOrder="199">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="132" height="19" field="BorgD7" compilerOrder="200"/>
+            </layout>&#xD;
+            <layout left="575" top="866" width="143" height="18" compilerOrder="111">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="143" height="19" field="L_Leg_3" compilerOrder="112"/>
+            </layout>&#xD;
+        </rectangle>
+    </scrollBox>
+</form>

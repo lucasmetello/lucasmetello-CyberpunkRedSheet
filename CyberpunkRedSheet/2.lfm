@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmCyberpunkRedSheet2_svg" align="client" theme="light" margins="{top=1}">
+    <style>#frmCyberpunkRedSheet2_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
+#frmCyberpunkRedSheet2_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
+    <scrollBox align="client">
+        <rectangle width="1242" height="972" color="white">&#xD;
+            <image left="0" top="0" width="1242" height="972" src="images/2.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <layout left="107" top="85" width="421" height="36" compilerOrder="81">
+                <edit transparent="true" fontSize="18" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="421" height="37" field="Aliases" compilerOrder="82"/>
+            </layout>&#xD;
+            <layout left="608" top="112" width="154" height="17" compilerOrder="1">
+                <edit transparent="true" fontSize="10.5" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="18" field="Gear_1" compilerOrder="2"/>
+            </layout>&#xD;
+            <layout left="767" top="112" width="412" height="18" compilerOrder="41">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_1" compilerOrder="42"/>
+            </layout>&#xD;
+            <layout left="176" top="126" width="52" height="34" compilerOrder="83">
+                <edit transparent="true" fontSize="18" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="52" height="35" field="Current_IP" compilerOrder="84"/>
+            </layout>&#xD;
+            <layout left="247" top="126" width="54" height="34" compilerOrder="85">
+                <edit transparent="true" fontSize="18" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="54" height="35" field="Total_IP" compilerOrder="86"/>
+            </layout>&#xD;
+            <layout left="608" top="132" width="154" height="18" compilerOrder="3">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_2" compilerOrder="4"/>
+            </layout>&#xD;
+            <layout left="767" top="132" width="412" height="18" compilerOrder="43">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_2" compilerOrder="44"/>
+            </layout>&#xD;
+            <layout left="390" top="139" width="183" height="60" compilerOrder="89">
+                <textEditor left="0" top="0" width="183" height="60" fontSize="14.2" fontColor="#000000" field="Reputation_Events" transparent="true" compilerOrder="90"/>
+            </layout>&#xD;
+            <layout left="608" top="155" width="154" height="18" compilerOrder="5">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_3" compilerOrder="6"/>
+            </layout>&#xD;
+            <layout left="767" top="155" width="412" height="18" compilerOrder="47">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_3" compilerOrder="48"/>
+            </layout>&#xD;
+            <layout left="165" top="166" width="137" height="33" compilerOrder="87">
+                <edit transparent="true" fontSize="18" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="137" height="34" field="Reputation" compilerOrder="88"/>
+            </layout>&#xD;
+            <layout left="767" top="175" width="412" height="18" compilerOrder="45">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_4" compilerOrder="46"/>
+            </layout>&#xD;
+            <layout left="608" top="176" width="154" height="18" compilerOrder="7">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_4" compilerOrder="8"/>
+            </layout>&#xD;
+            <layout left="767" top="197" width="412" height="18" compilerOrder="49">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_5" compilerOrder="50"/>
+            </layout>&#xD;
+            <layout left="608" top="198" width="154" height="18" compilerOrder="9">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_5" compilerOrder="10"/>
+            </layout>&#xD;
+            <layout left="608" top="219" width="154" height="18" compilerOrder="11">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_6" compilerOrder="12"/>
+            </layout>&#xD;
+            <layout left="767" top="219" width="412" height="18" compilerOrder="53">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_6" compilerOrder="54"/>
+            </layout>&#xD;
+            <layout left="767" top="240" width="412" height="18" compilerOrder="51">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_7" compilerOrder="52"/>
+            </layout>&#xD;
+            <layout left="608" top="241" width="154" height="18" compilerOrder="13">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_7" compilerOrder="14"/>
+            </layout>&#xD;
+            <layout left="608" top="263" width="154" height="18" compilerOrder="15">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_8" compilerOrder="16"/>
+            </layout>&#xD;
+            <layout left="767" top="263" width="412" height="18" compilerOrder="55">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_8" compilerOrder="56"/>
+            </layout>&#xD;
+            <layout left="92" top="271" width="232" height="24" compilerOrder="91">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="232" height="25" field="Cultural_Origins" compilerOrder="92"/>
+            </layout>&#xD;
+            <layout left="340" top="271" width="232" height="24" compilerOrder="103">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="232" height="25" field="Personality" compilerOrder="104"/>
+            </layout>&#xD;
+            <layout left="608" top="284" width="154" height="18" compilerOrder="17">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_9" compilerOrder="18"/>
+            </layout>&#xD;
+            <layout left="767" top="284" width="412" height="18" compilerOrder="57">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_9" compilerOrder="58"/>
+            </layout>&#xD;
+            <layout left="608" top="306" width="154" height="18" compilerOrder="19">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_10" compilerOrder="20"/>
+            </layout>&#xD;
+            <layout left="767" top="306" width="412" height="18" compilerOrder="61">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_10" compilerOrder="62"/>
+            </layout>&#xD;
+            <layout left="92" top="319" width="232" height="24" compilerOrder="93">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="232" height="25" field="Clothing_Style" compilerOrder="94"/>
+            </layout>&#xD;
+            <layout left="340" top="319" width="232" height="24" compilerOrder="105">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="232" height="25" field="Hairstyle" compilerOrder="106"/>
+            </layout>&#xD;
+            <layout left="608" top="328" width="154" height="18" compilerOrder="21">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_11" compilerOrder="22"/>
+            </layout>&#xD;
+            <layout left="767" top="328" width="412" height="18" compilerOrder="65">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_11" compilerOrder="66"/>
+            </layout>&#xD;
+            <layout left="608" top="349" width="154" height="18" compilerOrder="23">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_12" compilerOrder="24"/>
+            </layout>&#xD;
+            <layout left="767" top="349" width="412" height="18" compilerOrder="63">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_12" compilerOrder="64"/>
+            </layout>&#xD;
+            <layout left="442" top="353" width="128" height="40" compilerOrder="107">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="128" height="41" field="Feelings_About_People" compilerOrder="108"/>
+            </layout>&#xD;
+            <layout left="188" top="354" width="136" height="36" compilerOrder="95">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="136" height="37" field="What_Value_Most" compilerOrder="96"/>
+            </layout>&#xD;
+            <layout left="608" top="371" width="154" height="18" compilerOrder="25">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_13" compilerOrder="26"/>
+            </layout>&#xD;
+            <layout left="767" top="371" width="412" height="18" compilerOrder="67">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_13" compilerOrder="68"/>
+            </layout>&#xD;
+            <layout left="608" top="392" width="154" height="18" compilerOrder="27">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_14" compilerOrder="28"/>
+            </layout>&#xD;
+            <layout left="767" top="392" width="412" height="18" compilerOrder="71">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_14" compilerOrder="72"/>
+            </layout>&#xD;
+            <layout left="179" top="399" width="142" height="41" compilerOrder="97">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="142" height="42" field="Who_Value_Most" compilerOrder="98"/>
+            </layout>&#xD;
+            <layout left="438" top="400" width="128" height="40" compilerOrder="109">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="128" height="41" field="Valued_Possession" compilerOrder="110"/>
+            </layout>&#xD;
+            <layout left="767" top="413" width="412" height="18" compilerOrder="69">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_15" compilerOrder="70"/>
+            </layout>&#xD;
+            <layout left="608" top="414" width="154" height="18" compilerOrder="29">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_15" compilerOrder="30"/>
+            </layout>&#xD;
+            <layout left="767" top="435" width="412" height="18" compilerOrder="59">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_16" compilerOrder="60"/>
+            </layout>&#xD;
+            <layout left="608" top="436" width="154" height="18" compilerOrder="31">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_16" compilerOrder="32"/>
+            </layout>&#xD;
+            <layout left="177" top="447" width="142" height="41" compilerOrder="99">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="142" height="42" field="Family_Background" compilerOrder="100"/>
+            </layout>&#xD;
+            <layout left="432" top="448" width="136" height="40" compilerOrder="111">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="136" height="41" field="Childhood_Env" compilerOrder="112"/>
+            </layout>&#xD;
+            <layout left="608" top="457" width="154" height="18" compilerOrder="33">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_17" compilerOrder="34"/>
+            </layout>&#xD;
+            <layout left="767" top="457" width="412" height="18" compilerOrder="73">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_17" compilerOrder="74"/>
+            </layout>&#xD;
+            <layout left="608" top="479" width="154" height="18" compilerOrder="35">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="154" height="19" field="Gear_18" compilerOrder="36"/>
+            </layout>&#xD;
+            <layout left="767" top="479" width="412" height="18" compilerOrder="75">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Gear_Notes_18" compilerOrder="76"/>
+            </layout>&#xD;
+            <layout left="767" top="500" width="412" height="18" compilerOrder="77">
+                <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="19" field="Ammo" compilerOrder="78"/>
+            </layout>&#xD;
+            <layout left="340" top="510" width="232" height="24" compilerOrder="113">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="232" height="25" field="Life_Goals" compilerOrder="114"/>
+            </layout>&#xD;
+            <layout left="92" top="511" width="232" height="24" compilerOrder="101">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="232" height="25" field="Family_Crisis" compilerOrder="102"/>
+            </layout>&#xD;
+            <layout left="767" top="521" width="412" height="20" compilerOrder="79">
+                <edit transparent="true" fontSize="12.8" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="412" height="21" field="Cash" compilerOrder="80"/>
+            </layout>&#xD;
+            <layout left="124" top="567" width="197" height="40" compilerOrder="115">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="197" height="41" field="Friend_1" compilerOrder="116"/>
+            </layout>&#xD;
+            <layout left="372" top="568" width="197" height="40" compilerOrder="125">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="197" height="41" field="Love_Affair_1" compilerOrder="126"/>
+            </layout>&#xD;
+            <layout left="610" top="598" width="565" height="48" compilerOrder="37">
+                <textEditor left="0" top="0" width="565" height="48" fontSize="14.2" fontColor="#000000" field="FASHION" transparent="true" compilerOrder="38"/>
+            </layout>&#xD;
+            <layout left="124" top="616" width="197" height="40" compilerOrder="117">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="197" height="41" field="Friend_2" compilerOrder="118"/>
+            </layout>&#xD;
+            <layout left="372" top="617" width="197" height="40" compilerOrder="123">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="197" height="41" field="Love_Affair_2" compilerOrder="124"/>
+            </layout>&#xD;
+            <layout left="372" top="664" width="197" height="40" compilerOrder="121">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="197" height="41" field="Love_Affair_3" compilerOrder="122"/>
+            </layout>&#xD;
+            <layout left="124" top="665" width="197" height="40" compilerOrder="119">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="197" height="41" field="Friend_3" compilerOrder="120"/>
+            </layout>&#xD;
+            <layout left="670" top="668" width="187" height="33" compilerOrder="151">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="187" height="34" field="Housing" compilerOrder="152"/>
+            </layout>&#xD;
+            <layout left="906" top="668" width="75" height="33" compilerOrder="153">
+                <edit transparent="true" fontSize="18" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="75" height="34" field="Rent" compilerOrder="154"/>
+            </layout>&#xD;
+            <layout left="1050" top="668" width="130" height="33" compilerOrder="155">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="130" height="34" field="Lifestyle" compilerOrder="156"/>
+            </layout>&#xD;
+            <layout left="351" top="736" width="124" height="42" compilerOrder="139">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="124" height="43" field="Throw_At_You_1" compilerOrder="140"/>
+            </layout>&#xD;
+            <layout left="180" top="737" width="73" height="42" compilerOrder="127">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="73" height="43" field="Who_1" compilerOrder="128"/>
+            </layout>&#xD;
+            <layout left="267" top="737" width="73" height="42" compilerOrder="133">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="73" height="43" field="What_Caused_It" compilerOrder="134"/>
+            </layout>&#xD;
+            <layout left="482" top="737" width="89" height="41" compilerOrder="145">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="89" height="42" field="Happen_1" compilerOrder="146"/>
+            </layout>&#xD;
+            <layout left="607" top="755" width="568" height="117" compilerOrder="39">
+                <textEditor left="0" top="0" width="568" height="117" fontSize="14.2" fontColor="#000000" field="ROLE_SPECIFIC_LIFEPATH" transparent="true" compilerOrder="40"/>
+            </layout>&#xD;
+            <layout left="180" top="785" width="73" height="42" compilerOrder="129">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="73" height="43" field="Who_2" compilerOrder="130"/>
+            </layout>&#xD;
+            <layout left="267" top="785" width="73" height="42" compilerOrder="135">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="73" height="43" field="What_Caused_it_2" compilerOrder="136"/>
+            </layout>&#xD;
+            <layout left="351" top="785" width="124" height="42" compilerOrder="141">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="124" height="43" field="Throw_At_You_2" compilerOrder="142"/>
+            </layout>&#xD;
+            <layout left="482" top="786" width="89" height="39" compilerOrder="147">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="89" height="40" field="Happen_2" compilerOrder="148"/>
+            </layout>&#xD;
+            <layout left="351" top="832" width="124" height="42" compilerOrder="143">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="124" height="43" field="Throw_At_You_3" compilerOrder="144"/>
+            </layout>&#xD;
+            <layout left="180" top="833" width="73" height="42" compilerOrder="131">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="73" height="43" field="Who_3" compilerOrder="132"/>
+            </layout>&#xD;
+            <layout left="267" top="833" width="73" height="42" compilerOrder="137">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="leading" vertTextAlign="center" left="0" top="0" width="73" height="43" field="What_Caused_it_3" compilerOrder="138"/>
+            </layout>&#xD;
+            <layout left="482" top="833" width="89" height="39" compilerOrder="149">
+                <edit transparent="true" fontSize="14.2" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="89" height="40" field="Happen_3" compilerOrder="150"/>
+            </layout>&#xD;
+        </rectangle>
+    </scrollBox>
+</form>
