@@ -158,7 +158,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit4:setTop(0);
     obj.edit4:setWidth(27);
     obj.edit4:setHeight(19);
-    obj.edit4:setField("Conceal_Reveal_LVL");
+    obj.edit4:setField("Conceal_Level");
     obj.edit4:setName("edit4");
 
     obj.layout5 = GUI.fromHandle(_obj_newObject("layout"));
@@ -180,7 +180,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit5:setTop(0);
     obj.edit5:setWidth(30);
     obj.edit5:setHeight(19);
-    obj.edit5:setField("INT__1");
+    obj.edit5:setField("Conceal_Stat");
     obj.edit5:setName("edit5");
 
     obj.layout6 = GUI.fromHandle(_obj_newObject("layout"));
@@ -290,7 +290,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit10:setTop(0);
     obj.edit10:setWidth(27);
     obj.edit10:setHeight(19);
-    obj.edit10:setField("LVLLip_Reading_INT");
+    obj.edit10:setField("Lip_Level");
     obj.edit10:setName("edit10");
 
     obj.layout11 = GUI.fromHandle(_obj_newObject("layout"));
@@ -312,7 +312,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit11:setTop(0);
     obj.edit11:setWidth(30);
     obj.edit11:setHeight(19);
-    obj.edit11:setField("INT__2");
+    obj.edit11:setField("Lip_Stat");
     obj.edit11:setName("edit11");
 
     obj.layout12 = GUI.fromHandle(_obj_newObject("layout"));
@@ -400,7 +400,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit15:setTop(0);
     obj.edit15:setWidth(27);
     obj.edit15:setHeight(19);
-    obj.edit15:setField("LVLPerception_INT");
+    obj.edit15:setField("Perception_Level");
     obj.edit15:setName("edit15");
 
     obj.layout16 = GUI.fromHandle(_obj_newObject("layout"));
@@ -422,7 +422,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit16:setTop(0);
     obj.edit16:setWidth(30);
     obj.edit16:setHeight(19);
-    obj.edit16:setField("INT__3");
+    obj.edit16:setField("Perception_Stat");
     obj.edit16:setName("edit16");
 
     obj.layout17 = GUI.fromHandle(_obj_newObject("layout"));
@@ -554,7 +554,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit22:setTop(0);
     obj.edit22:setWidth(27);
     obj.edit22:setHeight(19);
-    obj.edit22:setField("LVLTracking_INT");
+    obj.edit22:setField("Tracking_Level");
     obj.edit22:setName("edit22");
 
     obj.layout23 = GUI.fromHandle(_obj_newObject("layout"));
@@ -576,7 +576,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit23:setTop(0);
     obj.edit23:setWidth(30);
     obj.edit23:setHeight(19);
-    obj.edit23:setField("INT__4");
+    obj.edit23:setField("Tracking_Stat");
     obj.edit23:setName("edit23");
 
     obj.layout24 = GUI.fromHandle(_obj_newObject("layout"));
@@ -730,7 +730,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit30:setTop(0);
     obj.edit30:setWidth(27);
     obj.edit30:setHeight(19);
-    obj.edit30:setField("LVLAthletics_DEX");
+    obj.edit30:setField("Athletics_Level");
     obj.edit30:setName("edit30");
 
     obj.layout31 = GUI.fromHandle(_obj_newObject("layout"));
@@ -752,7 +752,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit31:setTop(0);
     obj.edit31:setWidth(30);
     obj.edit31:setHeight(19);
-    obj.edit31:setField("DEX__1");
+    obj.edit31:setField("Athletics_Stat");
     obj.edit31:setName("edit31");
 
     obj.layout32 = GUI.fromHandle(_obj_newObject("layout"));
@@ -862,7 +862,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit36:setTop(0);
     obj.edit36:setWidth(27);
     obj.edit36:setHeight(19);
-    obj.edit36:setField("LVLContortionist_DEX");
+    obj.edit36:setField("Contortionist_Level");
     obj.edit36:setName("edit36");
 
     obj.layout37 = GUI.fromHandle(_obj_newObject("layout"));
@@ -884,7 +884,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit37:setTop(0);
     obj.edit37:setWidth(30);
     obj.edit37:setHeight(19);
-    obj.edit37:setField("DEX__2");
+    obj.edit37:setField("Contortionist__Stat");
     obj.edit37:setName("edit37");
 
     obj.layout38 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1016,7 +1016,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit43:setTop(0);
     obj.edit43:setWidth(27);
     obj.edit43:setHeight(19);
-    obj.edit43:setField("LVLDance_DEX");
+    obj.edit43:setField("Dance_Level");
     obj.edit43:setName("edit43");
 
     obj.layout44 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1038,7 +1038,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit44:setTop(0);
     obj.edit44:setWidth(30);
     obj.edit44:setHeight(19);
-    obj.edit44:setField("DEX__3");
+    obj.edit44:setField("Dance_Stat");
     obj.edit44:setName("edit44");
 
     obj.layout45 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1170,7 +1170,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit50:setTop(0);
     obj.edit50:setWidth(27);
     obj.edit50:setHeight(19);
-    obj.edit50:setField("LVLEndurance_WILL");
+    obj.edit50:setField("Endurance_Level");
     obj.edit50:setName("edit50");
 
     obj.layout51 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1192,7 +1192,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit51:setTop(0);
     obj.edit51:setWidth(30);
     obj.edit51:setHeight(19);
-    obj.edit51:setField("WILL__2");
+    obj.edit51:setField("Endurance_Stat");
     obj.edit51:setName("edit51");
 
     obj.layout52 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1280,7 +1280,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit55:setTop(0);
     obj.edit55:setWidth(27);
     obj.edit55:setHeight(19);
-    obj.edit55:setField("LVLResist_TortureDrugs_WILL");
+    obj.edit55:setField("Resist_Level");
     obj.edit55:setName("edit55");
 
     obj.layout56 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1302,7 +1302,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit56:setTop(0);
     obj.edit56:setWidth(30);
     obj.edit56:setHeight(19);
-    obj.edit56:setField("WILL__3");
+    obj.edit56:setField("Resist_Stat");
     obj.edit56:setName("edit56");
 
     obj.layout57 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1412,7 +1412,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit61:setTop(0);
     obj.edit61:setWidth(27);
     obj.edit61:setHeight(19);
-    obj.edit61:setField("LVLStealth_DEX");
+    obj.edit61:setField("Stealth_Stat");
     obj.edit61:setName("edit61");
 
     obj.layout62 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1434,7 +1434,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit62:setTop(0);
     obj.edit62:setWidth(30);
     obj.edit62:setHeight(19);
-    obj.edit62:setField("DEX__4");
+    obj.edit62:setField("Stealth_Level");
     obj.edit62:setName("edit62");
 
     obj.layout63 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1610,7 +1610,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit70:setTop(0);
     obj.edit70:setWidth(27);
     obj.edit70:setHeight(19);
-    obj.edit70:setField("LVLDrive_Land_Vehicle_REF");
+    obj.edit70:setField("Drive_Land_Level");
     obj.edit70:setName("edit70");
 
     obj.layout71 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1632,7 +1632,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit71:setTop(0);
     obj.edit71:setWidth(30);
     obj.edit71:setHeight(19);
-    obj.edit71:setField("REF__1");
+    obj.edit71:setField("Drive_Land_Stat");
     obj.edit71:setName("edit71");
 
     obj.layout72 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1742,7 +1742,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit76:setTop(0);
     obj.edit76:setWidth(27);
     obj.edit76:setHeight(19);
-    obj.edit76:setField("LVLPilor_Air_Vehicle_x2_REF");
+    obj.edit76:setField("Pilor_Air_Level");
     obj.edit76:setName("edit76");
 
     obj.layout77 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1764,7 +1764,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit77:setTop(0);
     obj.edit77:setWidth(30);
     obj.edit77:setHeight(19);
-    obj.edit77:setField("REF__2");
+    obj.edit77:setField("Pilor_Air_Stat");
     obj.edit77:setName("edit77");
 
     obj.layout78 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1830,7 +1830,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit80:setTop(0);
     obj.edit80:setWidth(27);
     obj.edit80:setHeight(19);
-    obj.edit80:setField("LVLPilot_Sea_Vehicle_REF");
+    obj.edit80:setField("Pilot_Sea_Level");
     obj.edit80:setName("edit80");
 
     obj.layout81 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1852,7 +1852,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit81:setTop(0);
     obj.edit81:setWidth(30);
     obj.edit81:setHeight(19);
-    obj.edit81:setField("REF__3");
+    obj.edit81:setField("Pilot_Sea_Stat");
     obj.edit81:setName("edit81");
 
     obj.layout82 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1962,7 +1962,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit86:setTop(0);
     obj.edit86:setWidth(27);
     obj.edit86:setHeight(19);
-    obj.edit86:setField("LVLRiding_REF");
+    obj.edit86:setField("Riding_Level");
     obj.edit86:setName("edit86");
 
     obj.layout87 = GUI.fromHandle(_obj_newObject("layout"));
@@ -1984,7 +1984,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit87:setTop(0);
     obj.edit87:setWidth(30);
     obj.edit87:setHeight(19);
-    obj.edit87:setField("REF__4");
+    obj.edit87:setField("Riding_Stat");
     obj.edit87:setName("edit87");
 
     obj.layout88 = GUI.fromHandle(_obj_newObject("layout"));
@@ -2182,7 +2182,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit96:setTop(0);
     obj.edit96:setWidth(27);
     obj.edit96:setHeight(19);
-    obj.edit96:setField("LVLAccounting_INT");
+    obj.edit96:setField("Accounting_Level");
     obj.edit96:setName("edit96");
 
     obj.layout97 = GUI.fromHandle(_obj_newObject("layout"));
@@ -2204,7 +2204,7 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit97:setTop(0);
     obj.edit97:setWidth(30);
     obj.edit97:setHeight(19);
-    obj.edit97:setField("INT__5");
+    obj.edit97:setField("Accounting_Stat");
     obj.edit97:setName("edit97");
 
     obj.layout98 = GUI.fromHandle(_obj_newObject("layout"));
@@ -4074,9 +4074,9 @@ local function constructNew_frmCyberpunkRedSheet()
 
     obj.layout183 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout183:setParent(obj.rectangle1);
-    obj.layout183:setLeft(264);
-    obj.layout183:setTop(376);
-    obj.layout183:setWidth(38);
+    obj.layout183:setLeft(140);
+    obj.layout183:setTop(377);
+    obj.layout183:setWidth(108);
     obj.layout183:setHeight(33);
     obj.layout183:setName("layout183");
 
@@ -4085,25 +4085,47 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit181:setTransparent(true);
     obj.edit181:setFontSize(18);
     obj.edit181:setFontColor("#000000");
-    obj.edit181:setHorzTextAlign("center");
+    obj.edit181:setHorzTextAlign("leading");
     obj.edit181:setVertTextAlign("center");
     obj.edit181:setLeft(0);
     obj.edit181:setTop(0);
-    obj.edit181:setWidth(38);
+    obj.edit181:setWidth(108);
     obj.edit181:setHeight(34);
-    obj.edit181:setField("Role_Ability_Rank");
+    obj.edit181:setField("Role_Ability");
     obj.edit181:setName("edit181");
 
     obj.layout184 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout184:setParent(obj.rectangle1);
-    obj.layout184:setLeft(90);
-    obj.layout184:setTop(445);
-    obj.layout184:setWidth(212);
-    obj.layout184:setHeight(187);
+    obj.layout184:setLeft(264);
+    obj.layout184:setTop(376);
+    obj.layout184:setWidth(38);
+    obj.layout184:setHeight(33);
     obj.layout184:setName("layout184");
 
+    obj.edit182 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit182:setParent(obj.layout184);
+    obj.edit182:setTransparent(true);
+    obj.edit182:setFontSize(18);
+    obj.edit182:setFontColor("#000000");
+    obj.edit182:setHorzTextAlign("center");
+    obj.edit182:setVertTextAlign("center");
+    obj.edit182:setLeft(0);
+    obj.edit182:setTop(0);
+    obj.edit182:setWidth(38);
+    obj.edit182:setHeight(34);
+    obj.edit182:setField("Role_Ability_Rank");
+    obj.edit182:setName("edit182");
+
+    obj.layout185 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout185:setParent(obj.rectangle1);
+    obj.layout185:setLeft(90);
+    obj.layout185:setTop(445);
+    obj.layout185:setWidth(212);
+    obj.layout185:setHeight(187);
+    obj.layout185:setName("layout185");
+
     obj.textEditor2 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor2:setParent(obj.layout184);
+    obj.textEditor2:setParent(obj.layout185);
     obj.textEditor2:setLeft(0);
     obj.textEditor2:setTop(0);
     obj.textEditor2:setWidth(212);
@@ -4114,54 +4136,32 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.textEditor2:setTransparent(true);
     obj.textEditor2:setName("textEditor2");
 
-    obj.layout185 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout185:setParent(obj.rectangle1);
-    obj.layout185:setLeft(210);
-    obj.layout185:setTop(671);
-    obj.layout185:setWidth(89);
-    obj.layout185:setHeight(34);
-    obj.layout185:setName("layout185");
-
-    obj.edit182 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit182:setParent(obj.layout185);
-    obj.edit182:setTransparent(true);
-    obj.edit182:setFontSize(14.2);
-    obj.edit182:setFontColor("#000000");
-    obj.edit182:setHorzTextAlign("center");
-    obj.edit182:setVertTextAlign("center");
-    obj.edit182:setLeft(0);
-    obj.edit182:setTop(0);
-    obj.edit182:setWidth(89);
-    obj.edit182:setHeight(35);
-    obj.edit182:setField("Max_Humanity");
-    obj.edit182:setName("edit182");
-
     obj.layout186 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout186:setParent(obj.rectangle1);
-    obj.layout186:setLeft(93);
-    obj.layout186:setTop(741);
-    obj.layout186:setWidth(57);
-    obj.layout186:setHeight(28);
+    obj.layout186:setLeft(210);
+    obj.layout186:setTop(671);
+    obj.layout186:setWidth(89);
+    obj.layout186:setHeight(34);
     obj.layout186:setName("layout186");
 
     obj.edit183 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit183:setParent(obj.layout186);
     obj.edit183:setTransparent(true);
-    obj.edit183:setFontSize(18);
+    obj.edit183:setFontSize(14.2);
     obj.edit183:setFontColor("#000000");
     obj.edit183:setHorzTextAlign("center");
     obj.edit183:setVertTextAlign("center");
     obj.edit183:setLeft(0);
     obj.edit183:setTop(0);
-    obj.edit183:setWidth(57);
-    obj.edit183:setHeight(29);
-    obj.edit183:setField("Current_HP");
+    obj.edit183:setWidth(89);
+    obj.edit183:setHeight(35);
+    obj.edit183:setField("Max_Humanity");
     obj.edit183:setName("edit183");
 
     obj.layout187 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout187:setParent(obj.rectangle1);
-    obj.layout187:setLeft(168);
-    obj.layout187:setTop(742);
+    obj.layout187:setLeft(93);
+    obj.layout187:setTop(741);
     obj.layout187:setWidth(57);
     obj.layout187:setHeight(28);
     obj.layout187:setName("layout187");
@@ -4177,15 +4177,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit184:setTop(0);
     obj.edit184:setWidth(57);
     obj.edit184:setHeight(29);
-    obj.edit184:setField("Max_HP");
+    obj.edit184:setField("Current_HP");
     obj.edit184:setName("edit184");
 
     obj.layout188 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout188:setParent(obj.rectangle1);
-    obj.layout188:setLeft(151);
-    obj.layout188:setTop(776);
-    obj.layout188:setWidth(74);
-    obj.layout188:setHeight(33);
+    obj.layout188:setLeft(168);
+    obj.layout188:setTop(742);
+    obj.layout188:setWidth(57);
+    obj.layout188:setHeight(28);
     obj.layout188:setName("layout188");
 
     obj.edit185 = GUI.fromHandle(_obj_newObject("edit"));
@@ -4197,21 +4197,43 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit185:setVertTextAlign("center");
     obj.edit185:setLeft(0);
     obj.edit185:setTop(0);
-    obj.edit185:setWidth(74);
-    obj.edit185:setHeight(34);
-    obj.edit185:setField("Seriously_Wounded_Threshhold");
+    obj.edit185:setWidth(57);
+    obj.edit185:setHeight(29);
+    obj.edit185:setField("Max_HP");
     obj.edit185:setName("edit185");
 
     obj.layout189 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout189:setParent(obj.rectangle1);
-    obj.layout189:setLeft(241);
-    obj.layout189:setTop(754);
-    obj.layout189:setWidth(139);
-    obj.layout189:setHeight(54);
+    obj.layout189:setLeft(151);
+    obj.layout189:setTop(776);
+    obj.layout189:setWidth(74);
+    obj.layout189:setHeight(33);
     obj.layout189:setName("layout189");
 
+    obj.edit186 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit186:setParent(obj.layout189);
+    obj.edit186:setTransparent(true);
+    obj.edit186:setFontSize(18);
+    obj.edit186:setFontColor("#000000");
+    obj.edit186:setHorzTextAlign("center");
+    obj.edit186:setVertTextAlign("center");
+    obj.edit186:setLeft(0);
+    obj.edit186:setTop(0);
+    obj.edit186:setWidth(74);
+    obj.edit186:setHeight(34);
+    obj.edit186:setField("Wounded_Threshhold");
+    obj.edit186:setName("edit186");
+
+    obj.layout190 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout190:setParent(obj.rectangle1);
+    obj.layout190:setLeft(241);
+    obj.layout190:setTop(754);
+    obj.layout190:setWidth(139);
+    obj.layout190:setHeight(54);
+    obj.layout190:setName("layout190");
+
     obj.textEditor3 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor3:setParent(obj.layout189);
+    obj.textEditor3:setParent(obj.layout190);
     obj.textEditor3:setLeft(0);
     obj.textEditor3:setTop(0);
     obj.textEditor3:setWidth(139);
@@ -4222,33 +4244,11 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.textEditor3:setTransparent(true);
     obj.textEditor3:setName("textEditor3");
 
-    obj.layout190 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout190:setParent(obj.rectangle1);
-    obj.layout190:setLeft(89);
-    obj.layout190:setTop(852);
-    obj.layout190:setWidth(73);
-    obj.layout190:setHeight(33);
-    obj.layout190:setName("layout190");
-
-    obj.edit186 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit186:setParent(obj.layout190);
-    obj.edit186:setTransparent(true);
-    obj.edit186:setFontSize(18);
-    obj.edit186:setFontColor("#000000");
-    obj.edit186:setHorzTextAlign("center");
-    obj.edit186:setVertTextAlign("center");
-    obj.edit186:setLeft(0);
-    obj.edit186:setTop(0);
-    obj.edit186:setWidth(73);
-    obj.edit186:setHeight(34);
-    obj.edit186:setField("Death_Save");
-    obj.edit186:setName("edit186");
-
     obj.layout191 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout191:setParent(obj.rectangle1);
-    obj.layout191:setLeft(327);
-    obj.layout191:setTop(103);
-    obj.layout191:setWidth(49);
+    obj.layout191:setLeft(89);
+    obj.layout191:setTop(852);
+    obj.layout191:setWidth(73);
     obj.layout191:setHeight(33);
     obj.layout191:setName("layout191");
 
@@ -4261,16 +4261,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit187:setVertTextAlign("center");
     obj.edit187:setLeft(0);
     obj.edit187:setTop(0);
-    obj.edit187:setWidth(49);
+    obj.edit187:setWidth(73);
     obj.edit187:setHeight(34);
-    obj.edit187:setField("INT__0");
+    obj.edit187:setField("Death_Save");
     obj.edit187:setName("edit187");
 
     obj.layout192 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout192:setParent(obj.rectangle1);
-    obj.layout192:setLeft(326);
-    obj.layout192:setTop(167);
-    obj.layout192:setWidth(51);
+    obj.layout192:setLeft(327);
+    obj.layout192:setTop(103);
+    obj.layout192:setWidth(49);
     obj.layout192:setHeight(33);
     obj.layout192:setName("layout192");
 
@@ -4283,15 +4283,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit188:setVertTextAlign("center");
     obj.edit188:setLeft(0);
     obj.edit188:setTop(0);
-    obj.edit188:setWidth(51);
+    obj.edit188:setWidth(49);
     obj.edit188:setHeight(34);
-    obj.edit188:setField("REF__0");
+    obj.edit188:setField("INT");
     obj.edit188:setName("edit188");
 
     obj.layout193 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout193:setParent(obj.rectangle1);
     obj.layout193:setLeft(326);
-    obj.layout193:setTop(231);
+    obj.layout193:setTop(167);
     obj.layout193:setWidth(51);
     obj.layout193:setHeight(33);
     obj.layout193:setName("layout193");
@@ -4307,13 +4307,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit189:setTop(0);
     obj.edit189:setWidth(51);
     obj.edit189:setHeight(34);
-    obj.edit189:setField("DEX__0");
+    obj.edit189:setField("REF");
     obj.edit189:setName("edit189");
 
     obj.layout194 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout194:setParent(obj.rectangle1);
     obj.layout194:setLeft(326);
-    obj.layout194:setTop(294);
+    obj.layout194:setTop(231);
     obj.layout194:setWidth(51);
     obj.layout194:setHeight(33);
     obj.layout194:setName("layout194");
@@ -4329,13 +4329,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit190:setTop(0);
     obj.edit190:setWidth(51);
     obj.edit190:setHeight(34);
-    obj.edit190:setField("TECH__0");
+    obj.edit190:setField("DEX");
     obj.edit190:setName("edit190");
 
     obj.layout195 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout195:setParent(obj.rectangle1);
-    obj.layout195:setLeft(327);
-    obj.layout195:setTop(357);
+    obj.layout195:setLeft(326);
+    obj.layout195:setTop(294);
     obj.layout195:setWidth(51);
     obj.layout195:setHeight(33);
     obj.layout195:setName("layout195");
@@ -4351,14 +4351,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit191:setTop(0);
     obj.edit191:setWidth(51);
     obj.edit191:setHeight(34);
-    obj.edit191:setField("COOL__0");
+    obj.edit191:setField("TECH");
     obj.edit191:setName("edit191");
 
     obj.layout196 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout196:setParent(obj.rectangle1);
     obj.layout196:setLeft(327);
-    obj.layout196:setTop(419);
-    obj.layout196:setWidth(49);
+    obj.layout196:setTop(357);
+    obj.layout196:setWidth(51);
     obj.layout196:setHeight(33);
     obj.layout196:setName("layout196");
 
@@ -4371,16 +4371,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit192:setVertTextAlign("center");
     obj.edit192:setLeft(0);
     obj.edit192:setTop(0);
-    obj.edit192:setWidth(49);
+    obj.edit192:setWidth(51);
     obj.edit192:setHeight(34);
-    obj.edit192:setField("WILL__0");
+    obj.edit192:setField("COOL");
     obj.edit192:setName("edit192");
 
     obj.layout197 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout197:setParent(obj.rectangle1);
-    obj.layout197:setLeft(326);
-    obj.layout197:setTop(483);
-    obj.layout197:setWidth(19);
+    obj.layout197:setLeft(327);
+    obj.layout197:setTop(419);
+    obj.layout197:setWidth(49);
     obj.layout197:setHeight(33);
     obj.layout197:setName("layout197");
 
@@ -4393,16 +4393,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit193:setVertTextAlign("center");
     obj.edit193:setLeft(0);
     obj.edit193:setTop(0);
-    obj.edit193:setWidth(19);
+    obj.edit193:setWidth(49);
     obj.edit193:setHeight(34);
-    obj.edit193:setField("LUCK_CURRENT");
+    obj.edit193:setField("WILL");
     obj.edit193:setName("edit193");
 
     obj.layout198 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout198:setParent(obj.rectangle1);
-    obj.layout198:setLeft(359);
+    obj.layout198:setLeft(326);
     obj.layout198:setTop(483);
-    obj.layout198:setWidth(18);
+    obj.layout198:setWidth(19);
     obj.layout198:setHeight(33);
     obj.layout198:setName("layout198");
 
@@ -4415,16 +4415,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit194:setVertTextAlign("center");
     obj.edit194:setLeft(0);
     obj.edit194:setTop(0);
-    obj.edit194:setWidth(18);
+    obj.edit194:setWidth(19);
     obj.edit194:setHeight(34);
-    obj.edit194:setField("LUCK_MAX");
+    obj.edit194:setField("LUCK_CURRENT");
     obj.edit194:setName("edit194");
 
     obj.layout199 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout199:setParent(obj.rectangle1);
-    obj.layout199:setLeft(327);
-    obj.layout199:setTop(545);
-    obj.layout199:setWidth(49);
+    obj.layout199:setLeft(359);
+    obj.layout199:setTop(483);
+    obj.layout199:setWidth(18);
     obj.layout199:setHeight(33);
     obj.layout199:setName("layout199");
 
@@ -4437,15 +4437,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit195:setVertTextAlign("center");
     obj.edit195:setLeft(0);
     obj.edit195:setTop(0);
-    obj.edit195:setWidth(49);
+    obj.edit195:setWidth(18);
     obj.edit195:setHeight(34);
-    obj.edit195:setField("MOVE");
+    obj.edit195:setField("LUCK_MAX");
     obj.edit195:setName("edit195");
 
     obj.layout200 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout200:setParent(obj.rectangle1);
     obj.layout200:setLeft(327);
-    obj.layout200:setTop(607);
+    obj.layout200:setTop(545);
     obj.layout200:setWidth(49);
     obj.layout200:setHeight(33);
     obj.layout200:setName("layout200");
@@ -4461,14 +4461,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit196:setTop(0);
     obj.edit196:setWidth(49);
     obj.edit196:setHeight(34);
-    obj.edit196:setField("BODY");
+    obj.edit196:setField("MOVE");
     obj.edit196:setName("edit196");
 
     obj.layout201 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout201:setParent(obj.rectangle1);
     obj.layout201:setLeft(327);
-    obj.layout201:setTop(673);
-    obj.layout201:setWidth(19);
+    obj.layout201:setTop(607);
+    obj.layout201:setWidth(49);
     obj.layout201:setHeight(33);
     obj.layout201:setName("layout201");
 
@@ -4481,16 +4481,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit197:setVertTextAlign("center");
     obj.edit197:setLeft(0);
     obj.edit197:setTop(0);
-    obj.edit197:setWidth(19);
+    obj.edit197:setWidth(49);
     obj.edit197:setHeight(34);
-    obj.edit197:setField("EMP__2");
+    obj.edit197:setField("BODY");
     obj.edit197:setName("edit197");
 
     obj.layout202 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout202:setParent(obj.rectangle1);
-    obj.layout202:setLeft(360);
+    obj.layout202:setLeft(327);
     obj.layout202:setTop(673);
-    obj.layout202:setWidth(18);
+    obj.layout202:setWidth(19);
     obj.layout202:setHeight(33);
     obj.layout202:setName("layout202");
 
@@ -4503,38 +4503,38 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit198:setVertTextAlign("center");
     obj.edit198:setLeft(0);
     obj.edit198:setTop(0);
-    obj.edit198:setWidth(18);
+    obj.edit198:setWidth(19);
     obj.edit198:setHeight(34);
-    obj.edit198:setField("EMP_MAX");
+    obj.edit198:setField("EMP__2");
     obj.edit198:setName("edit198");
 
     obj.layout203 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout203:setParent(obj.rectangle1);
-    obj.layout203:setLeft(617);
-    obj.layout203:setTop(105);
-    obj.layout203:setWidth(32);
-    obj.layout203:setHeight(18);
+    obj.layout203:setLeft(360);
+    obj.layout203:setTop(673);
+    obj.layout203:setWidth(18);
+    obj.layout203:setHeight(33);
     obj.layout203:setName("layout203");
 
     obj.edit199 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit199:setParent(obj.layout203);
     obj.edit199:setTransparent(true);
-    obj.edit199:setFontSize(11.3);
+    obj.edit199:setFontSize(18);
     obj.edit199:setFontColor("#000000");
     obj.edit199:setHorzTextAlign("center");
     obj.edit199:setVertTextAlign("center");
     obj.edit199:setLeft(0);
     obj.edit199:setTop(0);
-    obj.edit199:setWidth(32);
-    obj.edit199:setHeight(19);
-    obj.edit199:setField("Concentration_Total");
+    obj.edit199:setWidth(18);
+    obj.edit199:setHeight(34);
+    obj.edit199:setField("EMP_MAX");
     obj.edit199:setName("edit199");
 
     obj.layout204 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout204:setParent(obj.rectangle1);
-    obj.layout204:setLeft(583);
-    obj.layout204:setTop(106);
-    obj.layout204:setWidth(29);
+    obj.layout204:setLeft(617);
+    obj.layout204:setTop(105);
+    obj.layout204:setWidth(32);
     obj.layout204:setHeight(18);
     obj.layout204:setName("layout204");
 
@@ -4547,38 +4547,38 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit200:setVertTextAlign("center");
     obj.edit200:setLeft(0);
     obj.edit200:setTop(0);
-    obj.edit200:setWidth(29);
+    obj.edit200:setWidth(32);
     obj.edit200:setHeight(19);
-    obj.edit200:setField("WILL__1");
+    obj.edit200:setField("Concentration_base");
     obj.edit200:setName("edit200");
 
     obj.layout205 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout205:setParent(obj.rectangle1);
-    obj.layout205:setLeft(616);
-    obj.layout205:setTop(127);
-    obj.layout205:setWidth(34);
-    obj.layout205:setHeight(20);
+    obj.layout205:setLeft(583);
+    obj.layout205:setTop(106);
+    obj.layout205:setWidth(29);
+    obj.layout205:setHeight(18);
     obj.layout205:setName("layout205");
 
     obj.edit201 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit201:setParent(obj.layout205);
     obj.edit201:setTransparent(true);
-    obj.edit201:setFontSize(12.8);
+    obj.edit201:setFontSize(11.3);
     obj.edit201:setFontColor("#000000");
     obj.edit201:setHorzTextAlign("center");
     obj.edit201:setVertTextAlign("center");
     obj.edit201:setLeft(0);
     obj.edit201:setTop(0);
-    obj.edit201:setWidth(34);
-    obj.edit201:setHeight(21);
-    obj.edit201:setField("Conceal_Reveal_Total");
+    obj.edit201:setWidth(29);
+    obj.edit201:setHeight(19);
+    obj.edit201:setField("Concentration_Stat");
     obj.edit201:setName("edit201");
 
     obj.layout206 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout206:setParent(obj.rectangle1);
-    obj.layout206:setLeft(549);
-    obj.layout206:setTop(689);
-    obj.layout206:setWidth(30);
+    obj.layout206:setLeft(616);
+    obj.layout206:setTop(127);
+    obj.layout206:setWidth(34);
     obj.layout206:setHeight(20);
     obj.layout206:setName("layout206");
 
@@ -4591,213 +4591,213 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit202:setVertTextAlign("center");
     obj.edit202:setLeft(0);
     obj.edit202:setTop(0);
-    obj.edit202:setWidth(30);
+    obj.edit202:setWidth(34);
     obj.edit202:setHeight(21);
-    obj.edit202:setField("Gamble");
+    obj.edit202:setField("Conceal_base");
     obj.edit202:setName("edit202");
 
     obj.layout207 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout207:setParent(obj.rectangle1);
-    obj.layout207:setLeft(582);
-    obj.layout207:setTop(688);
-    obj.layout207:setWidth(31);
-    obj.layout207:setHeight(18);
+    obj.layout207:setLeft(549);
+    obj.layout207:setTop(689);
+    obj.layout207:setWidth(30);
+    obj.layout207:setHeight(20);
     obj.layout207:setName("layout207");
 
     obj.edit203 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit203:setParent(obj.layout207);
     obj.edit203:setTransparent(true);
-    obj.edit203:setFontSize(11.3);
+    obj.edit203:setFontSize(12.8);
     obj.edit203:setFontColor("#000000");
     obj.edit203:setHorzTextAlign("center");
     obj.edit203:setVertTextAlign("center");
     obj.edit203:setLeft(0);
     obj.edit203:setTop(0);
-    obj.edit203:setWidth(31);
-    obj.edit203:setHeight(19);
-    obj.edit203:setField("INT__14");
+    obj.edit203:setWidth(30);
+    obj.edit203:setHeight(21);
+    obj.edit203:setField("Gamble");
     obj.edit203:setName("edit203");
 
     obj.layout208 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout208:setParent(obj.rectangle1);
-    obj.layout208:setLeft(817);
+    obj.layout208:setLeft(582);
     obj.layout208:setTop(688);
-    obj.layout208:setWidth(28);
-    obj.layout208:setHeight(20);
+    obj.layout208:setWidth(31);
+    obj.layout208:setHeight(18);
     obj.layout208:setName("layout208");
 
     obj.edit204 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit204:setParent(obj.layout208);
     obj.edit204:setTransparent(true);
-    obj.edit204:setFontSize(12.8);
+    obj.edit204:setFontSize(11.3);
     obj.edit204:setFontColor("#000000");
-    obj.edit204:setHorzTextAlign("leading");
+    obj.edit204:setHorzTextAlign("center");
     obj.edit204:setVertTextAlign("center");
     obj.edit204:setLeft(0);
     obj.edit204:setTop(0);
-    obj.edit204:setWidth(28);
-    obj.edit204:setHeight(21);
-    obj.edit204:setField("Handgun");
+    obj.edit204:setWidth(31);
+    obj.edit204:setHeight(19);
+    obj.edit204:setField("INT__14");
     obj.edit204:setName("edit204");
 
     obj.layout209 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout209:setParent(obj.rectangle1);
-    obj.layout209:setLeft(849);
+    obj.layout209:setLeft(817);
     obj.layout209:setTop(688);
-    obj.layout209:setWidth(30);
-    obj.layout209:setHeight(19);
+    obj.layout209:setWidth(28);
+    obj.layout209:setHeight(20);
     obj.layout209:setName("layout209");
 
     obj.edit205 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit205:setParent(obj.layout209);
     obj.edit205:setTransparent(true);
-    obj.edit205:setFontSize(12);
+    obj.edit205:setFontSize(12.8);
     obj.edit205:setFontColor("#000000");
-    obj.edit205:setHorzTextAlign("center");
+    obj.edit205:setHorzTextAlign("leading");
     obj.edit205:setVertTextAlign("center");
     obj.edit205:setLeft(0);
     obj.edit205:setTop(0);
-    obj.edit205:setWidth(30);
-    obj.edit205:setHeight(20);
-    obj.edit205:setField("REF__7");
+    obj.edit205:setWidth(28);
+    obj.edit205:setHeight(21);
+    obj.edit205:setField("Handgun");
     obj.edit205:setName("edit205");
 
     obj.layout210 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout210:setParent(obj.rectangle1);
-    obj.layout210:setLeft(1084);
-    obj.layout210:setTop(689);
-    obj.layout210:setWidth(27);
-    obj.layout210:setHeight(18);
+    obj.layout210:setLeft(849);
+    obj.layout210:setTop(688);
+    obj.layout210:setWidth(30);
+    obj.layout210:setHeight(19);
     obj.layout210:setName("layout210");
 
     obj.edit206 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit206:setParent(obj.layout210);
     obj.edit206:setTransparent(true);
-    obj.edit206:setFontSize(11.3);
+    obj.edit206:setFontSize(12);
     obj.edit206:setFontColor("#000000");
     obj.edit206:setHorzTextAlign("center");
     obj.edit206:setVertTextAlign("center");
     obj.edit206:setLeft(0);
     obj.edit206:setTop(0);
-    obj.edit206:setWidth(27);
-    obj.edit206:setHeight(19);
-    obj.edit206:setField("Weaponstech");
+    obj.edit206:setWidth(30);
+    obj.edit206:setHeight(20);
+    obj.edit206:setField("REF__7");
     obj.edit206:setName("edit206");
 
     obj.layout211 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout211:setParent(obj.rectangle1);
-    obj.layout211:setLeft(1116);
-    obj.layout211:setTop(690);
-    obj.layout211:setWidth(31);
-    obj.layout211:setHeight(17);
+    obj.layout211:setLeft(1084);
+    obj.layout211:setTop(689);
+    obj.layout211:setWidth(27);
+    obj.layout211:setHeight(18);
     obj.layout211:setName("layout211");
 
     obj.edit207 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit207:setParent(obj.layout211);
     obj.edit207:setTransparent(true);
-    obj.edit207:setFontSize(10.5);
+    obj.edit207:setFontSize(11.3);
     obj.edit207:setFontColor("#000000");
     obj.edit207:setHorzTextAlign("center");
     obj.edit207:setVertTextAlign("center");
     obj.edit207:setLeft(0);
     obj.edit207:setTop(0);
-    obj.edit207:setWidth(31);
-    obj.edit207:setHeight(18);
-    obj.edit207:setField("TECH__17");
+    obj.edit207:setWidth(27);
+    obj.edit207:setHeight(19);
+    obj.edit207:setField("Weaponstech");
     obj.edit207:setName("edit207");
 
     obj.layout212 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout212:setParent(obj.rectangle1);
-    obj.layout212:setLeft(617);
-    obj.layout212:setTop(149);
-    obj.layout212:setWidth(33);
-    obj.layout212:setHeight(18);
+    obj.layout212:setLeft(1116);
+    obj.layout212:setTop(690);
+    obj.layout212:setWidth(31);
+    obj.layout212:setHeight(17);
     obj.layout212:setName("layout212");
 
     obj.edit208 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit208:setParent(obj.layout212);
     obj.edit208:setTransparent(true);
-    obj.edit208:setFontSize(11.3);
+    obj.edit208:setFontSize(10.5);
     obj.edit208:setFontColor("#000000");
     obj.edit208:setHorzTextAlign("center");
     obj.edit208:setVertTextAlign("center");
     obj.edit208:setLeft(0);
     obj.edit208:setTop(0);
-    obj.edit208:setWidth(33);
-    obj.edit208:setHeight(19);
-    obj.edit208:setField("Lip_Reading_Total");
+    obj.edit208:setWidth(31);
+    obj.edit208:setHeight(18);
+    obj.edit208:setField("TECH__17");
     obj.edit208:setName("edit208");
 
     obj.layout213 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout213:setParent(obj.rectangle1);
-    obj.layout213:setLeft(616);
-    obj.layout213:setTop(171);
+    obj.layout213:setLeft(617);
+    obj.layout213:setTop(149);
     obj.layout213:setWidth(33);
-    obj.layout213:setHeight(19);
+    obj.layout213:setHeight(18);
     obj.layout213:setName("layout213");
 
     obj.edit209 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit209:setParent(obj.layout213);
     obj.edit209:setTransparent(true);
-    obj.edit209:setFontSize(12);
+    obj.edit209:setFontSize(11.3);
     obj.edit209:setFontColor("#000000");
     obj.edit209:setHorzTextAlign("center");
     obj.edit209:setVertTextAlign("center");
     obj.edit209:setLeft(0);
     obj.edit209:setTop(0);
     obj.edit209:setWidth(33);
-    obj.edit209:setHeight(20);
-    obj.edit209:setField("Perception_Total");
+    obj.edit209:setHeight(19);
+    obj.edit209:setField("Lip_Base");
     obj.edit209:setName("edit209");
 
     obj.layout214 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout214:setParent(obj.rectangle1);
-    obj.layout214:setLeft(617);
-    obj.layout214:setTop(192);
+    obj.layout214:setLeft(616);
+    obj.layout214:setTop(171);
     obj.layout214:setWidth(33);
-    obj.layout214:setHeight(18);
+    obj.layout214:setHeight(19);
     obj.layout214:setName("layout214");
 
     obj.edit210 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit210:setParent(obj.layout214);
     obj.edit210:setTransparent(true);
-    obj.edit210:setFontSize(11.3);
+    obj.edit210:setFontSize(12);
     obj.edit210:setFontColor("#000000");
     obj.edit210:setHorzTextAlign("center");
     obj.edit210:setVertTextAlign("center");
     obj.edit210:setLeft(0);
     obj.edit210:setTop(0);
     obj.edit210:setWidth(33);
-    obj.edit210:setHeight(19);
-    obj.edit210:setField("Tracking_Total");
+    obj.edit210:setHeight(20);
+    obj.edit210:setField("Perception_Base");
     obj.edit210:setName("edit210");
 
     obj.layout215 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout215:setParent(obj.rectangle1);
-    obj.layout215:setLeft(616);
-    obj.layout215:setTop(235);
-    obj.layout215:setWidth(34);
-    obj.layout215:setHeight(19);
+    obj.layout215:setLeft(617);
+    obj.layout215:setTop(192);
+    obj.layout215:setWidth(33);
+    obj.layout215:setHeight(18);
     obj.layout215:setName("layout215");
 
     obj.edit211 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit211:setParent(obj.layout215);
     obj.edit211:setTransparent(true);
-    obj.edit211:setFontSize(12);
+    obj.edit211:setFontSize(11.3);
     obj.edit211:setFontColor("#000000");
     obj.edit211:setHorzTextAlign("center");
     obj.edit211:setVertTextAlign("center");
     obj.edit211:setLeft(0);
     obj.edit211:setTop(0);
-    obj.edit211:setWidth(34);
-    obj.edit211:setHeight(20);
-    obj.edit211:setField("Athletics_Total");
+    obj.edit211:setWidth(33);
+    obj.edit211:setHeight(19);
+    obj.edit211:setField("Tracking_Total");
     obj.edit211:setName("edit211");
 
     obj.layout216 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout216:setParent(obj.rectangle1);
-    obj.layout216:setLeft(617);
-    obj.layout216:setTop(257);
+    obj.layout216:setLeft(616);
+    obj.layout216:setTop(235);
     obj.layout216:setWidth(34);
     obj.layout216:setHeight(19);
     obj.layout216:setName("layout216");
@@ -4813,14 +4813,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit212:setTop(0);
     obj.edit212:setWidth(34);
     obj.edit212:setHeight(20);
-    obj.edit212:setField("Contortionist_Total");
+    obj.edit212:setField("Athletics_Base");
     obj.edit212:setName("edit212");
 
     obj.layout217 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout217:setParent(obj.rectangle1);
     obj.layout217:setLeft(617);
-    obj.layout217:setTop(278);
-    obj.layout217:setWidth(33);
+    obj.layout217:setTop(257);
+    obj.layout217:setWidth(34);
     obj.layout217:setHeight(19);
     obj.layout217:setName("layout217");
 
@@ -4833,15 +4833,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit213:setVertTextAlign("center");
     obj.edit213:setLeft(0);
     obj.edit213:setTop(0);
-    obj.edit213:setWidth(33);
+    obj.edit213:setWidth(34);
     obj.edit213:setHeight(20);
-    obj.edit213:setField("Dance_Total__0");
+    obj.edit213:setField("Contortionist_Base");
     obj.edit213:setName("edit213");
 
     obj.layout218 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout218:setParent(obj.rectangle1);
     obj.layout218:setLeft(617);
-    obj.layout218:setTop(300);
+    obj.layout218:setTop(278);
     obj.layout218:setWidth(33);
     obj.layout218:setHeight(19);
     obj.layout218:setName("layout218");
@@ -4857,14 +4857,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit214:setTop(0);
     obj.edit214:setWidth(33);
     obj.edit214:setHeight(20);
-    obj.edit214:setField("Endurance_Total__0");
+    obj.edit214:setField("Dance_Base");
     obj.edit214:setName("edit214");
 
     obj.layout219 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout219:setParent(obj.rectangle1);
-    obj.layout219:setLeft(615);
-    obj.layout219:setTop(321);
-    obj.layout219:setWidth(37);
+    obj.layout219:setLeft(617);
+    obj.layout219:setTop(300);
+    obj.layout219:setWidth(33);
     obj.layout219:setHeight(19);
     obj.layout219:setName("layout219");
 
@@ -4877,16 +4877,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit215:setVertTextAlign("center");
     obj.edit215:setLeft(0);
     obj.edit215:setTop(0);
-    obj.edit215:setWidth(37);
+    obj.edit215:setWidth(33);
     obj.edit215:setHeight(20);
-    obj.edit215:setField("Resist_Total");
+    obj.edit215:setField("Endurance_Base");
     obj.edit215:setName("edit215");
 
     obj.layout220 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout220:setParent(obj.rectangle1);
-    obj.layout220:setLeft(616);
-    obj.layout220:setTop(343);
-    obj.layout220:setWidth(34);
+    obj.layout220:setLeft(615);
+    obj.layout220:setTop(321);
+    obj.layout220:setWidth(37);
     obj.layout220:setHeight(19);
     obj.layout220:setName("layout220");
 
@@ -4899,15 +4899,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit216:setVertTextAlign("center");
     obj.edit216:setLeft(0);
     obj.edit216:setTop(0);
-    obj.edit216:setWidth(34);
+    obj.edit216:setWidth(37);
     obj.edit216:setHeight(20);
-    obj.edit216:setField("Stealth_Total");
+    obj.edit216:setField("Resist_Base");
     obj.edit216:setName("edit216");
 
     obj.layout221 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout221:setParent(obj.rectangle1);
     obj.layout221:setLeft(616);
-    obj.layout221:setTop(386);
+    obj.layout221:setTop(343);
     obj.layout221:setWidth(34);
     obj.layout221:setHeight(19);
     obj.layout221:setName("layout221");
@@ -4923,13 +4923,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit217:setTop(0);
     obj.edit217:setWidth(34);
     obj.edit217:setHeight(20);
-    obj.edit217:setField("Drive_Land_Total");
+    obj.edit217:setField("Stealth_Base");
     obj.edit217:setName("edit217");
 
     obj.layout222 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout222:setParent(obj.rectangle1);
     obj.layout222:setLeft(616);
-    obj.layout222:setTop(408);
+    obj.layout222:setTop(386);
     obj.layout222:setWidth(34);
     obj.layout222:setHeight(19);
     obj.layout222:setName("layout222");
@@ -4945,14 +4945,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit218:setTop(0);
     obj.edit218:setWidth(34);
     obj.edit218:setHeight(20);
-    obj.edit218:setField("Pilot_Air_Total");
+    obj.edit218:setField("Drive_Land_Base");
     obj.edit218:setName("edit218");
 
     obj.layout223 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout223:setParent(obj.rectangle1);
-    obj.layout223:setLeft(617);
-    obj.layout223:setTop(429);
-    obj.layout223:setWidth(33);
+    obj.layout223:setLeft(616);
+    obj.layout223:setTop(408);
+    obj.layout223:setWidth(34);
     obj.layout223:setHeight(19);
     obj.layout223:setName("layout223");
 
@@ -4965,15 +4965,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit219:setVertTextAlign("center");
     obj.edit219:setLeft(0);
     obj.edit219:setTop(0);
-    obj.edit219:setWidth(33);
+    obj.edit219:setWidth(34);
     obj.edit219:setHeight(20);
-    obj.edit219:setField("Dance_Total__1");
+    obj.edit219:setField("Pilot_Air_Base");
     obj.edit219:setName("edit219");
 
     obj.layout224 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout224:setParent(obj.rectangle1);
-    obj.layout224:setLeft(616);
-    obj.layout224:setTop(451);
+    obj.layout224:setLeft(617);
+    obj.layout224:setTop(429);
     obj.layout224:setWidth(33);
     obj.layout224:setHeight(19);
     obj.layout224:setName("layout224");
@@ -4989,14 +4989,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit220:setTop(0);
     obj.edit220:setWidth(33);
     obj.edit220:setHeight(20);
-    obj.edit220:setField("Endurance_Total__1");
+    obj.edit220:setField("Dance_Total__1");
     obj.edit220:setName("edit220");
 
     obj.layout225 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout225:setParent(obj.rectangle1);
-    obj.layout225:setLeft(617);
-    obj.layout225:setTop(494);
-    obj.layout225:setWidth(34);
+    obj.layout225:setLeft(616);
+    obj.layout225:setTop(451);
+    obj.layout225:setWidth(33);
     obj.layout225:setHeight(19);
     obj.layout225:setName("layout225");
 
@@ -5009,15 +5009,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit221:setVertTextAlign("center");
     obj.edit221:setLeft(0);
     obj.edit221:setTop(0);
-    obj.edit221:setWidth(34);
+    obj.edit221:setWidth(33);
     obj.edit221:setHeight(20);
-    obj.edit221:setField("Accounting_Total");
+    obj.edit221:setField("Endurance_Total__1");
     obj.edit221:setName("edit221");
 
     obj.layout226 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout226:setParent(obj.rectangle1);
     obj.layout226:setLeft(617);
-    obj.layout226:setTop(516);
+    obj.layout226:setTop(494);
     obj.layout226:setWidth(34);
     obj.layout226:setHeight(19);
     obj.layout226:setName("layout226");
@@ -5033,14 +5033,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit222:setTop(0);
     obj.edit222:setWidth(34);
     obj.edit222:setHeight(20);
-    obj.edit222:setField("Animal_Handling_Total");
+    obj.edit222:setField("Accounting_Base");
     obj.edit222:setName("edit222");
 
     obj.layout227 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout227:setParent(obj.rectangle1);
     obj.layout227:setLeft(617);
-    obj.layout227:setTop(537);
-    obj.layout227:setWidth(33);
+    obj.layout227:setTop(516);
+    obj.layout227:setWidth(34);
     obj.layout227:setHeight(19);
     obj.layout227:setName("layout227");
 
@@ -5053,15 +5053,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit223:setVertTextAlign("center");
     obj.edit223:setLeft(0);
     obj.edit223:setTop(0);
-    obj.edit223:setWidth(33);
+    obj.edit223:setWidth(34);
     obj.edit223:setHeight(20);
-    obj.edit223:setField("Bureaucracy_Total");
+    obj.edit223:setField("Animal_Handling_Total");
     obj.edit223:setName("edit223");
 
     obj.layout228 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout228:setParent(obj.rectangle1);
     obj.layout228:setLeft(617);
-    obj.layout228:setTop(559);
+    obj.layout228:setTop(537);
     obj.layout228:setWidth(33);
     obj.layout228:setHeight(19);
     obj.layout228:setName("layout228");
@@ -5077,14 +5077,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit224:setTop(0);
     obj.edit224:setWidth(33);
     obj.edit224:setHeight(20);
-    obj.edit224:setField("Business_Total");
+    obj.edit224:setField("Bureaucracy_Total");
     obj.edit224:setName("edit224");
 
     obj.layout229 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout229:setParent(obj.rectangle1);
-    obj.layout229:setLeft(615);
-    obj.layout229:setTop(580);
-    obj.layout229:setWidth(37);
+    obj.layout229:setLeft(617);
+    obj.layout229:setTop(559);
+    obj.layout229:setWidth(33);
     obj.layout229:setHeight(19);
     obj.layout229:setName("layout229");
 
@@ -5097,16 +5097,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit225:setVertTextAlign("center");
     obj.edit225:setLeft(0);
     obj.edit225:setTop(0);
-    obj.edit225:setWidth(37);
+    obj.edit225:setWidth(33);
     obj.edit225:setHeight(20);
-    obj.edit225:setField("Composition_Total");
+    obj.edit225:setField("Business_Total");
     obj.edit225:setName("edit225");
 
     obj.layout230 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout230:setParent(obj.rectangle1);
-    obj.layout230:setLeft(616);
-    obj.layout230:setTop(602);
-    obj.layout230:setWidth(34);
+    obj.layout230:setLeft(615);
+    obj.layout230:setTop(580);
+    obj.layout230:setWidth(37);
     obj.layout230:setHeight(19);
     obj.layout230:setName("layout230");
 
@@ -5119,15 +5119,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit226:setVertTextAlign("center");
     obj.edit226:setLeft(0);
     obj.edit226:setTop(0);
-    obj.edit226:setWidth(34);
+    obj.edit226:setWidth(37);
     obj.edit226:setHeight(20);
-    obj.edit226:setField("Criminology_Total");
+    obj.edit226:setField("Composition_Total");
     obj.edit226:setName("edit226");
 
     obj.layout231 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout231:setParent(obj.rectangle1);
-    obj.layout231:setLeft(615);
-    obj.layout231:setTop(689);
+    obj.layout231:setLeft(616);
+    obj.layout231:setTop(602);
     obj.layout231:setWidth(34);
     obj.layout231:setHeight(19);
     obj.layout231:setName("layout231");
@@ -5143,14 +5143,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit227:setTop(0);
     obj.edit227:setWidth(34);
     obj.edit227:setHeight(20);
-    obj.edit227:setField("Gamble_Total");
+    obj.edit227:setField("Criminology_Total");
     obj.edit227:setName("edit227");
 
     obj.layout232 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout232:setParent(obj.rectangle1);
-    obj.layout232:setLeft(614);
-    obj.layout232:setTop(667);
-    obj.layout232:setWidth(37);
+    obj.layout232:setLeft(615);
+    obj.layout232:setTop(689);
+    obj.layout232:setWidth(34);
     obj.layout232:setHeight(19);
     obj.layout232:setName("layout232");
 
@@ -5163,16 +5163,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit228:setVertTextAlign("center");
     obj.edit228:setLeft(0);
     obj.edit228:setTop(0);
-    obj.edit228:setWidth(37);
+    obj.edit228:setWidth(34);
     obj.edit228:setHeight(20);
-    obj.edit228:setField("Education_Total");
+    obj.edit228:setField("Gamble_Total");
     obj.edit228:setName("edit228");
 
     obj.layout233 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout233:setParent(obj.rectangle1);
-    obj.layout233:setLeft(616);
-    obj.layout233:setTop(645);
-    obj.layout233:setWidth(33);
+    obj.layout233:setLeft(614);
+    obj.layout233:setTop(667);
+    obj.layout233:setWidth(37);
     obj.layout233:setHeight(19);
     obj.layout233:setName("layout233");
 
@@ -5185,15 +5185,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit229:setVertTextAlign("center");
     obj.edit229:setLeft(0);
     obj.edit229:setTop(0);
-    obj.edit229:setWidth(33);
+    obj.edit229:setWidth(37);
     obj.edit229:setHeight(20);
-    obj.edit229:setField("Deduction_Total");
+    obj.edit229:setField("Education_Total");
     obj.edit229:setName("edit229");
 
     obj.layout234 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout234:setParent(obj.rectangle1);
     obj.layout234:setLeft(616);
-    obj.layout234:setTop(623);
+    obj.layout234:setTop(645);
     obj.layout234:setWidth(33);
     obj.layout234:setHeight(19);
     obj.layout234:setName("layout234");
@@ -5209,14 +5209,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit230:setTop(0);
     obj.edit230:setWidth(33);
     obj.edit230:setHeight(20);
-    obj.edit230:setField("Cryptography_Total");
+    obj.edit230:setField("Deduction_Total");
     obj.edit230:setName("edit230");
 
     obj.layout235 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout235:setParent(obj.rectangle1);
-    obj.layout235:setLeft(883);
-    obj.layout235:setTop(128);
-    obj.layout235:setWidth(34);
+    obj.layout235:setLeft(616);
+    obj.layout235:setTop(623);
+    obj.layout235:setWidth(33);
     obj.layout235:setHeight(19);
     obj.layout235:setName("layout235");
 
@@ -5229,15 +5229,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit231:setVertTextAlign("center");
     obj.edit231:setLeft(0);
     obj.edit231:setTop(0);
-    obj.edit231:setWidth(34);
+    obj.edit231:setWidth(33);
     obj.edit231:setHeight(20);
-    obj.edit231:setField("Lang_Street_Slang_Total");
+    obj.edit231:setField("Cryptography_Total");
     obj.edit231:setName("edit231");
 
     obj.layout236 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout236:setParent(obj.rectangle1);
-    obj.layout236:setLeft(884);
-    obj.layout236:setTop(150);
+    obj.layout236:setLeft(883);
+    obj.layout236:setTop(128);
     obj.layout236:setWidth(34);
     obj.layout236:setHeight(19);
     obj.layout236:setName("layout236");
@@ -5253,14 +5253,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit232:setTop(0);
     obj.edit232:setWidth(34);
     obj.edit232:setHeight(20);
-    obj.edit232:setField("Lang_2_Total");
+    obj.edit232:setField("Lang_Street_Slang_Total");
     obj.edit232:setName("edit232");
 
     obj.layout237 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout237:setParent(obj.rectangle1);
     obj.layout237:setLeft(884);
-    obj.layout237:setTop(170);
-    obj.layout237:setWidth(33);
+    obj.layout237:setTop(150);
+    obj.layout237:setWidth(34);
     obj.layout237:setHeight(19);
     obj.layout237:setName("layout237");
 
@@ -5273,15 +5273,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit233:setVertTextAlign("center");
     obj.edit233:setLeft(0);
     obj.edit233:setTop(0);
-    obj.edit233:setWidth(33);
+    obj.edit233:setWidth(34);
     obj.edit233:setHeight(20);
-    obj.edit233:setField("Lang_3_Total");
+    obj.edit233:setField("Lang_2_Total");
     obj.edit233:setName("edit233");
 
     obj.layout238 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout238:setParent(obj.rectangle1);
     obj.layout238:setLeft(884);
-    obj.layout238:setTop(192);
+    obj.layout238:setTop(170);
     obj.layout238:setWidth(33);
     obj.layout238:setHeight(19);
     obj.layout238:setName("layout238");
@@ -5297,14 +5297,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit234:setTop(0);
     obj.edit234:setWidth(33);
     obj.edit234:setHeight(20);
-    obj.edit234:setField("Library_Search_Total");
+    obj.edit234:setField("Lang_3_Total");
     obj.edit234:setName("edit234");
 
     obj.layout239 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout239:setParent(obj.rectangle1);
     obj.layout239:setLeft(884);
-    obj.layout239:setTop(235);
-    obj.layout239:setWidth(34);
+    obj.layout239:setTop(192);
+    obj.layout239:setWidth(33);
     obj.layout239:setHeight(19);
     obj.layout239:setName("layout239");
 
@@ -5317,15 +5317,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit235:setVertTextAlign("center");
     obj.edit235:setLeft(0);
     obj.edit235:setTop(0);
-    obj.edit235:setWidth(34);
+    obj.edit235:setWidth(33);
     obj.edit235:setHeight(20);
-    obj.edit235:setField("Local_Expert_1_Total");
+    obj.edit235:setField("Library_Search_Total");
     obj.edit235:setName("edit235");
 
     obj.layout240 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout240:setParent(obj.rectangle1);
     obj.layout240:setLeft(884);
-    obj.layout240:setTop(257);
+    obj.layout240:setTop(235);
     obj.layout240:setWidth(34);
     obj.layout240:setHeight(19);
     obj.layout240:setName("layout240");
@@ -5341,14 +5341,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit236:setTop(0);
     obj.edit236:setWidth(34);
     obj.edit236:setHeight(20);
-    obj.edit236:setField("Local_Expert_2_Total");
+    obj.edit236:setField("Local_Expert_1_Total");
     obj.edit236:setName("edit236");
 
     obj.layout241 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout241:setParent(obj.rectangle1);
     obj.layout241:setLeft(884);
-    obj.layout241:setTop(278);
-    obj.layout241:setWidth(33);
+    obj.layout241:setTop(257);
+    obj.layout241:setWidth(34);
     obj.layout241:setHeight(19);
     obj.layout241:setName("layout241");
 
@@ -5361,16 +5361,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit237:setVertTextAlign("center");
     obj.edit237:setLeft(0);
     obj.edit237:setTop(0);
-    obj.edit237:setWidth(33);
+    obj.edit237:setWidth(34);
     obj.edit237:setHeight(20);
-    obj.edit237:setField("Local_Expert_3_Total");
+    obj.edit237:setField("Local_Expert_2_Total");
     obj.edit237:setName("edit237");
 
     obj.layout242 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout242:setParent(obj.rectangle1);
-    obj.layout242:setLeft(883);
-    obj.layout242:setTop(322);
-    obj.layout242:setWidth(34);
+    obj.layout242:setLeft(884);
+    obj.layout242:setTop(278);
+    obj.layout242:setWidth(33);
     obj.layout242:setHeight(19);
     obj.layout242:setName("layout242");
 
@@ -5383,15 +5383,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit238:setVertTextAlign("center");
     obj.edit238:setLeft(0);
     obj.edit238:setTop(0);
-    obj.edit238:setWidth(34);
+    obj.edit238:setWidth(33);
     obj.edit238:setHeight(20);
-    obj.edit238:setField("Science_1_Total");
+    obj.edit238:setField("Local_Expert_3_Total");
     obj.edit238:setName("edit238");
 
     obj.layout243 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout243:setParent(obj.rectangle1);
     obj.layout243:setLeft(883);
-    obj.layout243:setTop(344);
+    obj.layout243:setTop(322);
     obj.layout243:setWidth(34);
     obj.layout243:setHeight(19);
     obj.layout243:setName("layout243");
@@ -5407,14 +5407,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit239:setTop(0);
     obj.edit239:setWidth(34);
     obj.edit239:setHeight(20);
-    obj.edit239:setField("Science_2_Total");
+    obj.edit239:setField("Science_1_Total");
     obj.edit239:setName("edit239");
 
     obj.layout244 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout244:setParent(obj.rectangle1);
     obj.layout244:setLeft(883);
-    obj.layout244:setTop(365);
-    obj.layout244:setWidth(33);
+    obj.layout244:setTop(344);
+    obj.layout244:setWidth(34);
     obj.layout244:setHeight(19);
     obj.layout244:setName("layout244");
 
@@ -5427,15 +5427,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit240:setVertTextAlign("center");
     obj.edit240:setLeft(0);
     obj.edit240:setTop(0);
-    obj.edit240:setWidth(33);
+    obj.edit240:setWidth(34);
     obj.edit240:setHeight(20);
-    obj.edit240:setField("Tactics_Total");
+    obj.edit240:setField("Science_2_Total");
     obj.edit240:setName("edit240");
 
     obj.layout245 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout245:setParent(obj.rectangle1);
     obj.layout245:setLeft(883);
-    obj.layout245:setTop(387);
+    obj.layout245:setTop(365);
     obj.layout245:setWidth(33);
     obj.layout245:setHeight(19);
     obj.layout245:setName("layout245");
@@ -5451,14 +5451,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit241:setTop(0);
     obj.edit241:setWidth(33);
     obj.edit241:setHeight(20);
-    obj.edit241:setField("Wilderness_Survival_Total");
+    obj.edit241:setField("Tactics_Total");
     obj.edit241:setName("edit241");
 
     obj.layout246 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout246:setParent(obj.rectangle1);
     obj.layout246:setLeft(883);
-    obj.layout246:setTop(429);
-    obj.layout246:setWidth(34);
+    obj.layout246:setTop(387);
+    obj.layout246:setWidth(33);
     obj.layout246:setHeight(19);
     obj.layout246:setName("layout246");
 
@@ -5471,15 +5471,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit242:setVertTextAlign("center");
     obj.edit242:setLeft(0);
     obj.edit242:setTop(0);
-    obj.edit242:setWidth(34);
+    obj.edit242:setWidth(33);
     obj.edit242:setHeight(20);
-    obj.edit242:setField("Brawling_Total");
+    obj.edit242:setField("Wilderness_Survival_Total");
     obj.edit242:setName("edit242");
 
     obj.layout247 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout247:setParent(obj.rectangle1);
     obj.layout247:setLeft(883);
-    obj.layout247:setTop(451);
+    obj.layout247:setTop(429);
     obj.layout247:setWidth(34);
     obj.layout247:setHeight(19);
     obj.layout247:setName("layout247");
@@ -5495,14 +5495,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit243:setTop(0);
     obj.edit243:setWidth(34);
     obj.edit243:setHeight(20);
-    obj.edit243:setField("Evasion_Total");
+    obj.edit243:setField("Brawling_Total");
     obj.edit243:setName("edit243");
 
     obj.layout248 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout248:setParent(obj.rectangle1);
-    obj.layout248:setLeft(884);
-    obj.layout248:setTop(472);
-    obj.layout248:setWidth(33);
+    obj.layout248:setLeft(883);
+    obj.layout248:setTop(451);
+    obj.layout248:setWidth(34);
     obj.layout248:setHeight(19);
     obj.layout248:setName("layout248");
 
@@ -5515,15 +5515,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit244:setVertTextAlign("center");
     obj.edit244:setLeft(0);
     obj.edit244:setTop(0);
-    obj.edit244:setWidth(33);
+    obj.edit244:setWidth(34);
     obj.edit244:setHeight(20);
-    obj.edit244:setField("Martial_Arts_Total");
+    obj.edit244:setField("Evasion_Total");
     obj.edit244:setName("edit244");
 
     obj.layout249 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout249:setParent(obj.rectangle1);
-    obj.layout249:setLeft(883);
-    obj.layout249:setTop(494);
+    obj.layout249:setLeft(884);
+    obj.layout249:setTop(472);
     obj.layout249:setWidth(33);
     obj.layout249:setHeight(19);
     obj.layout249:setName("layout249");
@@ -5539,13 +5539,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit245:setTop(0);
     obj.edit245:setWidth(33);
     obj.edit245:setHeight(20);
-    obj.edit245:setField("Melee_Weapon_Total");
+    obj.edit245:setField("Martial_Arts_Total");
     obj.edit245:setName("edit245");
 
     obj.layout250 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout250:setParent(obj.rectangle1);
     obj.layout250:setLeft(883);
-    obj.layout250:setTop(538);
+    obj.layout250:setTop(494);
     obj.layout250:setWidth(33);
     obj.layout250:setHeight(19);
     obj.layout250:setName("layout250");
@@ -5561,13 +5561,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit246:setTop(0);
     obj.edit246:setWidth(33);
     obj.edit246:setHeight(20);
-    obj.edit246:setField("Acting_Total");
+    obj.edit246:setField("Melee_Weapon_Total");
     obj.edit246:setName("edit246");
 
     obj.layout251 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout251:setParent(obj.rectangle1);
-    obj.layout251:setLeft(884);
-    obj.layout251:setTop(581);
+    obj.layout251:setLeft(883);
+    obj.layout251:setTop(538);
     obj.layout251:setWidth(33);
     obj.layout251:setHeight(19);
     obj.layout251:setName("layout251");
@@ -5583,13 +5583,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit247:setTop(0);
     obj.edit247:setWidth(33);
     obj.edit247:setHeight(20);
-    obj.edit247:setField("Play_I_1_Total");
+    obj.edit247:setField("Acting_Total");
     obj.edit247:setName("edit247");
 
     obj.layout252 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout252:setParent(obj.rectangle1);
     obj.layout252:setLeft(884);
-    obj.layout252:setTop(603);
+    obj.layout252:setTop(581);
     obj.layout252:setWidth(33);
     obj.layout252:setHeight(19);
     obj.layout252:setName("layout252");
@@ -5605,14 +5605,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit248:setTop(0);
     obj.edit248:setWidth(33);
     obj.edit248:setHeight(20);
-    obj.edit248:setField("Play_I_2_Total");
+    obj.edit248:setField("Play_I_1_Total");
     obj.edit248:setName("edit248");
 
     obj.layout253 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout253:setParent(obj.rectangle1);
-    obj.layout253:setLeft(883);
-    obj.layout253:setTop(646);
-    obj.layout253:setWidth(34);
+    obj.layout253:setLeft(884);
+    obj.layout253:setTop(603);
+    obj.layout253:setWidth(33);
     obj.layout253:setHeight(19);
     obj.layout253:setName("layout253");
 
@@ -5625,15 +5625,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit249:setVertTextAlign("center");
     obj.edit249:setLeft(0);
     obj.edit249:setTop(0);
-    obj.edit249:setWidth(34);
+    obj.edit249:setWidth(33);
     obj.edit249:setHeight(20);
-    obj.edit249:setField("Archery_Total");
+    obj.edit249:setField("Play_I_2_Total");
     obj.edit249:setName("edit249");
 
     obj.layout254 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout254:setParent(obj.rectangle1);
     obj.layout254:setLeft(883);
-    obj.layout254:setTop(668);
+    obj.layout254:setTop(646);
     obj.layout254:setWidth(34);
     obj.layout254:setHeight(19);
     obj.layout254:setName("layout254");
@@ -5649,14 +5649,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit250:setTop(0);
     obj.edit250:setWidth(34);
     obj.edit250:setHeight(20);
-    obj.edit250:setField("Autofire_Total");
+    obj.edit250:setField("Archery_Total");
     obj.edit250:setName("edit250");
 
     obj.layout255 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout255:setParent(obj.rectangle1);
-    obj.layout255:setLeft(884);
-    obj.layout255:setTop(689);
-    obj.layout255:setWidth(33);
+    obj.layout255:setLeft(883);
+    obj.layout255:setTop(668);
+    obj.layout255:setWidth(34);
     obj.layout255:setHeight(19);
     obj.layout255:setName("layout255");
 
@@ -5669,16 +5669,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit251:setVertTextAlign("center");
     obj.edit251:setLeft(0);
     obj.edit251:setTop(0);
-    obj.edit251:setWidth(33);
+    obj.edit251:setWidth(34);
     obj.edit251:setHeight(20);
-    obj.edit251:setField("Handgun_Total");
+    obj.edit251:setField("Autofire_Total");
     obj.edit251:setName("edit251");
 
     obj.layout256 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout256:setParent(obj.rectangle1);
-    obj.layout256:setLeft(1150);
-    obj.layout256:setTop(106);
-    obj.layout256:setWidth(34);
+    obj.layout256:setLeft(884);
+    obj.layout256:setTop(689);
+    obj.layout256:setWidth(33);
     obj.layout256:setHeight(19);
     obj.layout256:setName("layout256");
 
@@ -5691,15 +5691,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit252:setVertTextAlign("center");
     obj.edit252:setLeft(0);
     obj.edit252:setTop(0);
-    obj.edit252:setWidth(34);
+    obj.edit252:setWidth(33);
     obj.edit252:setHeight(20);
-    obj.edit252:setField("HW_Total");
+    obj.edit252:setField("Handgun_Total");
     obj.edit252:setName("edit252");
 
     obj.layout257 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout257:setParent(obj.rectangle1);
     obj.layout257:setLeft(1150);
-    obj.layout257:setTop(128);
+    obj.layout257:setTop(106);
     obj.layout257:setWidth(34);
     obj.layout257:setHeight(19);
     obj.layout257:setName("layout257");
@@ -5715,13 +5715,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit253:setTop(0);
     obj.edit253:setWidth(34);
     obj.edit253:setHeight(20);
-    obj.edit253:setField("Shoulder_Arms_Total");
+    obj.edit253:setField("HW_Total");
     obj.edit253:setName("edit253");
 
     obj.layout258 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout258:setParent(obj.rectangle1);
     obj.layout258:setLeft(1150);
-    obj.layout258:setTop(171);
+    obj.layout258:setTop(128);
     obj.layout258:setWidth(34);
     obj.layout258:setHeight(19);
     obj.layout258:setName("layout258");
@@ -5737,13 +5737,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit254:setTop(0);
     obj.edit254:setWidth(34);
     obj.edit254:setHeight(20);
-    obj.edit254:setField("Bribery_Total");
+    obj.edit254:setField("Shoulder_Arms_Total");
     obj.edit254:setName("edit254");
 
     obj.layout259 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout259:setParent(obj.rectangle1);
     obj.layout259:setLeft(1150);
-    obj.layout259:setTop(193);
+    obj.layout259:setTop(171);
     obj.layout259:setWidth(34);
     obj.layout259:setHeight(19);
     obj.layout259:setName("layout259");
@@ -5759,14 +5759,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit255:setTop(0);
     obj.edit255:setWidth(34);
     obj.edit255:setHeight(20);
-    obj.edit255:setField("Conversation_Total");
+    obj.edit255:setField("Bribery_Total");
     obj.edit255:setName("edit255");
 
     obj.layout260 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout260:setParent(obj.rectangle1);
-    obj.layout260:setLeft(1151);
-    obj.layout260:setTop(214);
-    obj.layout260:setWidth(33);
+    obj.layout260:setLeft(1150);
+    obj.layout260:setTop(193);
+    obj.layout260:setWidth(34);
     obj.layout260:setHeight(19);
     obj.layout260:setName("layout260");
 
@@ -5779,15 +5779,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit256:setVertTextAlign("center");
     obj.edit256:setLeft(0);
     obj.edit256:setTop(0);
-    obj.edit256:setWidth(33);
+    obj.edit256:setWidth(34);
     obj.edit256:setHeight(20);
-    obj.edit256:setField("Human_Perception_Total");
+    obj.edit256:setField("Conversation_Total");
     obj.edit256:setName("edit256");
 
     obj.layout261 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout261:setParent(obj.rectangle1);
-    obj.layout261:setLeft(1150);
-    obj.layout261:setTop(236);
+    obj.layout261:setLeft(1151);
+    obj.layout261:setTop(214);
     obj.layout261:setWidth(33);
     obj.layout261:setHeight(19);
     obj.layout261:setName("layout261");
@@ -5803,14 +5803,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit257:setTop(0);
     obj.edit257:setWidth(33);
     obj.edit257:setHeight(20);
-    obj.edit257:setField("Interrogation_Total");
+    obj.edit257:setField("Human_Perception_Total");
     obj.edit257:setName("edit257");
 
     obj.layout262 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout262:setParent(obj.rectangle1);
     obj.layout262:setLeft(1150);
-    obj.layout262:setTop(258);
-    obj.layout262:setWidth(34);
+    obj.layout262:setTop(236);
+    obj.layout262:setWidth(33);
     obj.layout262:setHeight(19);
     obj.layout262:setName("layout262");
 
@@ -5823,15 +5823,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit258:setVertTextAlign("center");
     obj.edit258:setLeft(0);
     obj.edit258:setTop(0);
-    obj.edit258:setWidth(34);
+    obj.edit258:setWidth(33);
     obj.edit258:setHeight(20);
-    obj.edit258:setField("Persuasion_Total");
+    obj.edit258:setField("Interrogation_Total");
     obj.edit258:setName("edit258");
 
     obj.layout263 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout263:setParent(obj.rectangle1);
-    obj.layout263:setLeft(1151);
-    obj.layout263:setTop(280);
+    obj.layout263:setLeft(1150);
+    obj.layout263:setTop(258);
     obj.layout263:setWidth(34);
     obj.layout263:setHeight(19);
     obj.layout263:setName("layout263");
@@ -5847,14 +5847,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit259:setTop(0);
     obj.edit259:setWidth(34);
     obj.edit259:setHeight(20);
-    obj.edit259:setField("Personal_Grooming_Total");
+    obj.edit259:setField("Persuasion_Total");
     obj.edit259:setName("edit259");
 
     obj.layout264 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout264:setParent(obj.rectangle1);
     obj.layout264:setLeft(1151);
-    obj.layout264:setTop(301);
-    obj.layout264:setWidth(33);
+    obj.layout264:setTop(280);
+    obj.layout264:setWidth(34);
     obj.layout264:setHeight(19);
     obj.layout264:setName("layout264");
 
@@ -5867,15 +5867,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit260:setVertTextAlign("center");
     obj.edit260:setLeft(0);
     obj.edit260:setTop(0);
-    obj.edit260:setWidth(33);
+    obj.edit260:setWidth(34);
     obj.edit260:setHeight(20);
-    obj.edit260:setField("Streetwise_Total");
+    obj.edit260:setField("Personal_Grooming_Total");
     obj.edit260:setName("edit260");
 
     obj.layout265 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout265:setParent(obj.rectangle1);
     obj.layout265:setLeft(1151);
-    obj.layout265:setTop(323);
+    obj.layout265:setTop(301);
     obj.layout265:setWidth(33);
     obj.layout265:setHeight(19);
     obj.layout265:setName("layout265");
@@ -5891,13 +5891,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit261:setTop(0);
     obj.edit261:setWidth(33);
     obj.edit261:setHeight(20);
-    obj.edit261:setField("Trading_Total");
+    obj.edit261:setField("Streetwise_Total");
     obj.edit261:setName("edit261");
 
     obj.layout266 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout266:setParent(obj.rectangle1);
-    obj.layout266:setLeft(1150);
-    obj.layout266:setTop(343);
+    obj.layout266:setLeft(1151);
+    obj.layout266:setTop(323);
     obj.layout266:setWidth(33);
     obj.layout266:setHeight(19);
     obj.layout266:setName("layout266");
@@ -5913,14 +5913,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit262:setTop(0);
     obj.edit262:setWidth(33);
     obj.edit262:setHeight(20);
-    obj.edit262:setField("W_amp_S_Total");
+    obj.edit262:setField("Trading_Total");
     obj.edit262:setName("edit262");
 
     obj.layout267 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout267:setParent(obj.rectangle1);
     obj.layout267:setLeft(1150);
-    obj.layout267:setTop(387);
-    obj.layout267:setWidth(34);
+    obj.layout267:setTop(343);
+    obj.layout267:setWidth(33);
     obj.layout267:setHeight(19);
     obj.layout267:setName("layout267");
 
@@ -5933,15 +5933,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit263:setVertTextAlign("center");
     obj.edit263:setLeft(0);
     obj.edit263:setTop(0);
-    obj.edit263:setWidth(34);
+    obj.edit263:setWidth(33);
     obj.edit263:setHeight(20);
-    obj.edit263:setField("Air_V_Tech_Total");
+    obj.edit263:setField("W_amp_S_Total");
     obj.edit263:setName("edit263");
 
     obj.layout268 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout268:setParent(obj.rectangle1);
-    obj.layout268:setLeft(1151);
-    obj.layout268:setTop(409);
+    obj.layout268:setLeft(1150);
+    obj.layout268:setTop(387);
     obj.layout268:setWidth(34);
     obj.layout268:setHeight(19);
     obj.layout268:setName("layout268");
@@ -5957,14 +5957,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit264:setTop(0);
     obj.edit264:setWidth(34);
     obj.edit264:setHeight(20);
-    obj.edit264:setField("Basic_Tech_Total");
+    obj.edit264:setField("Air_V_Tech_Total");
     obj.edit264:setName("edit264");
 
     obj.layout269 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout269:setParent(obj.rectangle1);
     obj.layout269:setLeft(1151);
-    obj.layout269:setTop(430);
-    obj.layout269:setWidth(33);
+    obj.layout269:setTop(409);
+    obj.layout269:setWidth(34);
     obj.layout269:setHeight(19);
     obj.layout269:setName("layout269");
 
@@ -5977,15 +5977,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit265:setVertTextAlign("center");
     obj.edit265:setLeft(0);
     obj.edit265:setTop(0);
-    obj.edit265:setWidth(33);
+    obj.edit265:setWidth(34);
     obj.edit265:setHeight(20);
-    obj.edit265:setField("Cybertech_Total");
+    obj.edit265:setField("Basic_Tech_Total");
     obj.edit265:setName("edit265");
 
     obj.layout270 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout270:setParent(obj.rectangle1);
     obj.layout270:setLeft(1151);
-    obj.layout270:setTop(452);
+    obj.layout270:setTop(430);
     obj.layout270:setWidth(33);
     obj.layout270:setHeight(19);
     obj.layout270:setName("layout270");
@@ -6001,14 +6001,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit266:setTop(0);
     obj.edit266:setWidth(33);
     obj.edit266:setHeight(20);
-    obj.edit266:setField("Demolitions_Total");
+    obj.edit266:setField("Cybertech_Total");
     obj.edit266:setName("edit266");
 
     obj.layout271 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout271:setParent(obj.rectangle1);
     obj.layout271:setLeft(1151);
-    obj.layout271:setTop(474);
-    obj.layout271:setWidth(34);
+    obj.layout271:setTop(452);
+    obj.layout271:setWidth(33);
     obj.layout271:setHeight(19);
     obj.layout271:setName("layout271");
 
@@ -6021,15 +6021,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit267:setVertTextAlign("center");
     obj.edit267:setLeft(0);
     obj.edit267:setTop(0);
-    obj.edit267:setWidth(34);
+    obj.edit267:setWidth(33);
     obj.edit267:setHeight(20);
-    obj.edit267:setField("E_S_Total");
+    obj.edit267:setField("Demolitions_Total");
     obj.edit267:setName("edit267");
 
     obj.layout272 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout272:setParent(obj.rectangle1);
     obj.layout272:setLeft(1151);
-    obj.layout272:setTop(496);
+    obj.layout272:setTop(474);
     obj.layout272:setWidth(34);
     obj.layout272:setHeight(19);
     obj.layout272:setName("layout272");
@@ -6045,14 +6045,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit268:setTop(0);
     obj.edit268:setWidth(34);
     obj.edit268:setHeight(20);
-    obj.edit268:setField("First_Aid_Total");
+    obj.edit268:setField("E_S_Total");
     obj.edit268:setName("edit268");
 
     obj.layout273 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout273:setParent(obj.rectangle1);
     obj.layout273:setLeft(1151);
-    obj.layout273:setTop(517);
-    obj.layout273:setWidth(33);
+    obj.layout273:setTop(496);
+    obj.layout273:setWidth(34);
     obj.layout273:setHeight(19);
     obj.layout273:setName("layout273");
 
@@ -6065,15 +6065,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit269:setVertTextAlign("center");
     obj.edit269:setLeft(0);
     obj.edit269:setTop(0);
-    obj.edit269:setWidth(33);
+    obj.edit269:setWidth(34);
     obj.edit269:setHeight(20);
-    obj.edit269:setField("Forgery_Total");
+    obj.edit269:setField("First_Aid_Total");
     obj.edit269:setName("edit269");
 
     obj.layout274 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout274:setParent(obj.rectangle1);
     obj.layout274:setLeft(1151);
-    obj.layout274:setTop(539);
+    obj.layout274:setTop(517);
     obj.layout274:setWidth(33);
     obj.layout274:setHeight(19);
     obj.layout274:setName("layout274");
@@ -6089,13 +6089,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit270:setTop(0);
     obj.edit270:setWidth(33);
     obj.edit270:setHeight(20);
-    obj.edit270:setField("Land_Vehicle_Tech_Total");
+    obj.edit270:setField("Forgery_Total");
     obj.edit270:setName("edit270");
 
     obj.layout275 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout275:setParent(obj.rectangle1);
-    obj.layout275:setLeft(1150);
-    obj.layout275:setTop(559);
+    obj.layout275:setLeft(1151);
+    obj.layout275:setTop(539);
     obj.layout275:setWidth(33);
     obj.layout275:setHeight(19);
     obj.layout275:setName("layout275");
@@ -6111,14 +6111,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit271:setTop(0);
     obj.edit271:setWidth(33);
     obj.edit271:setHeight(20);
-    obj.edit271:setField("P_D_S_Total");
+    obj.edit271:setField("Land_Vehicle_Tech_Total");
     obj.edit271:setName("edit271");
 
     obj.layout276 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout276:setParent(obj.rectangle1);
     obj.layout276:setLeft(1150);
-    obj.layout276:setTop(581);
-    obj.layout276:setWidth(34);
+    obj.layout276:setTop(559);
+    obj.layout276:setWidth(33);
     obj.layout276:setHeight(19);
     obj.layout276:setName("layout276");
 
@@ -6131,15 +6131,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit272:setVertTextAlign("center");
     obj.edit272:setLeft(0);
     obj.edit272:setTop(0);
-    obj.edit272:setWidth(34);
+    obj.edit272:setWidth(33);
     obj.edit272:setHeight(20);
-    obj.edit272:setField("Paramedic_Total");
+    obj.edit272:setField("P_D_S_Total");
     obj.edit272:setName("edit272");
 
     obj.layout277 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout277:setParent(obj.rectangle1);
     obj.layout277:setLeft(1150);
-    obj.layout277:setTop(603);
+    obj.layout277:setTop(581);
     obj.layout277:setWidth(34);
     obj.layout277:setHeight(19);
     obj.layout277:setName("layout277");
@@ -6155,14 +6155,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit273:setTop(0);
     obj.edit273:setWidth(34);
     obj.edit273:setHeight(20);
-    obj.edit273:setField("Photograph_Film_Total");
+    obj.edit273:setField("Paramedic_Total");
     obj.edit273:setName("edit273");
 
     obj.layout278 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout278:setParent(obj.rectangle1);
     obj.layout278:setLeft(1150);
-    obj.layout278:setTop(624);
-    obj.layout278:setWidth(33);
+    obj.layout278:setTop(603);
+    obj.layout278:setWidth(34);
     obj.layout278:setHeight(19);
     obj.layout278:setName("layout278");
 
@@ -6175,15 +6175,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit274:setVertTextAlign("center");
     obj.edit274:setLeft(0);
     obj.edit274:setTop(0);
-    obj.edit274:setWidth(33);
+    obj.edit274:setWidth(34);
     obj.edit274:setHeight(20);
-    obj.edit274:setField("Pick_Lock_Total");
+    obj.edit274:setField("Photograph_Film_Total");
     obj.edit274:setName("edit274");
 
     obj.layout279 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout279:setParent(obj.rectangle1);
     obj.layout279:setLeft(1150);
-    obj.layout279:setTop(646);
+    obj.layout279:setTop(624);
     obj.layout279:setWidth(33);
     obj.layout279:setHeight(19);
     obj.layout279:setName("layout279");
@@ -6199,14 +6199,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit275:setTop(0);
     obj.edit275:setWidth(33);
     obj.edit275:setHeight(20);
-    obj.edit275:setField("Pick_Pocket_Total");
+    obj.edit275:setField("Pick_Lock_Total");
     obj.edit275:setName("edit275");
 
     obj.layout280 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout280:setParent(obj.rectangle1);
     obj.layout280:setLeft(1150);
-    obj.layout280:setTop(668);
-    obj.layout280:setWidth(34);
+    obj.layout280:setTop(646);
+    obj.layout280:setWidth(33);
     obj.layout280:setHeight(19);
     obj.layout280:setName("layout280");
 
@@ -6219,15 +6219,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit276:setVertTextAlign("center");
     obj.edit276:setLeft(0);
     obj.edit276:setTop(0);
-    obj.edit276:setWidth(34);
+    obj.edit276:setWidth(33);
     obj.edit276:setHeight(20);
-    obj.edit276:setField("Sea_Vehicle_Tech_Total");
+    obj.edit276:setField("Pick_Pocket_Total");
     obj.edit276:setName("edit276");
 
     obj.layout281 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout281:setParent(obj.rectangle1);
     obj.layout281:setLeft(1150);
-    obj.layout281:setTop(690);
+    obj.layout281:setTop(668);
     obj.layout281:setWidth(34);
     obj.layout281:setHeight(19);
     obj.layout281:setName("layout281");
@@ -6243,36 +6243,36 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit277:setTop(0);
     obj.edit277:setWidth(34);
     obj.edit277:setHeight(20);
-    obj.edit277:setField("Weaponstech_Total");
+    obj.edit277:setField("Sea_Vehicle_Tech_Base");
     obj.edit277:setName("edit277");
 
     obj.layout282 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout282:setParent(obj.rectangle1);
-    obj.layout282:setLeft(693);
-    obj.layout282:setTop(861);
-    obj.layout282:setWidth(144);
-    obj.layout282:setHeight(18);
+    obj.layout282:setLeft(1150);
+    obj.layout282:setTop(690);
+    obj.layout282:setWidth(34);
+    obj.layout282:setHeight(19);
     obj.layout282:setName("layout282");
 
     obj.edit278 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit278:setParent(obj.layout282);
     obj.edit278:setTransparent(true);
-    obj.edit278:setFontSize(11.3);
+    obj.edit278:setFontSize(12);
     obj.edit278:setFontColor("#000000");
     obj.edit278:setHorzTextAlign("center");
     obj.edit278:setVertTextAlign("center");
     obj.edit278:setLeft(0);
     obj.edit278:setTop(0);
-    obj.edit278:setWidth(144);
-    obj.edit278:setHeight(19);
-    obj.edit278:setField("WEAPONRow6");
+    obj.edit278:setWidth(34);
+    obj.edit278:setHeight(20);
+    obj.edit278:setField("Weaponstech_Total");
     obj.edit278:setName("edit278");
 
     obj.layout283 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout283:setParent(obj.rectangle1);
-    obj.layout283:setLeft(845);
+    obj.layout283:setLeft(693);
     obj.layout283:setTop(861);
-    obj.layout283:setWidth(44);
+    obj.layout283:setWidth(144);
     obj.layout283:setHeight(18);
     obj.layout283:setName("layout283");
 
@@ -6285,16 +6285,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit279:setVertTextAlign("center");
     obj.edit279:setLeft(0);
     obj.edit279:setTop(0);
-    obj.edit279:setWidth(44);
+    obj.edit279:setWidth(144);
     obj.edit279:setHeight(19);
-    obj.edit279:setField("DMGRow6");
+    obj.edit279:setField("WEAPONRow6");
     obj.edit279:setName("edit279");
 
     obj.layout284 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout284:setParent(obj.rectangle1);
-    obj.layout284:setLeft(894);
+    obj.layout284:setLeft(845);
     obj.layout284:setTop(861);
-    obj.layout284:setWidth(54);
+    obj.layout284:setWidth(44);
     obj.layout284:setHeight(18);
     obj.layout284:setName("layout284");
 
@@ -6307,16 +6307,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit280:setVertTextAlign("center");
     obj.edit280:setLeft(0);
     obj.edit280:setTop(0);
-    obj.edit280:setWidth(54);
+    obj.edit280:setWidth(44);
     obj.edit280:setHeight(19);
-    obj.edit280:setField("AMMORow6");
+    obj.edit280:setField("DMGRow6");
     obj.edit280:setName("edit280");
 
     obj.layout285 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout285:setParent(obj.rectangle1);
-    obj.layout285:setLeft(953);
+    obj.layout285:setLeft(894);
     obj.layout285:setTop(861);
-    obj.layout285:setWidth(38);
+    obj.layout285:setWidth(54);
     obj.layout285:setHeight(18);
     obj.layout285:setName("layout285");
 
@@ -6329,16 +6329,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit281:setVertTextAlign("center");
     obj.edit281:setLeft(0);
     obj.edit281:setTop(0);
-    obj.edit281:setWidth(38);
+    obj.edit281:setWidth(54);
     obj.edit281:setHeight(19);
-    obj.edit281:setField("ROFRow6");
+    obj.edit281:setField("AMMORow6");
     obj.edit281:setName("edit281");
 
     obj.layout286 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout286:setParent(obj.rectangle1);
-    obj.layout286:setLeft(996);
+    obj.layout286:setLeft(953);
     obj.layout286:setTop(861);
-    obj.layout286:setWidth(183);
+    obj.layout286:setWidth(38);
     obj.layout286:setHeight(18);
     obj.layout286:setName("layout286");
 
@@ -6351,16 +6351,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit282:setVertTextAlign("center");
     obj.edit282:setLeft(0);
     obj.edit282:setTop(0);
-    obj.edit282:setWidth(183);
+    obj.edit282:setWidth(38);
     obj.edit282:setHeight(19);
-    obj.edit282:setField("NOTESRow6");
+    obj.edit282:setField("ROFRow6");
     obj.edit282:setName("edit282");
 
     obj.layout287 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout287:setParent(obj.rectangle1);
-    obj.layout287:setLeft(451);
-    obj.layout287:setTop(798);
-    obj.layout287:setWidth(115);
+    obj.layout287:setLeft(996);
+    obj.layout287:setTop(861);
+    obj.layout287:setWidth(183);
     obj.layout287:setHeight(18);
     obj.layout287:setName("layout287");
 
@@ -6373,54 +6373,76 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit283:setVertTextAlign("center");
     obj.edit283:setLeft(0);
     obj.edit283:setTop(0);
-    obj.edit283:setWidth(115);
+    obj.edit283:setWidth(183);
     obj.edit283:setHeight(19);
-    obj.edit283:setField("Head_Armor");
+    obj.edit283:setField("NOTESRow6");
     obj.edit283:setName("edit283");
 
     obj.layout288 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout288:setParent(obj.rectangle1);
     obj.layout288:setLeft(451);
-    obj.layout288:setTop(820);
+    obj.layout288:setTop(798);
     obj.layout288:setWidth(115);
-    obj.layout288:setHeight(17);
+    obj.layout288:setHeight(18);
     obj.layout288:setName("layout288");
 
     obj.edit284 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit284:setParent(obj.layout288);
     obj.edit284:setTransparent(true);
-    obj.edit284:setFontSize(10.5);
+    obj.edit284:setFontSize(11.3);
     obj.edit284:setFontColor("#000000");
     obj.edit284:setHorzTextAlign("center");
     obj.edit284:setVertTextAlign("center");
     obj.edit284:setLeft(0);
     obj.edit284:setTop(0);
     obj.edit284:setWidth(115);
-    obj.edit284:setHeight(18);
-    obj.edit284:setField("Body_Armor");
+    obj.edit284:setHeight(19);
+    obj.edit284:setField("Head_Armor");
     obj.edit284:setName("edit284");
 
     obj.layout289 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout289:setParent(obj.rectangle1);
     obj.layout289:setLeft(451);
-    obj.layout289:setTop(841);
+    obj.layout289:setTop(820);
     obj.layout289:setWidth(115);
-    obj.layout289:setHeight(19);
+    obj.layout289:setHeight(17);
     obj.layout289:setName("layout289");
 
     obj.edit285 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit285:setParent(obj.layout289);
     obj.edit285:setTransparent(true);
-    obj.edit285:setFontSize(12);
+    obj.edit285:setFontSize(10.5);
     obj.edit285:setFontColor("#000000");
     obj.edit285:setHorzTextAlign("center");
     obj.edit285:setVertTextAlign("center");
     obj.edit285:setLeft(0);
     obj.edit285:setTop(0);
     obj.edit285:setWidth(115);
-    obj.edit285:setHeight(20);
-    obj.edit285:setField("Shield");
+    obj.edit285:setHeight(18);
+    obj.edit285:setField("Body_Armor");
     obj.edit285:setName("edit285");
+
+    obj.layout290 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout290:setParent(obj.rectangle1);
+    obj.layout290:setLeft(451);
+    obj.layout290:setTop(841);
+    obj.layout290:setWidth(115);
+    obj.layout290:setHeight(19);
+    obj.layout290:setName("layout290");
+
+    obj.edit286 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit286:setParent(obj.layout290);
+    obj.edit286:setTransparent(true);
+    obj.edit286:setFontSize(12);
+    obj.edit286:setFontColor("#000000");
+    obj.edit286:setHorzTextAlign("center");
+    obj.edit286:setVertTextAlign("center");
+    obj.edit286:setLeft(0);
+    obj.edit286:setTop(0);
+    obj.edit286:setWidth(115);
+    obj.edit286:setHeight(20);
+    obj.edit286:setField("Shield");
+    obj.edit286:setName("edit286");
 
     obj.dataLink1 = GUI.fromHandle(_obj_newObject("dataLink"));
     obj.dataLink1:setParent(obj.frmCyberpunkRedSheet1_svg);
@@ -6463,54 +6485,32 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.image3:setOptimize(true);
     obj.image3:setName("image3");
 
-    obj.layout290 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout290:setParent(obj.rectangle2);
-    obj.layout290:setLeft(608);
-    obj.layout290:setTop(112);
-    obj.layout290:setWidth(154);
-    obj.layout290:setHeight(17);
-    obj.layout290:setName("layout290");
-
-    obj.edit286 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit286:setParent(obj.layout290);
-    obj.edit286:setTransparent(true);
-    obj.edit286:setFontSize(10.5);
-    obj.edit286:setFontColor("#000000");
-    obj.edit286:setHorzTextAlign("leading");
-    obj.edit286:setVertTextAlign("center");
-    obj.edit286:setLeft(0);
-    obj.edit286:setTop(0);
-    obj.edit286:setWidth(154);
-    obj.edit286:setHeight(18);
-    obj.edit286:setField("Gear_1");
-    obj.edit286:setName("edit286");
-
     obj.layout291 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout291:setParent(obj.rectangle2);
     obj.layout291:setLeft(608);
-    obj.layout291:setTop(132);
+    obj.layout291:setTop(112);
     obj.layout291:setWidth(154);
-    obj.layout291:setHeight(18);
+    obj.layout291:setHeight(17);
     obj.layout291:setName("layout291");
 
     obj.edit287 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit287:setParent(obj.layout291);
     obj.edit287:setTransparent(true);
-    obj.edit287:setFontSize(11.3);
+    obj.edit287:setFontSize(10.5);
     obj.edit287:setFontColor("#000000");
     obj.edit287:setHorzTextAlign("leading");
     obj.edit287:setVertTextAlign("center");
     obj.edit287:setLeft(0);
     obj.edit287:setTop(0);
     obj.edit287:setWidth(154);
-    obj.edit287:setHeight(19);
-    obj.edit287:setField("Gear_2");
+    obj.edit287:setHeight(18);
+    obj.edit287:setField("Gear_1");
     obj.edit287:setName("edit287");
 
     obj.layout292 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout292:setParent(obj.rectangle2);
     obj.layout292:setLeft(608);
-    obj.layout292:setTop(155);
+    obj.layout292:setTop(132);
     obj.layout292:setWidth(154);
     obj.layout292:setHeight(18);
     obj.layout292:setName("layout292");
@@ -6526,13 +6526,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit288:setTop(0);
     obj.edit288:setWidth(154);
     obj.edit288:setHeight(19);
-    obj.edit288:setField("Gear_3");
+    obj.edit288:setField("Gear_2");
     obj.edit288:setName("edit288");
 
     obj.layout293 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout293:setParent(obj.rectangle2);
     obj.layout293:setLeft(608);
-    obj.layout293:setTop(176);
+    obj.layout293:setTop(155);
     obj.layout293:setWidth(154);
     obj.layout293:setHeight(18);
     obj.layout293:setName("layout293");
@@ -6548,13 +6548,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit289:setTop(0);
     obj.edit289:setWidth(154);
     obj.edit289:setHeight(19);
-    obj.edit289:setField("Gear_4");
+    obj.edit289:setField("Gear_3");
     obj.edit289:setName("edit289");
 
     obj.layout294 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout294:setParent(obj.rectangle2);
     obj.layout294:setLeft(608);
-    obj.layout294:setTop(198);
+    obj.layout294:setTop(176);
     obj.layout294:setWidth(154);
     obj.layout294:setHeight(18);
     obj.layout294:setName("layout294");
@@ -6570,13 +6570,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit290:setTop(0);
     obj.edit290:setWidth(154);
     obj.edit290:setHeight(19);
-    obj.edit290:setField("Gear_5");
+    obj.edit290:setField("Gear_4");
     obj.edit290:setName("edit290");
 
     obj.layout295 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout295:setParent(obj.rectangle2);
     obj.layout295:setLeft(608);
-    obj.layout295:setTop(219);
+    obj.layout295:setTop(198);
     obj.layout295:setWidth(154);
     obj.layout295:setHeight(18);
     obj.layout295:setName("layout295");
@@ -6592,13 +6592,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit291:setTop(0);
     obj.edit291:setWidth(154);
     obj.edit291:setHeight(19);
-    obj.edit291:setField("Gear_6");
+    obj.edit291:setField("Gear_5");
     obj.edit291:setName("edit291");
 
     obj.layout296 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout296:setParent(obj.rectangle2);
     obj.layout296:setLeft(608);
-    obj.layout296:setTop(241);
+    obj.layout296:setTop(219);
     obj.layout296:setWidth(154);
     obj.layout296:setHeight(18);
     obj.layout296:setName("layout296");
@@ -6614,13 +6614,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit292:setTop(0);
     obj.edit292:setWidth(154);
     obj.edit292:setHeight(19);
-    obj.edit292:setField("Gear_7");
+    obj.edit292:setField("Gear_6");
     obj.edit292:setName("edit292");
 
     obj.layout297 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout297:setParent(obj.rectangle2);
     obj.layout297:setLeft(608);
-    obj.layout297:setTop(263);
+    obj.layout297:setTop(241);
     obj.layout297:setWidth(154);
     obj.layout297:setHeight(18);
     obj.layout297:setName("layout297");
@@ -6636,13 +6636,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit293:setTop(0);
     obj.edit293:setWidth(154);
     obj.edit293:setHeight(19);
-    obj.edit293:setField("Gear_8");
+    obj.edit293:setField("Gear_7");
     obj.edit293:setName("edit293");
 
     obj.layout298 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout298:setParent(obj.rectangle2);
     obj.layout298:setLeft(608);
-    obj.layout298:setTop(284);
+    obj.layout298:setTop(263);
     obj.layout298:setWidth(154);
     obj.layout298:setHeight(18);
     obj.layout298:setName("layout298");
@@ -6658,13 +6658,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit294:setTop(0);
     obj.edit294:setWidth(154);
     obj.edit294:setHeight(19);
-    obj.edit294:setField("Gear_9");
+    obj.edit294:setField("Gear_8");
     obj.edit294:setName("edit294");
 
     obj.layout299 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout299:setParent(obj.rectangle2);
     obj.layout299:setLeft(608);
-    obj.layout299:setTop(306);
+    obj.layout299:setTop(284);
     obj.layout299:setWidth(154);
     obj.layout299:setHeight(18);
     obj.layout299:setName("layout299");
@@ -6680,13 +6680,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit295:setTop(0);
     obj.edit295:setWidth(154);
     obj.edit295:setHeight(19);
-    obj.edit295:setField("Gear_10");
+    obj.edit295:setField("Gear_9");
     obj.edit295:setName("edit295");
 
     obj.layout300 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout300:setParent(obj.rectangle2);
     obj.layout300:setLeft(608);
-    obj.layout300:setTop(328);
+    obj.layout300:setTop(306);
     obj.layout300:setWidth(154);
     obj.layout300:setHeight(18);
     obj.layout300:setName("layout300");
@@ -6702,13 +6702,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit296:setTop(0);
     obj.edit296:setWidth(154);
     obj.edit296:setHeight(19);
-    obj.edit296:setField("Gear_11");
+    obj.edit296:setField("Gear_10");
     obj.edit296:setName("edit296");
 
     obj.layout301 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout301:setParent(obj.rectangle2);
     obj.layout301:setLeft(608);
-    obj.layout301:setTop(349);
+    obj.layout301:setTop(328);
     obj.layout301:setWidth(154);
     obj.layout301:setHeight(18);
     obj.layout301:setName("layout301");
@@ -6724,13 +6724,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit297:setTop(0);
     obj.edit297:setWidth(154);
     obj.edit297:setHeight(19);
-    obj.edit297:setField("Gear_12");
+    obj.edit297:setField("Gear_11");
     obj.edit297:setName("edit297");
 
     obj.layout302 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout302:setParent(obj.rectangle2);
     obj.layout302:setLeft(608);
-    obj.layout302:setTop(371);
+    obj.layout302:setTop(349);
     obj.layout302:setWidth(154);
     obj.layout302:setHeight(18);
     obj.layout302:setName("layout302");
@@ -6746,13 +6746,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit298:setTop(0);
     obj.edit298:setWidth(154);
     obj.edit298:setHeight(19);
-    obj.edit298:setField("Gear_13");
+    obj.edit298:setField("Gear_12");
     obj.edit298:setName("edit298");
 
     obj.layout303 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout303:setParent(obj.rectangle2);
     obj.layout303:setLeft(608);
-    obj.layout303:setTop(392);
+    obj.layout303:setTop(371);
     obj.layout303:setWidth(154);
     obj.layout303:setHeight(18);
     obj.layout303:setName("layout303");
@@ -6768,13 +6768,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit299:setTop(0);
     obj.edit299:setWidth(154);
     obj.edit299:setHeight(19);
-    obj.edit299:setField("Gear_14");
+    obj.edit299:setField("Gear_13");
     obj.edit299:setName("edit299");
 
     obj.layout304 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout304:setParent(obj.rectangle2);
     obj.layout304:setLeft(608);
-    obj.layout304:setTop(414);
+    obj.layout304:setTop(392);
     obj.layout304:setWidth(154);
     obj.layout304:setHeight(18);
     obj.layout304:setName("layout304");
@@ -6790,13 +6790,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit300:setTop(0);
     obj.edit300:setWidth(154);
     obj.edit300:setHeight(19);
-    obj.edit300:setField("Gear_15");
+    obj.edit300:setField("Gear_14");
     obj.edit300:setName("edit300");
 
     obj.layout305 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout305:setParent(obj.rectangle2);
     obj.layout305:setLeft(608);
-    obj.layout305:setTop(436);
+    obj.layout305:setTop(414);
     obj.layout305:setWidth(154);
     obj.layout305:setHeight(18);
     obj.layout305:setName("layout305");
@@ -6812,13 +6812,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit301:setTop(0);
     obj.edit301:setWidth(154);
     obj.edit301:setHeight(19);
-    obj.edit301:setField("Gear_16");
+    obj.edit301:setField("Gear_15");
     obj.edit301:setName("edit301");
 
     obj.layout306 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout306:setParent(obj.rectangle2);
     obj.layout306:setLeft(608);
-    obj.layout306:setTop(457);
+    obj.layout306:setTop(436);
     obj.layout306:setWidth(154);
     obj.layout306:setHeight(18);
     obj.layout306:setName("layout306");
@@ -6834,13 +6834,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit302:setTop(0);
     obj.edit302:setWidth(154);
     obj.edit302:setHeight(19);
-    obj.edit302:setField("Gear_17");
+    obj.edit302:setField("Gear_16");
     obj.edit302:setName("edit302");
 
     obj.layout307 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout307:setParent(obj.rectangle2);
     obj.layout307:setLeft(608);
-    obj.layout307:setTop(479);
+    obj.layout307:setTop(457);
     obj.layout307:setWidth(154);
     obj.layout307:setHeight(18);
     obj.layout307:setName("layout307");
@@ -6856,19 +6856,41 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit303:setTop(0);
     obj.edit303:setWidth(154);
     obj.edit303:setHeight(19);
-    obj.edit303:setField("Gear_18");
+    obj.edit303:setField("Gear_17");
     obj.edit303:setName("edit303");
 
     obj.layout308 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout308:setParent(obj.rectangle2);
-    obj.layout308:setLeft(610);
-    obj.layout308:setTop(598);
-    obj.layout308:setWidth(565);
-    obj.layout308:setHeight(48);
+    obj.layout308:setLeft(608);
+    obj.layout308:setTop(479);
+    obj.layout308:setWidth(154);
+    obj.layout308:setHeight(18);
     obj.layout308:setName("layout308");
 
+    obj.edit304 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit304:setParent(obj.layout308);
+    obj.edit304:setTransparent(true);
+    obj.edit304:setFontSize(11.3);
+    obj.edit304:setFontColor("#000000");
+    obj.edit304:setHorzTextAlign("leading");
+    obj.edit304:setVertTextAlign("center");
+    obj.edit304:setLeft(0);
+    obj.edit304:setTop(0);
+    obj.edit304:setWidth(154);
+    obj.edit304:setHeight(19);
+    obj.edit304:setField("Gear_18");
+    obj.edit304:setName("edit304");
+
+    obj.layout309 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout309:setParent(obj.rectangle2);
+    obj.layout309:setLeft(610);
+    obj.layout309:setTop(598);
+    obj.layout309:setWidth(565);
+    obj.layout309:setHeight(48);
+    obj.layout309:setName("layout309");
+
     obj.textEditor4 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor4:setParent(obj.layout308);
+    obj.textEditor4:setParent(obj.layout309);
     obj.textEditor4:setLeft(0);
     obj.textEditor4:setTop(0);
     obj.textEditor4:setWidth(565);
@@ -6879,16 +6901,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.textEditor4:setTransparent(true);
     obj.textEditor4:setName("textEditor4");
 
-    obj.layout309 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout309:setParent(obj.rectangle2);
-    obj.layout309:setLeft(607);
-    obj.layout309:setTop(755);
-    obj.layout309:setWidth(568);
-    obj.layout309:setHeight(117);
-    obj.layout309:setName("layout309");
+    obj.layout310 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout310:setParent(obj.rectangle2);
+    obj.layout310:setLeft(607);
+    obj.layout310:setTop(755);
+    obj.layout310:setWidth(568);
+    obj.layout310:setHeight(117);
+    obj.layout310:setName("layout310");
 
     obj.textEditor5 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor5:setParent(obj.layout309);
+    obj.textEditor5:setParent(obj.layout310);
     obj.textEditor5:setLeft(0);
     obj.textEditor5:setTop(0);
     obj.textEditor5:setWidth(568);
@@ -6899,32 +6921,10 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.textEditor5:setTransparent(true);
     obj.textEditor5:setName("textEditor5");
 
-    obj.layout310 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout310:setParent(obj.rectangle2);
-    obj.layout310:setLeft(767);
-    obj.layout310:setTop(112);
-    obj.layout310:setWidth(412);
-    obj.layout310:setHeight(18);
-    obj.layout310:setName("layout310");
-
-    obj.edit304 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit304:setParent(obj.layout310);
-    obj.edit304:setTransparent(true);
-    obj.edit304:setFontSize(11.3);
-    obj.edit304:setFontColor("#000000");
-    obj.edit304:setHorzTextAlign("leading");
-    obj.edit304:setVertTextAlign("center");
-    obj.edit304:setLeft(0);
-    obj.edit304:setTop(0);
-    obj.edit304:setWidth(412);
-    obj.edit304:setHeight(19);
-    obj.edit304:setField("Gear_Notes_1");
-    obj.edit304:setName("edit304");
-
     obj.layout311 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout311:setParent(obj.rectangle2);
     obj.layout311:setLeft(767);
-    obj.layout311:setTop(132);
+    obj.layout311:setTop(112);
     obj.layout311:setWidth(412);
     obj.layout311:setHeight(18);
     obj.layout311:setName("layout311");
@@ -6940,13 +6940,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit305:setTop(0);
     obj.edit305:setWidth(412);
     obj.edit305:setHeight(19);
-    obj.edit305:setField("Gear_Notes_2");
+    obj.edit305:setField("Gear_Notes_1");
     obj.edit305:setName("edit305");
 
     obj.layout312 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout312:setParent(obj.rectangle2);
     obj.layout312:setLeft(767);
-    obj.layout312:setTop(175);
+    obj.layout312:setTop(132);
     obj.layout312:setWidth(412);
     obj.layout312:setHeight(18);
     obj.layout312:setName("layout312");
@@ -6962,13 +6962,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit306:setTop(0);
     obj.edit306:setWidth(412);
     obj.edit306:setHeight(19);
-    obj.edit306:setField("Gear_Notes_4");
+    obj.edit306:setField("Gear_Notes_2");
     obj.edit306:setName("edit306");
 
     obj.layout313 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout313:setParent(obj.rectangle2);
     obj.layout313:setLeft(767);
-    obj.layout313:setTop(155);
+    obj.layout313:setTop(175);
     obj.layout313:setWidth(412);
     obj.layout313:setHeight(18);
     obj.layout313:setName("layout313");
@@ -6984,13 +6984,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit307:setTop(0);
     obj.edit307:setWidth(412);
     obj.edit307:setHeight(19);
-    obj.edit307:setField("Gear_Notes_3");
+    obj.edit307:setField("Gear_Notes_4");
     obj.edit307:setName("edit307");
 
     obj.layout314 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout314:setParent(obj.rectangle2);
     obj.layout314:setLeft(767);
-    obj.layout314:setTop(197);
+    obj.layout314:setTop(155);
     obj.layout314:setWidth(412);
     obj.layout314:setHeight(18);
     obj.layout314:setName("layout314");
@@ -7006,13 +7006,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit308:setTop(0);
     obj.edit308:setWidth(412);
     obj.edit308:setHeight(19);
-    obj.edit308:setField("Gear_Notes_5");
+    obj.edit308:setField("Gear_Notes_3");
     obj.edit308:setName("edit308");
 
     obj.layout315 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout315:setParent(obj.rectangle2);
     obj.layout315:setLeft(767);
-    obj.layout315:setTop(240);
+    obj.layout315:setTop(197);
     obj.layout315:setWidth(412);
     obj.layout315:setHeight(18);
     obj.layout315:setName("layout315");
@@ -7028,13 +7028,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit309:setTop(0);
     obj.edit309:setWidth(412);
     obj.edit309:setHeight(19);
-    obj.edit309:setField("Gear_Notes_7");
+    obj.edit309:setField("Gear_Notes_5");
     obj.edit309:setName("edit309");
 
     obj.layout316 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout316:setParent(obj.rectangle2);
     obj.layout316:setLeft(767);
-    obj.layout316:setTop(219);
+    obj.layout316:setTop(240);
     obj.layout316:setWidth(412);
     obj.layout316:setHeight(18);
     obj.layout316:setName("layout316");
@@ -7050,13 +7050,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit310:setTop(0);
     obj.edit310:setWidth(412);
     obj.edit310:setHeight(19);
-    obj.edit310:setField("Gear_Notes_6");
+    obj.edit310:setField("Gear_Notes_7");
     obj.edit310:setName("edit310");
 
     obj.layout317 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout317:setParent(obj.rectangle2);
     obj.layout317:setLeft(767);
-    obj.layout317:setTop(263);
+    obj.layout317:setTop(219);
     obj.layout317:setWidth(412);
     obj.layout317:setHeight(18);
     obj.layout317:setName("layout317");
@@ -7072,13 +7072,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit311:setTop(0);
     obj.edit311:setWidth(412);
     obj.edit311:setHeight(19);
-    obj.edit311:setField("Gear_Notes_8");
+    obj.edit311:setField("Gear_Notes_6");
     obj.edit311:setName("edit311");
 
     obj.layout318 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout318:setParent(obj.rectangle2);
     obj.layout318:setLeft(767);
-    obj.layout318:setTop(284);
+    obj.layout318:setTop(263);
     obj.layout318:setWidth(412);
     obj.layout318:setHeight(18);
     obj.layout318:setName("layout318");
@@ -7094,13 +7094,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit312:setTop(0);
     obj.edit312:setWidth(412);
     obj.edit312:setHeight(19);
-    obj.edit312:setField("Gear_Notes_9");
+    obj.edit312:setField("Gear_Notes_8");
     obj.edit312:setName("edit312");
 
     obj.layout319 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout319:setParent(obj.rectangle2);
     obj.layout319:setLeft(767);
-    obj.layout319:setTop(435);
+    obj.layout319:setTop(284);
     obj.layout319:setWidth(412);
     obj.layout319:setHeight(18);
     obj.layout319:setName("layout319");
@@ -7116,13 +7116,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit313:setTop(0);
     obj.edit313:setWidth(412);
     obj.edit313:setHeight(19);
-    obj.edit313:setField("Gear_Notes_16");
+    obj.edit313:setField("Gear_Notes_9");
     obj.edit313:setName("edit313");
 
     obj.layout320 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout320:setParent(obj.rectangle2);
     obj.layout320:setLeft(767);
-    obj.layout320:setTop(306);
+    obj.layout320:setTop(435);
     obj.layout320:setWidth(412);
     obj.layout320:setHeight(18);
     obj.layout320:setName("layout320");
@@ -7138,13 +7138,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit314:setTop(0);
     obj.edit314:setWidth(412);
     obj.edit314:setHeight(19);
-    obj.edit314:setField("Gear_Notes_10");
+    obj.edit314:setField("Gear_Notes_16");
     obj.edit314:setName("edit314");
 
     obj.layout321 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout321:setParent(obj.rectangle2);
     obj.layout321:setLeft(767);
-    obj.layout321:setTop(349);
+    obj.layout321:setTop(306);
     obj.layout321:setWidth(412);
     obj.layout321:setHeight(18);
     obj.layout321:setName("layout321");
@@ -7160,13 +7160,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit315:setTop(0);
     obj.edit315:setWidth(412);
     obj.edit315:setHeight(19);
-    obj.edit315:setField("Gear_Notes_12");
+    obj.edit315:setField("Gear_Notes_10");
     obj.edit315:setName("edit315");
 
     obj.layout322 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout322:setParent(obj.rectangle2);
     obj.layout322:setLeft(767);
-    obj.layout322:setTop(328);
+    obj.layout322:setTop(349);
     obj.layout322:setWidth(412);
     obj.layout322:setHeight(18);
     obj.layout322:setName("layout322");
@@ -7182,13 +7182,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit316:setTop(0);
     obj.edit316:setWidth(412);
     obj.edit316:setHeight(19);
-    obj.edit316:setField("Gear_Notes_11");
+    obj.edit316:setField("Gear_Notes_12");
     obj.edit316:setName("edit316");
 
     obj.layout323 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout323:setParent(obj.rectangle2);
     obj.layout323:setLeft(767);
-    obj.layout323:setTop(371);
+    obj.layout323:setTop(328);
     obj.layout323:setWidth(412);
     obj.layout323:setHeight(18);
     obj.layout323:setName("layout323");
@@ -7204,13 +7204,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit317:setTop(0);
     obj.edit317:setWidth(412);
     obj.edit317:setHeight(19);
-    obj.edit317:setField("Gear_Notes_13");
+    obj.edit317:setField("Gear_Notes_11");
     obj.edit317:setName("edit317");
 
     obj.layout324 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout324:setParent(obj.rectangle2);
     obj.layout324:setLeft(767);
-    obj.layout324:setTop(413);
+    obj.layout324:setTop(371);
     obj.layout324:setWidth(412);
     obj.layout324:setHeight(18);
     obj.layout324:setName("layout324");
@@ -7226,13 +7226,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit318:setTop(0);
     obj.edit318:setWidth(412);
     obj.edit318:setHeight(19);
-    obj.edit318:setField("Gear_Notes_15");
+    obj.edit318:setField("Gear_Notes_13");
     obj.edit318:setName("edit318");
 
     obj.layout325 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout325:setParent(obj.rectangle2);
     obj.layout325:setLeft(767);
-    obj.layout325:setTop(392);
+    obj.layout325:setTop(413);
     obj.layout325:setWidth(412);
     obj.layout325:setHeight(18);
     obj.layout325:setName("layout325");
@@ -7248,13 +7248,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit319:setTop(0);
     obj.edit319:setWidth(412);
     obj.edit319:setHeight(19);
-    obj.edit319:setField("Gear_Notes_14");
+    obj.edit319:setField("Gear_Notes_15");
     obj.edit319:setName("edit319");
 
     obj.layout326 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout326:setParent(obj.rectangle2);
     obj.layout326:setLeft(767);
-    obj.layout326:setTop(457);
+    obj.layout326:setTop(392);
     obj.layout326:setWidth(412);
     obj.layout326:setHeight(18);
     obj.layout326:setName("layout326");
@@ -7270,13 +7270,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit320:setTop(0);
     obj.edit320:setWidth(412);
     obj.edit320:setHeight(19);
-    obj.edit320:setField("Gear_Notes_17");
+    obj.edit320:setField("Gear_Notes_14");
     obj.edit320:setName("edit320");
 
     obj.layout327 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout327:setParent(obj.rectangle2);
     obj.layout327:setLeft(767);
-    obj.layout327:setTop(479);
+    obj.layout327:setTop(457);
     obj.layout327:setWidth(412);
     obj.layout327:setHeight(18);
     obj.layout327:setName("layout327");
@@ -7292,13 +7292,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit321:setTop(0);
     obj.edit321:setWidth(412);
     obj.edit321:setHeight(19);
-    obj.edit321:setField("Gear_Notes_18");
+    obj.edit321:setField("Gear_Notes_17");
     obj.edit321:setName("edit321");
 
     obj.layout328 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout328:setParent(obj.rectangle2);
     obj.layout328:setLeft(767);
-    obj.layout328:setTop(500);
+    obj.layout328:setTop(479);
     obj.layout328:setWidth(412);
     obj.layout328:setHeight(18);
     obj.layout328:setName("layout328");
@@ -7314,59 +7314,59 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit322:setTop(0);
     obj.edit322:setWidth(412);
     obj.edit322:setHeight(19);
-    obj.edit322:setField("Ammo");
+    obj.edit322:setField("Gear_Notes_18");
     obj.edit322:setName("edit322");
 
     obj.layout329 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout329:setParent(obj.rectangle2);
     obj.layout329:setLeft(767);
-    obj.layout329:setTop(521);
+    obj.layout329:setTop(500);
     obj.layout329:setWidth(412);
-    obj.layout329:setHeight(20);
+    obj.layout329:setHeight(18);
     obj.layout329:setName("layout329");
 
     obj.edit323 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit323:setParent(obj.layout329);
     obj.edit323:setTransparent(true);
-    obj.edit323:setFontSize(12.8);
+    obj.edit323:setFontSize(11.3);
     obj.edit323:setFontColor("#000000");
     obj.edit323:setHorzTextAlign("leading");
     obj.edit323:setVertTextAlign("center");
     obj.edit323:setLeft(0);
     obj.edit323:setTop(0);
     obj.edit323:setWidth(412);
-    obj.edit323:setHeight(21);
-    obj.edit323:setField("Cash");
+    obj.edit323:setHeight(19);
+    obj.edit323:setField("Ammo");
     obj.edit323:setName("edit323");
 
     obj.layout330 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout330:setParent(obj.rectangle2);
-    obj.layout330:setLeft(107);
-    obj.layout330:setTop(85);
-    obj.layout330:setWidth(421);
-    obj.layout330:setHeight(36);
+    obj.layout330:setLeft(767);
+    obj.layout330:setTop(521);
+    obj.layout330:setWidth(412);
+    obj.layout330:setHeight(20);
     obj.layout330:setName("layout330");
 
     obj.edit324 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit324:setParent(obj.layout330);
     obj.edit324:setTransparent(true);
-    obj.edit324:setFontSize(18);
+    obj.edit324:setFontSize(12.8);
     obj.edit324:setFontColor("#000000");
     obj.edit324:setHorzTextAlign("leading");
     obj.edit324:setVertTextAlign("center");
     obj.edit324:setLeft(0);
     obj.edit324:setTop(0);
-    obj.edit324:setWidth(421);
-    obj.edit324:setHeight(37);
-    obj.edit324:setField("Aliases");
+    obj.edit324:setWidth(412);
+    obj.edit324:setHeight(21);
+    obj.edit324:setField("Cash");
     obj.edit324:setName("edit324");
 
     obj.layout331 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout331:setParent(obj.rectangle2);
-    obj.layout331:setLeft(176);
-    obj.layout331:setTop(126);
-    obj.layout331:setWidth(52);
-    obj.layout331:setHeight(34);
+    obj.layout331:setLeft(107);
+    obj.layout331:setTop(85);
+    obj.layout331:setWidth(421);
+    obj.layout331:setHeight(36);
     obj.layout331:setName("layout331");
 
     obj.edit325 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7374,20 +7374,20 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit325:setTransparent(true);
     obj.edit325:setFontSize(18);
     obj.edit325:setFontColor("#000000");
-    obj.edit325:setHorzTextAlign("center");
+    obj.edit325:setHorzTextAlign("leading");
     obj.edit325:setVertTextAlign("center");
     obj.edit325:setLeft(0);
     obj.edit325:setTop(0);
-    obj.edit325:setWidth(52);
-    obj.edit325:setHeight(35);
-    obj.edit325:setField("Current_IP");
+    obj.edit325:setWidth(421);
+    obj.edit325:setHeight(37);
+    obj.edit325:setField("Aliases");
     obj.edit325:setName("edit325");
 
     obj.layout332 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout332:setParent(obj.rectangle2);
-    obj.layout332:setLeft(247);
+    obj.layout332:setLeft(176);
     obj.layout332:setTop(126);
-    obj.layout332:setWidth(54);
+    obj.layout332:setWidth(52);
     obj.layout332:setHeight(34);
     obj.layout332:setName("layout332");
 
@@ -7400,17 +7400,17 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit326:setVertTextAlign("center");
     obj.edit326:setLeft(0);
     obj.edit326:setTop(0);
-    obj.edit326:setWidth(54);
+    obj.edit326:setWidth(52);
     obj.edit326:setHeight(35);
-    obj.edit326:setField("Total_IP");
+    obj.edit326:setField("Current_IP");
     obj.edit326:setName("edit326");
 
     obj.layout333 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout333:setParent(obj.rectangle2);
-    obj.layout333:setLeft(165);
-    obj.layout333:setTop(166);
-    obj.layout333:setWidth(137);
-    obj.layout333:setHeight(33);
+    obj.layout333:setLeft(247);
+    obj.layout333:setTop(126);
+    obj.layout333:setWidth(54);
+    obj.layout333:setHeight(34);
     obj.layout333:setName("layout333");
 
     obj.edit327 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7422,21 +7422,43 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit327:setVertTextAlign("center");
     obj.edit327:setLeft(0);
     obj.edit327:setTop(0);
-    obj.edit327:setWidth(137);
-    obj.edit327:setHeight(34);
-    obj.edit327:setField("Reputation");
+    obj.edit327:setWidth(54);
+    obj.edit327:setHeight(35);
+    obj.edit327:setField("Total_IP");
     obj.edit327:setName("edit327");
 
     obj.layout334 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout334:setParent(obj.rectangle2);
-    obj.layout334:setLeft(390);
-    obj.layout334:setTop(139);
-    obj.layout334:setWidth(183);
-    obj.layout334:setHeight(60);
+    obj.layout334:setLeft(165);
+    obj.layout334:setTop(166);
+    obj.layout334:setWidth(137);
+    obj.layout334:setHeight(33);
     obj.layout334:setName("layout334");
 
+    obj.edit328 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit328:setParent(obj.layout334);
+    obj.edit328:setTransparent(true);
+    obj.edit328:setFontSize(18);
+    obj.edit328:setFontColor("#000000");
+    obj.edit328:setHorzTextAlign("center");
+    obj.edit328:setVertTextAlign("center");
+    obj.edit328:setLeft(0);
+    obj.edit328:setTop(0);
+    obj.edit328:setWidth(137);
+    obj.edit328:setHeight(34);
+    obj.edit328:setField("Reputation");
+    obj.edit328:setName("edit328");
+
+    obj.layout335 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout335:setParent(obj.rectangle2);
+    obj.layout335:setLeft(390);
+    obj.layout335:setTop(139);
+    obj.layout335:setWidth(183);
+    obj.layout335:setHeight(60);
+    obj.layout335:setName("layout335");
+
     obj.textEditor6 = GUI.fromHandle(_obj_newObject("textEditor"));
-    obj.textEditor6:setParent(obj.layout334);
+    obj.textEditor6:setParent(obj.layout335);
     obj.textEditor6:setLeft(0);
     obj.textEditor6:setTop(0);
     obj.textEditor6:setWidth(183);
@@ -7447,32 +7469,10 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.textEditor6:setTransparent(true);
     obj.textEditor6:setName("textEditor6");
 
-    obj.layout335 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout335:setParent(obj.rectangle2);
-    obj.layout335:setLeft(92);
-    obj.layout335:setTop(271);
-    obj.layout335:setWidth(232);
-    obj.layout335:setHeight(24);
-    obj.layout335:setName("layout335");
-
-    obj.edit328 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit328:setParent(obj.layout335);
-    obj.edit328:setTransparent(true);
-    obj.edit328:setFontSize(14.2);
-    obj.edit328:setFontColor("#000000");
-    obj.edit328:setHorzTextAlign("center");
-    obj.edit328:setVertTextAlign("center");
-    obj.edit328:setLeft(0);
-    obj.edit328:setTop(0);
-    obj.edit328:setWidth(232);
-    obj.edit328:setHeight(25);
-    obj.edit328:setField("Cultural_Origins");
-    obj.edit328:setName("edit328");
-
     obj.layout336 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout336:setParent(obj.rectangle2);
     obj.layout336:setLeft(92);
-    obj.layout336:setTop(319);
+    obj.layout336:setTop(271);
     obj.layout336:setWidth(232);
     obj.layout336:setHeight(24);
     obj.layout336:setName("layout336");
@@ -7488,15 +7488,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit329:setTop(0);
     obj.edit329:setWidth(232);
     obj.edit329:setHeight(25);
-    obj.edit329:setField("Clothing_Style");
+    obj.edit329:setField("Cultural_Origins");
     obj.edit329:setName("edit329");
 
     obj.layout337 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout337:setParent(obj.rectangle2);
-    obj.layout337:setLeft(188);
-    obj.layout337:setTop(354);
-    obj.layout337:setWidth(136);
-    obj.layout337:setHeight(36);
+    obj.layout337:setLeft(92);
+    obj.layout337:setTop(319);
+    obj.layout337:setWidth(232);
+    obj.layout337:setHeight(24);
     obj.layout337:setName("layout337");
 
     obj.edit330 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7508,17 +7508,17 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit330:setVertTextAlign("center");
     obj.edit330:setLeft(0);
     obj.edit330:setTop(0);
-    obj.edit330:setWidth(136);
-    obj.edit330:setHeight(37);
-    obj.edit330:setField("What_Value_Most");
+    obj.edit330:setWidth(232);
+    obj.edit330:setHeight(25);
+    obj.edit330:setField("Clothing_Style");
     obj.edit330:setName("edit330");
 
     obj.layout338 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout338:setParent(obj.rectangle2);
-    obj.layout338:setLeft(179);
-    obj.layout338:setTop(399);
-    obj.layout338:setWidth(142);
-    obj.layout338:setHeight(41);
+    obj.layout338:setLeft(188);
+    obj.layout338:setTop(354);
+    obj.layout338:setWidth(136);
+    obj.layout338:setHeight(36);
     obj.layout338:setName("layout338");
 
     obj.edit331 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7530,15 +7530,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit331:setVertTextAlign("center");
     obj.edit331:setLeft(0);
     obj.edit331:setTop(0);
-    obj.edit331:setWidth(142);
-    obj.edit331:setHeight(42);
-    obj.edit331:setField("Who_Value_Most");
+    obj.edit331:setWidth(136);
+    obj.edit331:setHeight(37);
+    obj.edit331:setField("What_Value_Most");
     obj.edit331:setName("edit331");
 
     obj.layout339 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout339:setParent(obj.rectangle2);
-    obj.layout339:setLeft(177);
-    obj.layout339:setTop(447);
+    obj.layout339:setLeft(179);
+    obj.layout339:setTop(399);
     obj.layout339:setWidth(142);
     obj.layout339:setHeight(41);
     obj.layout339:setName("layout339");
@@ -7554,15 +7554,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit332:setTop(0);
     obj.edit332:setWidth(142);
     obj.edit332:setHeight(42);
-    obj.edit332:setField("Family_Background");
+    obj.edit332:setField("Who_Value_Most");
     obj.edit332:setName("edit332");
 
     obj.layout340 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout340:setParent(obj.rectangle2);
-    obj.layout340:setLeft(92);
-    obj.layout340:setTop(511);
-    obj.layout340:setWidth(232);
-    obj.layout340:setHeight(24);
+    obj.layout340:setLeft(177);
+    obj.layout340:setTop(447);
+    obj.layout340:setWidth(142);
+    obj.layout340:setHeight(41);
     obj.layout340:setName("layout340");
 
     obj.edit333 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7574,15 +7574,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit333:setVertTextAlign("center");
     obj.edit333:setLeft(0);
     obj.edit333:setTop(0);
-    obj.edit333:setWidth(232);
-    obj.edit333:setHeight(25);
-    obj.edit333:setField("Family_Crisis");
+    obj.edit333:setWidth(142);
+    obj.edit333:setHeight(42);
+    obj.edit333:setField("Family_Background");
     obj.edit333:setName("edit333");
 
     obj.layout341 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout341:setParent(obj.rectangle2);
-    obj.layout341:setLeft(340);
-    obj.layout341:setTop(271);
+    obj.layout341:setLeft(92);
+    obj.layout341:setTop(511);
     obj.layout341:setWidth(232);
     obj.layout341:setHeight(24);
     obj.layout341:setName("layout341");
@@ -7598,13 +7598,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit334:setTop(0);
     obj.edit334:setWidth(232);
     obj.edit334:setHeight(25);
-    obj.edit334:setField("Personality");
+    obj.edit334:setField("Family_Crisis");
     obj.edit334:setName("edit334");
 
     obj.layout342 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout342:setParent(obj.rectangle2);
     obj.layout342:setLeft(340);
-    obj.layout342:setTop(319);
+    obj.layout342:setTop(271);
     obj.layout342:setWidth(232);
     obj.layout342:setHeight(24);
     obj.layout342:setName("layout342");
@@ -7620,15 +7620,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit335:setTop(0);
     obj.edit335:setWidth(232);
     obj.edit335:setHeight(25);
-    obj.edit335:setField("Hairstyle");
+    obj.edit335:setField("Personality");
     obj.edit335:setName("edit335");
 
     obj.layout343 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout343:setParent(obj.rectangle2);
-    obj.layout343:setLeft(442);
-    obj.layout343:setTop(353);
-    obj.layout343:setWidth(128);
-    obj.layout343:setHeight(40);
+    obj.layout343:setLeft(340);
+    obj.layout343:setTop(319);
+    obj.layout343:setWidth(232);
+    obj.layout343:setHeight(24);
     obj.layout343:setName("layout343");
 
     obj.edit336 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7640,15 +7640,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit336:setVertTextAlign("center");
     obj.edit336:setLeft(0);
     obj.edit336:setTop(0);
-    obj.edit336:setWidth(128);
-    obj.edit336:setHeight(41);
-    obj.edit336:setField("Feelings_About_People");
+    obj.edit336:setWidth(232);
+    obj.edit336:setHeight(25);
+    obj.edit336:setField("Hairstyle");
     obj.edit336:setName("edit336");
 
     obj.layout344 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout344:setParent(obj.rectangle2);
-    obj.layout344:setLeft(438);
-    obj.layout344:setTop(400);
+    obj.layout344:setLeft(442);
+    obj.layout344:setTop(353);
     obj.layout344:setWidth(128);
     obj.layout344:setHeight(40);
     obj.layout344:setName("layout344");
@@ -7664,14 +7664,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit337:setTop(0);
     obj.edit337:setWidth(128);
     obj.edit337:setHeight(41);
-    obj.edit337:setField("Valued_Possession");
+    obj.edit337:setField("Feelings_About_People");
     obj.edit337:setName("edit337");
 
     obj.layout345 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout345:setParent(obj.rectangle2);
-    obj.layout345:setLeft(432);
-    obj.layout345:setTop(448);
-    obj.layout345:setWidth(136);
+    obj.layout345:setLeft(438);
+    obj.layout345:setTop(400);
+    obj.layout345:setWidth(128);
     obj.layout345:setHeight(40);
     obj.layout345:setName("layout345");
 
@@ -7684,17 +7684,17 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit338:setVertTextAlign("center");
     obj.edit338:setLeft(0);
     obj.edit338:setTop(0);
-    obj.edit338:setWidth(136);
+    obj.edit338:setWidth(128);
     obj.edit338:setHeight(41);
-    obj.edit338:setField("Childhood_Env");
+    obj.edit338:setField("Valued_Possession");
     obj.edit338:setName("edit338");
 
     obj.layout346 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout346:setParent(obj.rectangle2);
-    obj.layout346:setLeft(340);
-    obj.layout346:setTop(510);
-    obj.layout346:setWidth(232);
-    obj.layout346:setHeight(24);
+    obj.layout346:setLeft(432);
+    obj.layout346:setTop(448);
+    obj.layout346:setWidth(136);
+    obj.layout346:setHeight(40);
     obj.layout346:setName("layout346");
 
     obj.edit339 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7706,17 +7706,17 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit339:setVertTextAlign("center");
     obj.edit339:setLeft(0);
     obj.edit339:setTop(0);
-    obj.edit339:setWidth(232);
-    obj.edit339:setHeight(25);
-    obj.edit339:setField("Life_Goals");
+    obj.edit339:setWidth(136);
+    obj.edit339:setHeight(41);
+    obj.edit339:setField("Childhood_Env");
     obj.edit339:setName("edit339");
 
     obj.layout347 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout347:setParent(obj.rectangle2);
-    obj.layout347:setLeft(124);
-    obj.layout347:setTop(567);
-    obj.layout347:setWidth(197);
-    obj.layout347:setHeight(40);
+    obj.layout347:setLeft(340);
+    obj.layout347:setTop(510);
+    obj.layout347:setWidth(232);
+    obj.layout347:setHeight(24);
     obj.layout347:setName("layout347");
 
     obj.edit340 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7724,19 +7724,19 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit340:setTransparent(true);
     obj.edit340:setFontSize(14.2);
     obj.edit340:setFontColor("#000000");
-    obj.edit340:setHorzTextAlign("leading");
+    obj.edit340:setHorzTextAlign("center");
     obj.edit340:setVertTextAlign("center");
     obj.edit340:setLeft(0);
     obj.edit340:setTop(0);
-    obj.edit340:setWidth(197);
-    obj.edit340:setHeight(41);
-    obj.edit340:setField("Friend_1");
+    obj.edit340:setWidth(232);
+    obj.edit340:setHeight(25);
+    obj.edit340:setField("Life_Goals");
     obj.edit340:setName("edit340");
 
     obj.layout348 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout348:setParent(obj.rectangle2);
     obj.layout348:setLeft(124);
-    obj.layout348:setTop(616);
+    obj.layout348:setTop(567);
     obj.layout348:setWidth(197);
     obj.layout348:setHeight(40);
     obj.layout348:setName("layout348");
@@ -7752,13 +7752,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit341:setTop(0);
     obj.edit341:setWidth(197);
     obj.edit341:setHeight(41);
-    obj.edit341:setField("Friend_2");
+    obj.edit341:setField("Friend_1");
     obj.edit341:setName("edit341");
 
     obj.layout349 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout349:setParent(obj.rectangle2);
     obj.layout349:setLeft(124);
-    obj.layout349:setTop(665);
+    obj.layout349:setTop(616);
     obj.layout349:setWidth(197);
     obj.layout349:setHeight(40);
     obj.layout349:setName("layout349");
@@ -7774,13 +7774,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit342:setTop(0);
     obj.edit342:setWidth(197);
     obj.edit342:setHeight(41);
-    obj.edit342:setField("Friend_3");
+    obj.edit342:setField("Friend_2");
     obj.edit342:setName("edit342");
 
     obj.layout350 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout350:setParent(obj.rectangle2);
-    obj.layout350:setLeft(372);
-    obj.layout350:setTop(664);
+    obj.layout350:setLeft(124);
+    obj.layout350:setTop(665);
     obj.layout350:setWidth(197);
     obj.layout350:setHeight(40);
     obj.layout350:setName("layout350");
@@ -7790,19 +7790,19 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit343:setTransparent(true);
     obj.edit343:setFontSize(14.2);
     obj.edit343:setFontColor("#000000");
-    obj.edit343:setHorzTextAlign("center");
+    obj.edit343:setHorzTextAlign("leading");
     obj.edit343:setVertTextAlign("center");
     obj.edit343:setLeft(0);
     obj.edit343:setTop(0);
     obj.edit343:setWidth(197);
     obj.edit343:setHeight(41);
-    obj.edit343:setField("Love_Affair_3");
+    obj.edit343:setField("Friend_3");
     obj.edit343:setName("edit343");
 
     obj.layout351 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout351:setParent(obj.rectangle2);
     obj.layout351:setLeft(372);
-    obj.layout351:setTop(617);
+    obj.layout351:setTop(664);
     obj.layout351:setWidth(197);
     obj.layout351:setHeight(40);
     obj.layout351:setName("layout351");
@@ -7812,19 +7812,19 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit344:setTransparent(true);
     obj.edit344:setFontSize(14.2);
     obj.edit344:setFontColor("#000000");
-    obj.edit344:setHorzTextAlign("leading");
+    obj.edit344:setHorzTextAlign("center");
     obj.edit344:setVertTextAlign("center");
     obj.edit344:setLeft(0);
     obj.edit344:setTop(0);
     obj.edit344:setWidth(197);
     obj.edit344:setHeight(41);
-    obj.edit344:setField("Love_Affair_2");
+    obj.edit344:setField("Love_Affair_3");
     obj.edit344:setName("edit344");
 
     obj.layout352 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout352:setParent(obj.rectangle2);
     obj.layout352:setLeft(372);
-    obj.layout352:setTop(568);
+    obj.layout352:setTop(617);
     obj.layout352:setWidth(197);
     obj.layout352:setHeight(40);
     obj.layout352:setName("layout352");
@@ -7840,15 +7840,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit345:setTop(0);
     obj.edit345:setWidth(197);
     obj.edit345:setHeight(41);
-    obj.edit345:setField("Love_Affair_1");
+    obj.edit345:setField("Love_Affair_2");
     obj.edit345:setName("edit345");
 
     obj.layout353 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout353:setParent(obj.rectangle2);
-    obj.layout353:setLeft(180);
-    obj.layout353:setTop(737);
-    obj.layout353:setWidth(73);
-    obj.layout353:setHeight(42);
+    obj.layout353:setLeft(372);
+    obj.layout353:setTop(568);
+    obj.layout353:setWidth(197);
+    obj.layout353:setHeight(40);
     obj.layout353:setName("layout353");
 
     obj.edit346 = GUI.fromHandle(_obj_newObject("edit"));
@@ -7860,15 +7860,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit346:setVertTextAlign("center");
     obj.edit346:setLeft(0);
     obj.edit346:setTop(0);
-    obj.edit346:setWidth(73);
-    obj.edit346:setHeight(43);
-    obj.edit346:setField("Who_1");
+    obj.edit346:setWidth(197);
+    obj.edit346:setHeight(41);
+    obj.edit346:setField("Love_Affair_1");
     obj.edit346:setName("edit346");
 
     obj.layout354 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout354:setParent(obj.rectangle2);
     obj.layout354:setLeft(180);
-    obj.layout354:setTop(785);
+    obj.layout354:setTop(737);
     obj.layout354:setWidth(73);
     obj.layout354:setHeight(42);
     obj.layout354:setName("layout354");
@@ -7884,13 +7884,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit347:setTop(0);
     obj.edit347:setWidth(73);
     obj.edit347:setHeight(43);
-    obj.edit347:setField("Who_2");
+    obj.edit347:setField("Who_1");
     obj.edit347:setName("edit347");
 
     obj.layout355 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout355:setParent(obj.rectangle2);
     obj.layout355:setLeft(180);
-    obj.layout355:setTop(833);
+    obj.layout355:setTop(785);
     obj.layout355:setWidth(73);
     obj.layout355:setHeight(42);
     obj.layout355:setName("layout355");
@@ -7906,13 +7906,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit348:setTop(0);
     obj.edit348:setWidth(73);
     obj.edit348:setHeight(43);
-    obj.edit348:setField("Who_3");
+    obj.edit348:setField("Who_2");
     obj.edit348:setName("edit348");
 
     obj.layout356 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout356:setParent(obj.rectangle2);
-    obj.layout356:setLeft(267);
-    obj.layout356:setTop(737);
+    obj.layout356:setLeft(180);
+    obj.layout356:setTop(833);
     obj.layout356:setWidth(73);
     obj.layout356:setHeight(42);
     obj.layout356:setName("layout356");
@@ -7928,13 +7928,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit349:setTop(0);
     obj.edit349:setWidth(73);
     obj.edit349:setHeight(43);
-    obj.edit349:setField("What_Caused_It");
+    obj.edit349:setField("Who_3");
     obj.edit349:setName("edit349");
 
     obj.layout357 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout357:setParent(obj.rectangle2);
     obj.layout357:setLeft(267);
-    obj.layout357:setTop(785);
+    obj.layout357:setTop(737);
     obj.layout357:setWidth(73);
     obj.layout357:setHeight(42);
     obj.layout357:setName("layout357");
@@ -7950,13 +7950,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit350:setTop(0);
     obj.edit350:setWidth(73);
     obj.edit350:setHeight(43);
-    obj.edit350:setField("What_Caused_it_2");
+    obj.edit350:setField("What_Caused_It");
     obj.edit350:setName("edit350");
 
     obj.layout358 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout358:setParent(obj.rectangle2);
     obj.layout358:setLeft(267);
-    obj.layout358:setTop(833);
+    obj.layout358:setTop(785);
     obj.layout358:setWidth(73);
     obj.layout358:setHeight(42);
     obj.layout358:setName("layout358");
@@ -7972,14 +7972,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit351:setTop(0);
     obj.edit351:setWidth(73);
     obj.edit351:setHeight(43);
-    obj.edit351:setField("What_Caused_it_3");
+    obj.edit351:setField("What_Caused_it_2");
     obj.edit351:setName("edit351");
 
     obj.layout359 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout359:setParent(obj.rectangle2);
-    obj.layout359:setLeft(351);
-    obj.layout359:setTop(736);
-    obj.layout359:setWidth(124);
+    obj.layout359:setLeft(267);
+    obj.layout359:setTop(833);
+    obj.layout359:setWidth(73);
     obj.layout359:setHeight(42);
     obj.layout359:setName("layout359");
 
@@ -7992,15 +7992,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit352:setVertTextAlign("center");
     obj.edit352:setLeft(0);
     obj.edit352:setTop(0);
-    obj.edit352:setWidth(124);
+    obj.edit352:setWidth(73);
     obj.edit352:setHeight(43);
-    obj.edit352:setField("Throw_At_You_1");
+    obj.edit352:setField("What_Caused_it_3");
     obj.edit352:setName("edit352");
 
     obj.layout360 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout360:setParent(obj.rectangle2);
     obj.layout360:setLeft(351);
-    obj.layout360:setTop(785);
+    obj.layout360:setTop(736);
     obj.layout360:setWidth(124);
     obj.layout360:setHeight(42);
     obj.layout360:setName("layout360");
@@ -8016,13 +8016,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit353:setTop(0);
     obj.edit353:setWidth(124);
     obj.edit353:setHeight(43);
-    obj.edit353:setField("Throw_At_You_2");
+    obj.edit353:setField("Throw_At_You_1");
     obj.edit353:setName("edit353");
 
     obj.layout361 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout361:setParent(obj.rectangle2);
     obj.layout361:setLeft(351);
-    obj.layout361:setTop(832);
+    obj.layout361:setTop(785);
     obj.layout361:setWidth(124);
     obj.layout361:setHeight(42);
     obj.layout361:setName("layout361");
@@ -8038,15 +8038,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit354:setTop(0);
     obj.edit354:setWidth(124);
     obj.edit354:setHeight(43);
-    obj.edit354:setField("Throw_At_You_3");
+    obj.edit354:setField("Throw_At_You_2");
     obj.edit354:setName("edit354");
 
     obj.layout362 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout362:setParent(obj.rectangle2);
-    obj.layout362:setLeft(482);
-    obj.layout362:setTop(737);
-    obj.layout362:setWidth(89);
-    obj.layout362:setHeight(41);
+    obj.layout362:setLeft(351);
+    obj.layout362:setTop(832);
+    obj.layout362:setWidth(124);
+    obj.layout362:setHeight(42);
     obj.layout362:setName("layout362");
 
     obj.edit355 = GUI.fromHandle(_obj_newObject("edit"));
@@ -8058,17 +8058,17 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit355:setVertTextAlign("center");
     obj.edit355:setLeft(0);
     obj.edit355:setTop(0);
-    obj.edit355:setWidth(89);
-    obj.edit355:setHeight(42);
-    obj.edit355:setField("Happen_1");
+    obj.edit355:setWidth(124);
+    obj.edit355:setHeight(43);
+    obj.edit355:setField("Throw_At_You_3");
     obj.edit355:setName("edit355");
 
     obj.layout363 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout363:setParent(obj.rectangle2);
     obj.layout363:setLeft(482);
-    obj.layout363:setTop(786);
+    obj.layout363:setTop(737);
     obj.layout363:setWidth(89);
-    obj.layout363:setHeight(39);
+    obj.layout363:setHeight(41);
     obj.layout363:setName("layout363");
 
     obj.edit356 = GUI.fromHandle(_obj_newObject("edit"));
@@ -8081,14 +8081,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit356:setLeft(0);
     obj.edit356:setTop(0);
     obj.edit356:setWidth(89);
-    obj.edit356:setHeight(40);
-    obj.edit356:setField("Happen_2");
+    obj.edit356:setHeight(42);
+    obj.edit356:setField("Happen_1");
     obj.edit356:setName("edit356");
 
     obj.layout364 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout364:setParent(obj.rectangle2);
     obj.layout364:setLeft(482);
-    obj.layout364:setTop(833);
+    obj.layout364:setTop(786);
     obj.layout364:setWidth(89);
     obj.layout364:setHeight(39);
     obj.layout364:setName("layout364");
@@ -8098,21 +8098,21 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit357:setTransparent(true);
     obj.edit357:setFontSize(14.2);
     obj.edit357:setFontColor("#000000");
-    obj.edit357:setHorzTextAlign("center");
+    obj.edit357:setHorzTextAlign("leading");
     obj.edit357:setVertTextAlign("center");
     obj.edit357:setLeft(0);
     obj.edit357:setTop(0);
     obj.edit357:setWidth(89);
     obj.edit357:setHeight(40);
-    obj.edit357:setField("Happen_3");
+    obj.edit357:setField("Happen_2");
     obj.edit357:setName("edit357");
 
     obj.layout365 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout365:setParent(obj.rectangle2);
-    obj.layout365:setLeft(670);
-    obj.layout365:setTop(668);
-    obj.layout365:setWidth(187);
-    obj.layout365:setHeight(33);
+    obj.layout365:setLeft(482);
+    obj.layout365:setTop(833);
+    obj.layout365:setWidth(89);
+    obj.layout365:setHeight(39);
     obj.layout365:setName("layout365");
 
     obj.edit358 = GUI.fromHandle(_obj_newObject("edit"));
@@ -8124,54 +8124,76 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit358:setVertTextAlign("center");
     obj.edit358:setLeft(0);
     obj.edit358:setTop(0);
-    obj.edit358:setWidth(187);
-    obj.edit358:setHeight(34);
-    obj.edit358:setField("Housing");
+    obj.edit358:setWidth(89);
+    obj.edit358:setHeight(40);
+    obj.edit358:setField("Happen_3");
     obj.edit358:setName("edit358");
 
     obj.layout366 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout366:setParent(obj.rectangle2);
-    obj.layout366:setLeft(906);
+    obj.layout366:setLeft(670);
     obj.layout366:setTop(668);
-    obj.layout366:setWidth(75);
+    obj.layout366:setWidth(187);
     obj.layout366:setHeight(33);
     obj.layout366:setName("layout366");
 
     obj.edit359 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit359:setParent(obj.layout366);
     obj.edit359:setTransparent(true);
-    obj.edit359:setFontSize(18);
+    obj.edit359:setFontSize(14.2);
     obj.edit359:setFontColor("#000000");
     obj.edit359:setHorzTextAlign("center");
     obj.edit359:setVertTextAlign("center");
     obj.edit359:setLeft(0);
     obj.edit359:setTop(0);
-    obj.edit359:setWidth(75);
+    obj.edit359:setWidth(187);
     obj.edit359:setHeight(34);
-    obj.edit359:setField("Rent");
+    obj.edit359:setField("Housing");
     obj.edit359:setName("edit359");
 
     obj.layout367 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout367:setParent(obj.rectangle2);
-    obj.layout367:setLeft(1050);
+    obj.layout367:setLeft(906);
     obj.layout367:setTop(668);
-    obj.layout367:setWidth(130);
+    obj.layout367:setWidth(75);
     obj.layout367:setHeight(33);
     obj.layout367:setName("layout367");
 
     obj.edit360 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit360:setParent(obj.layout367);
     obj.edit360:setTransparent(true);
-    obj.edit360:setFontSize(14.2);
+    obj.edit360:setFontSize(18);
     obj.edit360:setFontColor("#000000");
     obj.edit360:setHorzTextAlign("center");
     obj.edit360:setVertTextAlign("center");
     obj.edit360:setLeft(0);
     obj.edit360:setTop(0);
-    obj.edit360:setWidth(130);
+    obj.edit360:setWidth(75);
     obj.edit360:setHeight(34);
-    obj.edit360:setField("Lifestyle");
+    obj.edit360:setField("Rent");
     obj.edit360:setName("edit360");
+
+    obj.layout368 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout368:setParent(obj.rectangle2);
+    obj.layout368:setLeft(1050);
+    obj.layout368:setTop(668);
+    obj.layout368:setWidth(130);
+    obj.layout368:setHeight(33);
+    obj.layout368:setName("layout368");
+
+    obj.edit361 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit361:setParent(obj.layout368);
+    obj.edit361:setTransparent(true);
+    obj.edit361:setFontSize(14.2);
+    obj.edit361:setFontColor("#000000");
+    obj.edit361:setHorzTextAlign("center");
+    obj.edit361:setVertTextAlign("center");
+    obj.edit361:setLeft(0);
+    obj.edit361:setTop(0);
+    obj.edit361:setWidth(130);
+    obj.edit361:setHeight(34);
+    obj.edit361:setField("Lifestyle");
+    obj.edit361:setName("edit361");
 
     obj.tab3 = GUI.fromHandle(_obj_newObject("tab"));
     obj.tab3:setParent(obj.tabControl1);
@@ -8208,32 +8230,10 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.image4:setOptimize(true);
     obj.image4:setName("image4");
 
-    obj.layout368 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout368:setParent(obj.rectangle3);
-    obj.layout368:setLeft(480);
-    obj.layout368:setTop(131);
-    obj.layout368:setWidth(143);
-    obj.layout368:setHeight(18);
-    obj.layout368:setName("layout368");
-
-    obj.edit361 = GUI.fromHandle(_obj_newObject("edit"));
-    obj.edit361:setParent(obj.layout368);
-    obj.edit361:setTransparent(true);
-    obj.edit361:setFontSize(11.3);
-    obj.edit361:setFontColor("#000000");
-    obj.edit361:setHorzTextAlign("center");
-    obj.edit361:setVertTextAlign("center");
-    obj.edit361:setLeft(0);
-    obj.edit361:setTop(0);
-    obj.edit361:setWidth(143);
-    obj.edit361:setHeight(19);
-    obj.edit361:setField("A_Data_1");
-    obj.edit361:setName("edit361");
-
     obj.layout369 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout369:setParent(obj.rectangle3);
     obj.layout369:setLeft(480);
-    obj.layout369:setTop(153);
+    obj.layout369:setTop(131);
     obj.layout369:setWidth(143);
     obj.layout369:setHeight(18);
     obj.layout369:setName("layout369");
@@ -8249,13 +8249,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit362:setTop(0);
     obj.edit362:setWidth(143);
     obj.edit362:setHeight(19);
-    obj.edit362:setField("A_Data_2");
+    obj.edit362:setField("A_Data_1");
     obj.edit362:setName("edit362");
 
     obj.layout370 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout370:setParent(obj.rectangle3);
-    obj.layout370:setLeft(330);
-    obj.layout370:setTop(131);
+    obj.layout370:setLeft(480);
+    obj.layout370:setTop(153);
     obj.layout370:setWidth(143);
     obj.layout370:setHeight(18);
     obj.layout370:setName("layout370");
@@ -8271,13 +8271,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit363:setTop(0);
     obj.edit363:setWidth(143);
     obj.edit363:setHeight(19);
-    obj.edit363:setField("Audio_1");
+    obj.edit363:setField("A_Data_2");
     obj.edit363:setName("edit363");
 
     obj.layout371 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout371:setParent(obj.rectangle3);
     obj.layout371:setLeft(330);
-    obj.layout371:setTop(152);
+    obj.layout371:setTop(131);
     obj.layout371:setWidth(143);
     obj.layout371:setHeight(18);
     obj.layout371:setName("layout371");
@@ -8293,13 +8293,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit364:setTop(0);
     obj.edit364:setWidth(143);
     obj.edit364:setHeight(19);
-    obj.edit364:setField("Audio_2");
+    obj.edit364:setField("Audio_1");
     obj.edit364:setName("edit364");
 
     obj.layout372 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout372:setParent(obj.rectangle3);
     obj.layout372:setLeft(330);
-    obj.layout372:setTop(174);
+    obj.layout372:setTop(152);
     obj.layout372:setWidth(143);
     obj.layout372:setHeight(18);
     obj.layout372:setName("layout372");
@@ -8315,13 +8315,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit365:setTop(0);
     obj.edit365:setWidth(143);
     obj.edit365:setHeight(19);
-    obj.edit365:setField("Audio_3");
+    obj.edit365:setField("Audio_2");
     obj.edit365:setName("edit365");
 
     obj.layout373 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout373:setParent(obj.rectangle3);
-    obj.layout373:setLeft(480);
-    obj.layout373:setTop(173);
+    obj.layout373:setLeft(330);
+    obj.layout373:setTop(174);
     obj.layout373:setWidth(143);
     obj.layout373:setHeight(18);
     obj.layout373:setName("layout373");
@@ -8337,13 +8337,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit366:setTop(0);
     obj.edit366:setWidth(143);
     obj.edit366:setHeight(19);
-    obj.edit366:setField("A_Data_3");
+    obj.edit366:setField("Audio_3");
     obj.edit366:setName("edit366");
 
     obj.layout374 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout374:setParent(obj.rectangle3);
-    obj.layout374:setLeft(93);
-    obj.layout374:setTop(244);
+    obj.layout374:setLeft(480);
+    obj.layout374:setTop(173);
     obj.layout374:setWidth(143);
     obj.layout374:setHeight(18);
     obj.layout374:setName("layout374");
@@ -8359,13 +8359,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit367:setTop(0);
     obj.edit367:setWidth(143);
     obj.edit367:setHeight(19);
-    obj.edit367:setField("R_Eye_1");
+    obj.edit367:setField("A_Data_3");
     obj.edit367:setName("edit367");
 
     obj.layout375 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout375:setParent(obj.rectangle3);
     obj.layout375:setLeft(93);
-    obj.layout375:setTop(264);
+    obj.layout375:setTop(244);
     obj.layout375:setWidth(143);
     obj.layout375:setHeight(18);
     obj.layout375:setName("layout375");
@@ -8381,13 +8381,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit368:setTop(0);
     obj.edit368:setWidth(143);
     obj.edit368:setHeight(19);
-    obj.edit368:setField("R_Eye_2");
+    obj.edit368:setField("R_Eye_1");
     obj.edit368:setName("edit368");
 
     obj.layout376 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout376:setParent(obj.rectangle3);
     obj.layout376:setLeft(93);
-    obj.layout376:setTop(286);
+    obj.layout376:setTop(264);
     obj.layout376:setWidth(143);
     obj.layout376:setHeight(18);
     obj.layout376:setName("layout376");
@@ -8403,12 +8403,12 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit369:setTop(0);
     obj.edit369:setWidth(143);
     obj.edit369:setHeight(19);
-    obj.edit369:setField("R_Eye_3");
+    obj.edit369:setField("R_Eye_2");
     obj.edit369:setName("edit369");
 
     obj.layout377 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout377:setParent(obj.rectangle3);
-    obj.layout377:setLeft(243);
+    obj.layout377:setLeft(93);
     obj.layout377:setTop(286);
     obj.layout377:setWidth(143);
     obj.layout377:setHeight(18);
@@ -8425,13 +8425,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit370:setTop(0);
     obj.edit370:setWidth(143);
     obj.edit370:setHeight(19);
-    obj.edit370:setField("RE_Data_3");
+    obj.edit370:setField("R_Eye_3");
     obj.edit370:setName("edit370");
 
     obj.layout378 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout378:setParent(obj.rectangle3);
     obj.layout378:setLeft(243);
-    obj.layout378:setTop(243);
+    obj.layout378:setTop(286);
     obj.layout378:setWidth(143);
     obj.layout378:setHeight(18);
     obj.layout378:setName("layout378");
@@ -8447,13 +8447,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit371:setTop(0);
     obj.edit371:setWidth(143);
     obj.edit371:setHeight(19);
-    obj.edit371:setField("RE_Data_1");
+    obj.edit371:setField("RE_Data_3");
     obj.edit371:setName("edit371");
 
     obj.layout379 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout379:setParent(obj.rectangle3);
     obj.layout379:setLeft(243);
-    obj.layout379:setTop(265);
+    obj.layout379:setTop(243);
     obj.layout379:setWidth(143);
     obj.layout379:setHeight(18);
     obj.layout379:setName("layout379");
@@ -8469,13 +8469,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit372:setTop(0);
     obj.edit372:setWidth(143);
     obj.edit372:setHeight(19);
-    obj.edit372:setField("RE_Data_2");
+    obj.edit372:setField("RE_Data_1");
     obj.edit372:setName("edit372");
 
     obj.layout380 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout380:setParent(obj.rectangle3);
-    obj.layout380:setLeft(576);
-    obj.layout380:setTop(244);
+    obj.layout380:setLeft(243);
+    obj.layout380:setTop(265);
     obj.layout380:setWidth(143);
     obj.layout380:setHeight(18);
     obj.layout380:setName("layout380");
@@ -8491,13 +8491,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit373:setTop(0);
     obj.edit373:setWidth(143);
     obj.edit373:setHeight(19);
-    obj.edit373:setField("L_Eye_1");
+    obj.edit373:setField("RE_Data_2");
     obj.edit373:setName("edit373");
 
     obj.layout381 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout381:setParent(obj.rectangle3);
     obj.layout381:setLeft(576);
-    obj.layout381:setTop(264);
+    obj.layout381:setTop(244);
     obj.layout381:setWidth(143);
     obj.layout381:setHeight(18);
     obj.layout381:setName("layout381");
@@ -8513,13 +8513,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit374:setTop(0);
     obj.edit374:setWidth(143);
     obj.edit374:setHeight(19);
-    obj.edit374:setField("L_Eye_2");
+    obj.edit374:setField("L_Eye_1");
     obj.edit374:setName("edit374");
 
     obj.layout382 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout382:setParent(obj.rectangle3);
     obj.layout382:setLeft(576);
-    obj.layout382:setTop(286);
+    obj.layout382:setTop(264);
     obj.layout382:setWidth(143);
     obj.layout382:setHeight(18);
     obj.layout382:setName("layout382");
@@ -8535,12 +8535,12 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit375:setTop(0);
     obj.edit375:setWidth(143);
     obj.edit375:setHeight(19);
-    obj.edit375:setField("L_Eye_3");
+    obj.edit375:setField("L_Eye_2");
     obj.edit375:setName("edit375");
 
     obj.layout383 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout383:setParent(obj.rectangle3);
-    obj.layout383:setLeft(726);
+    obj.layout383:setLeft(576);
     obj.layout383:setTop(286);
     obj.layout383:setWidth(143);
     obj.layout383:setHeight(18);
@@ -8557,13 +8557,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit376:setTop(0);
     obj.edit376:setWidth(143);
     obj.edit376:setHeight(19);
-    obj.edit376:setField("LE_Data_3");
+    obj.edit376:setField("L_Eye_3");
     obj.edit376:setName("edit376");
 
     obj.layout384 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout384:setParent(obj.rectangle3);
     obj.layout384:setLeft(726);
-    obj.layout384:setTop(243);
+    obj.layout384:setTop(286);
     obj.layout384:setWidth(143);
     obj.layout384:setHeight(18);
     obj.layout384:setName("layout384");
@@ -8579,13 +8579,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit377:setTop(0);
     obj.edit377:setWidth(143);
     obj.edit377:setHeight(19);
-    obj.edit377:setField("LE_Data_1");
+    obj.edit377:setField("LE_Data_3");
     obj.edit377:setName("edit377");
 
     obj.layout385 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout385:setParent(obj.rectangle3);
     obj.layout385:setLeft(726);
-    obj.layout385:setTop(265);
+    obj.layout385:setTop(243);
     obj.layout385:setWidth(143);
     obj.layout385:setHeight(18);
     obj.layout385:setName("layout385");
@@ -8601,13 +8601,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit378:setTop(0);
     obj.edit378:setWidth(143);
     obj.edit378:setHeight(19);
-    obj.edit378:setField("LE_Data_2");
+    obj.edit378:setField("LE_Data_1");
     obj.edit378:setName("edit378");
 
     obj.layout386 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout386:setParent(obj.rectangle3);
-    obj.layout386:setLeft(86);
-    obj.layout386:setTop(362);
+    obj.layout386:setLeft(726);
+    obj.layout386:setTop(265);
     obj.layout386:setWidth(143);
     obj.layout386:setHeight(18);
     obj.layout386:setName("layout386");
@@ -8623,13 +8623,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit379:setTop(0);
     obj.edit379:setWidth(143);
     obj.edit379:setHeight(19);
-    obj.edit379:setField("R_Arm_1");
+    obj.edit379:setField("LE_Data_2");
     obj.edit379:setName("edit379");
 
     obj.layout387 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout387:setParent(obj.rectangle3);
     obj.layout387:setLeft(86);
-    obj.layout387:setTop(383);
+    obj.layout387:setTop(362);
     obj.layout387:setWidth(143);
     obj.layout387:setHeight(18);
     obj.layout387:setName("layout387");
@@ -8645,13 +8645,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit380:setTop(0);
     obj.edit380:setWidth(143);
     obj.edit380:setHeight(19);
-    obj.edit380:setField("R_Arm_2");
+    obj.edit380:setField("R_Arm_1");
     obj.edit380:setName("edit380");
 
     obj.layout388 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout388:setParent(obj.rectangle3);
     obj.layout388:setLeft(86);
-    obj.layout388:setTop(405);
+    obj.layout388:setTop(383);
     obj.layout388:setWidth(143);
     obj.layout388:setHeight(18);
     obj.layout388:setName("layout388");
@@ -8667,13 +8667,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit381:setTop(0);
     obj.edit381:setWidth(143);
     obj.edit381:setHeight(19);
-    obj.edit381:setField("R_Arm_3");
+    obj.edit381:setField("R_Arm_2");
     obj.edit381:setName("edit381");
 
     obj.layout389 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout389:setParent(obj.rectangle3);
-    obj.layout389:setLeft(237);
-    obj.layout389:setTop(362);
+    obj.layout389:setLeft(86);
+    obj.layout389:setTop(405);
     obj.layout389:setWidth(143);
     obj.layout389:setHeight(18);
     obj.layout389:setName("layout389");
@@ -8689,13 +8689,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit382:setTop(0);
     obj.edit382:setWidth(143);
     obj.edit382:setHeight(19);
-    obj.edit382:setField("RArm_Data_1");
+    obj.edit382:setField("R_Arm_3");
     obj.edit382:setName("edit382");
 
     obj.layout390 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout390:setParent(obj.rectangle3);
     obj.layout390:setLeft(237);
-    obj.layout390:setTop(404);
+    obj.layout390:setTop(362);
     obj.layout390:setWidth(143);
     obj.layout390:setHeight(18);
     obj.layout390:setName("layout390");
@@ -8711,13 +8711,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit383:setTop(0);
     obj.edit383:setWidth(143);
     obj.edit383:setHeight(19);
-    obj.edit383:setField("RArm_Data_3");
+    obj.edit383:setField("RArm_Data_1");
     obj.edit383:setName("edit383");
 
     obj.layout391 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout391:setParent(obj.rectangle3);
     obj.layout391:setLeft(237);
-    obj.layout391:setTop(384);
+    obj.layout391:setTop(404);
     obj.layout391:setWidth(143);
     obj.layout391:setHeight(18);
     obj.layout391:setName("layout391");
@@ -8733,13 +8733,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit384:setTop(0);
     obj.edit384:setWidth(143);
     obj.edit384:setHeight(19);
-    obj.edit384:setField("RArm_Data_2");
+    obj.edit384:setField("RArm_Data_3");
     obj.edit384:setName("edit384");
 
     obj.layout392 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout392:setParent(obj.rectangle3);
-    obj.layout392:setLeft(87);
-    obj.layout392:setTop(426);
+    obj.layout392:setLeft(237);
+    obj.layout392:setTop(384);
     obj.layout392:setWidth(143);
     obj.layout392:setHeight(18);
     obj.layout392:setName("layout392");
@@ -8755,13 +8755,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit385:setTop(0);
     obj.edit385:setWidth(143);
     obj.edit385:setHeight(19);
-    obj.edit385:setField("R_Arm_4");
+    obj.edit385:setField("RArm_Data_2");
     obj.edit385:setName("edit385");
 
     obj.layout393 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout393:setParent(obj.rectangle3);
-    obj.layout393:setLeft(237);
-    obj.layout393:setTop(425);
+    obj.layout393:setLeft(87);
+    obj.layout393:setTop(426);
     obj.layout393:setWidth(143);
     obj.layout393:setHeight(18);
     obj.layout393:setName("layout393");
@@ -8777,13 +8777,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit386:setTop(0);
     obj.edit386:setWidth(143);
     obj.edit386:setHeight(19);
-    obj.edit386:setField("RArm_Data_4");
+    obj.edit386:setField("R_Arm_4");
     obj.edit386:setName("edit386");
 
     obj.layout394 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout394:setParent(obj.rectangle3);
-    obj.layout394:setLeft(575);
-    obj.layout394:setTop(362);
+    obj.layout394:setLeft(237);
+    obj.layout394:setTop(425);
     obj.layout394:setWidth(143);
     obj.layout394:setHeight(18);
     obj.layout394:setName("layout394");
@@ -8799,13 +8799,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit387:setTop(0);
     obj.edit387:setWidth(143);
     obj.edit387:setHeight(19);
-    obj.edit387:setField("L_Arm_1");
+    obj.edit387:setField("RArm_Data_4");
     obj.edit387:setName("edit387");
 
     obj.layout395 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout395:setParent(obj.rectangle3);
     obj.layout395:setLeft(575);
-    obj.layout395:setTop(382);
+    obj.layout395:setTop(362);
     obj.layout395:setWidth(143);
     obj.layout395:setHeight(18);
     obj.layout395:setName("layout395");
@@ -8821,13 +8821,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit388:setTop(0);
     obj.edit388:setWidth(143);
     obj.edit388:setHeight(19);
-    obj.edit388:setField("L_Arm_2");
+    obj.edit388:setField("L_Arm_1");
     obj.edit388:setName("edit388");
 
     obj.layout396 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout396:setParent(obj.rectangle3);
     obj.layout396:setLeft(575);
-    obj.layout396:setTop(405);
+    obj.layout396:setTop(382);
     obj.layout396:setWidth(143);
     obj.layout396:setHeight(18);
     obj.layout396:setName("layout396");
@@ -8843,13 +8843,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit389:setTop(0);
     obj.edit389:setWidth(143);
     obj.edit389:setHeight(19);
-    obj.edit389:setField("L_Arm_3");
+    obj.edit389:setField("L_Arm_2");
     obj.edit389:setName("edit389");
 
     obj.layout397 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout397:setParent(obj.rectangle3);
-    obj.layout397:setLeft(576);
-    obj.layout397:setTop(425);
+    obj.layout397:setLeft(575);
+    obj.layout397:setTop(405);
     obj.layout397:setWidth(143);
     obj.layout397:setHeight(18);
     obj.layout397:setName("layout397");
@@ -8865,13 +8865,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit390:setTop(0);
     obj.edit390:setWidth(143);
     obj.edit390:setHeight(19);
-    obj.edit390:setField("L_Arm_4");
+    obj.edit390:setField("L_Arm_3");
     obj.edit390:setName("edit390");
 
     obj.layout398 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout398:setParent(obj.rectangle3);
-    obj.layout398:setLeft(726);
-    obj.layout398:setTop(362);
+    obj.layout398:setLeft(576);
+    obj.layout398:setTop(425);
     obj.layout398:setWidth(143);
     obj.layout398:setHeight(18);
     obj.layout398:setName("layout398");
@@ -8887,13 +8887,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit391:setTop(0);
     obj.edit391:setWidth(143);
     obj.edit391:setHeight(19);
-    obj.edit391:setField("LArm_Data_1");
+    obj.edit391:setField("L_Arm_4");
     obj.edit391:setName("edit391");
 
     obj.layout399 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout399:setParent(obj.rectangle3);
     obj.layout399:setLeft(726);
-    obj.layout399:setTop(404);
+    obj.layout399:setTop(362);
     obj.layout399:setWidth(143);
     obj.layout399:setHeight(18);
     obj.layout399:setName("layout399");
@@ -8909,13 +8909,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit392:setTop(0);
     obj.edit392:setWidth(143);
     obj.edit392:setHeight(19);
-    obj.edit392:setField("LArm_Data_3");
+    obj.edit392:setField("LArm_Data_1");
     obj.edit392:setName("edit392");
 
     obj.layout400 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout400:setParent(obj.rectangle3);
     obj.layout400:setLeft(726);
-    obj.layout400:setTop(383);
+    obj.layout400:setTop(404);
     obj.layout400:setWidth(143);
     obj.layout400:setHeight(18);
     obj.layout400:setName("layout400");
@@ -8931,13 +8931,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit393:setTop(0);
     obj.edit393:setWidth(143);
     obj.edit393:setHeight(19);
-    obj.edit393:setField("LArm_Data_2");
+    obj.edit393:setField("LArm_Data_3");
     obj.edit393:setName("edit393");
 
     obj.layout401 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout401:setParent(obj.rectangle3);
     obj.layout401:setLeft(726);
-    obj.layout401:setTop(425);
+    obj.layout401:setTop(383);
     obj.layout401:setWidth(143);
     obj.layout401:setHeight(18);
     obj.layout401:setName("layout401");
@@ -8953,13 +8953,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit394:setTop(0);
     obj.edit394:setWidth(143);
     obj.edit394:setHeight(19);
-    obj.edit394:setField("LArm_Data_4");
+    obj.edit394:setField("LArm_Data_2");
     obj.edit394:setName("edit394");
 
     obj.layout402 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout402:setParent(obj.rectangle3);
-    obj.layout402:setLeft(330);
-    obj.layout402:setTop(658);
+    obj.layout402:setLeft(726);
+    obj.layout402:setTop(425);
     obj.layout402:setWidth(143);
     obj.layout402:setHeight(18);
     obj.layout402:setName("layout402");
@@ -8975,12 +8975,12 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit395:setTop(0);
     obj.edit395:setWidth(143);
     obj.edit395:setHeight(19);
-    obj.edit395:setField("NLink_1");
+    obj.edit395:setField("LArm_Data_4");
     obj.edit395:setName("edit395");
 
     obj.layout403 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout403:setParent(obj.rectangle3);
-    obj.layout403:setLeft(483);
+    obj.layout403:setLeft(330);
     obj.layout403:setTop(658);
     obj.layout403:setWidth(143);
     obj.layout403:setHeight(18);
@@ -8997,13 +8997,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit396:setTop(0);
     obj.edit396:setWidth(143);
     obj.edit396:setHeight(19);
-    obj.edit396:setField("NLink_Data_1");
+    obj.edit396:setField("NLink_1");
     obj.edit396:setName("edit396");
 
     obj.layout404 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout404:setParent(obj.rectangle3);
     obj.layout404:setLeft(483);
-    obj.layout404:setTop(679);
+    obj.layout404:setTop(658);
     obj.layout404:setWidth(143);
     obj.layout404:setHeight(18);
     obj.layout404:setName("layout404");
@@ -9019,13 +9019,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit397:setTop(0);
     obj.edit397:setWidth(143);
     obj.edit397:setHeight(19);
-    obj.edit397:setField("NLink_Data_2");
+    obj.edit397:setField("NLink_Data_1");
     obj.edit397:setName("edit397");
 
     obj.layout405 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout405:setParent(obj.rectangle3);
-    obj.layout405:setLeft(330);
-    obj.layout405:setTop(680);
+    obj.layout405:setLeft(483);
+    obj.layout405:setTop(679);
     obj.layout405:setWidth(143);
     obj.layout405:setHeight(18);
     obj.layout405:setName("layout405");
@@ -9041,13 +9041,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit398:setTop(0);
     obj.edit398:setWidth(143);
     obj.edit398:setHeight(19);
-    obj.edit398:setField("NLink_2");
+    obj.edit398:setField("NLink_Data_2");
     obj.edit398:setName("edit398");
 
     obj.layout406 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout406:setParent(obj.rectangle3);
-    obj.layout406:setLeft(483);
-    obj.layout406:setTop(723);
+    obj.layout406:setLeft(330);
+    obj.layout406:setTop(680);
     obj.layout406:setWidth(143);
     obj.layout406:setHeight(18);
     obj.layout406:setName("layout406");
@@ -9063,12 +9063,12 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit399:setTop(0);
     obj.edit399:setWidth(143);
     obj.edit399:setHeight(19);
-    obj.edit399:setField("NLink_Data_4");
+    obj.edit399:setField("NLink_2");
     obj.edit399:setName("edit399");
 
     obj.layout407 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout407:setParent(obj.rectangle3);
-    obj.layout407:setLeft(330);
+    obj.layout407:setLeft(483);
     obj.layout407:setTop(723);
     obj.layout407:setWidth(143);
     obj.layout407:setHeight(18);
@@ -9085,13 +9085,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit400:setTop(0);
     obj.edit400:setWidth(143);
     obj.edit400:setHeight(19);
-    obj.edit400:setField("NLink_4");
+    obj.edit400:setField("NLink_Data_4");
     obj.edit400:setName("edit400");
 
     obj.layout408 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout408:setParent(obj.rectangle3);
     obj.layout408:setLeft(330);
-    obj.layout408:setTop(702);
+    obj.layout408:setTop(723);
     obj.layout408:setWidth(143);
     obj.layout408:setHeight(18);
     obj.layout408:setName("layout408");
@@ -9107,13 +9107,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit401:setTop(0);
     obj.edit401:setWidth(143);
     obj.edit401:setHeight(19);
-    obj.edit401:setField("NLink_3");
+    obj.edit401:setField("NLink_4");
     obj.edit401:setName("edit401");
 
     obj.layout409 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout409:setParent(obj.rectangle3);
-    obj.layout409:setLeft(483);
-    obj.layout409:setTop(701);
+    obj.layout409:setLeft(330);
+    obj.layout409:setTop(702);
     obj.layout409:setWidth(143);
     obj.layout409:setHeight(18);
     obj.layout409:setName("layout409");
@@ -9129,13 +9129,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit402:setTop(0);
     obj.edit402:setWidth(143);
     obj.edit402:setHeight(19);
-    obj.edit402:setField("NLink_Data_3");
+    obj.edit402:setField("NLink_3");
     obj.edit402:setName("edit402");
 
     obj.layout410 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout410:setParent(obj.rectangle3);
-    obj.layout410:setLeft(330);
-    obj.layout410:setTop(745);
+    obj.layout410:setLeft(483);
+    obj.layout410:setTop(701);
     obj.layout410:setWidth(143);
     obj.layout410:setHeight(18);
     obj.layout410:setName("layout410");
@@ -9151,13 +9151,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit403:setTop(0);
     obj.edit403:setWidth(143);
     obj.edit403:setHeight(19);
-    obj.edit403:setField("NLink_5");
+    obj.edit403:setField("NLink_Data_3");
     obj.edit403:setName("edit403");
 
     obj.layout411 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout411:setParent(obj.rectangle3);
-    obj.layout411:setLeft(483);
-    obj.layout411:setTop(744);
+    obj.layout411:setLeft(330);
+    obj.layout411:setTop(745);
     obj.layout411:setWidth(143);
     obj.layout411:setHeight(18);
     obj.layout411:setName("layout411");
@@ -9173,13 +9173,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit404:setTop(0);
     obj.edit404:setWidth(143);
     obj.edit404:setHeight(19);
-    obj.edit404:setField("NLink_Data_5");
+    obj.edit404:setField("NLink_5");
     obj.edit404:setName("edit404");
 
     obj.layout412 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout412:setParent(obj.rectangle3);
-    obj.layout412:setLeft(93);
-    obj.layout412:setTop(823);
+    obj.layout412:setLeft(483);
+    obj.layout412:setTop(744);
     obj.layout412:setWidth(143);
     obj.layout412:setHeight(18);
     obj.layout412:setName("layout412");
@@ -9195,13 +9195,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit405:setTop(0);
     obj.edit405:setWidth(143);
     obj.edit405:setHeight(19);
-    obj.edit405:setField("R_Leg_1");
+    obj.edit405:setField("NLink_Data_5");
     obj.edit405:setName("edit405");
 
     obj.layout413 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout413:setParent(obj.rectangle3);
-    obj.layout413:setLeft(243);
-    obj.layout413:setTop(822);
+    obj.layout413:setLeft(93);
+    obj.layout413:setTop(823);
     obj.layout413:setWidth(143);
     obj.layout413:setHeight(18);
     obj.layout413:setName("layout413");
@@ -9217,13 +9217,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit406:setTop(0);
     obj.edit406:setWidth(143);
     obj.edit406:setHeight(19);
-    obj.edit406:setField("R_Leg_Data_1");
+    obj.edit406:setField("R_Leg_1");
     obj.edit406:setName("edit406");
 
     obj.layout414 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout414:setParent(obj.rectangle3);
     obj.layout414:setLeft(243);
-    obj.layout414:setTop(844);
+    obj.layout414:setTop(822);
     obj.layout414:setWidth(143);
     obj.layout414:setHeight(18);
     obj.layout414:setName("layout414");
@@ -9239,13 +9239,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit407:setTop(0);
     obj.edit407:setWidth(143);
     obj.edit407:setHeight(19);
-    obj.edit407:setField("R_Leg_Data_2");
+    obj.edit407:setField("R_Leg_Data_1");
     obj.edit407:setName("edit407");
 
     obj.layout415 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout415:setParent(obj.rectangle3);
-    obj.layout415:setLeft(93);
-    obj.layout415:setTop(843);
+    obj.layout415:setLeft(243);
+    obj.layout415:setTop(844);
     obj.layout415:setWidth(143);
     obj.layout415:setHeight(18);
     obj.layout415:setName("layout415");
@@ -9261,13 +9261,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit408:setTop(0);
     obj.edit408:setWidth(143);
     obj.edit408:setHeight(19);
-    obj.edit408:setField("R_Leg_2");
+    obj.edit408:setField("R_Leg_Data_2");
     obj.edit408:setName("edit408");
 
     obj.layout416 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout416:setParent(obj.rectangle3);
     obj.layout416:setLeft(93);
-    obj.layout416:setTop(865);
+    obj.layout416:setTop(843);
     obj.layout416:setWidth(143);
     obj.layout416:setHeight(18);
     obj.layout416:setName("layout416");
@@ -9283,12 +9283,12 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit409:setTop(0);
     obj.edit409:setWidth(143);
     obj.edit409:setHeight(19);
-    obj.edit409:setField("R_Leg_3");
+    obj.edit409:setField("R_Leg_2");
     obj.edit409:setName("edit409");
 
     obj.layout417 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout417:setParent(obj.rectangle3);
-    obj.layout417:setLeft(243);
+    obj.layout417:setLeft(93);
     obj.layout417:setTop(865);
     obj.layout417:setWidth(143);
     obj.layout417:setHeight(18);
@@ -9305,13 +9305,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit410:setTop(0);
     obj.edit410:setWidth(143);
     obj.edit410:setHeight(19);
-    obj.edit410:setField("R_Leg_Data_3");
+    obj.edit410:setField("R_Leg_3");
     obj.edit410:setName("edit410");
 
     obj.layout418 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout418:setParent(obj.rectangle3);
-    obj.layout418:setLeft(575);
-    obj.layout418:setTop(823);
+    obj.layout418:setLeft(243);
+    obj.layout418:setTop(865);
     obj.layout418:setWidth(143);
     obj.layout418:setHeight(18);
     obj.layout418:setName("layout418");
@@ -9327,12 +9327,12 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit411:setTop(0);
     obj.edit411:setWidth(143);
     obj.edit411:setHeight(19);
-    obj.edit411:setField("L_Leg_1");
+    obj.edit411:setField("R_Leg_Data_3");
     obj.edit411:setName("edit411");
 
     obj.layout419 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout419:setParent(obj.rectangle3);
-    obj.layout419:setLeft(726);
+    obj.layout419:setLeft(575);
     obj.layout419:setTop(823);
     obj.layout419:setWidth(143);
     obj.layout419:setHeight(18);
@@ -9349,13 +9349,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit412:setTop(0);
     obj.edit412:setWidth(143);
     obj.edit412:setHeight(19);
-    obj.edit412:setField("L_Leg_Data_1");
+    obj.edit412:setField("L_Leg_1");
     obj.edit412:setName("edit412");
 
     obj.layout420 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout420:setParent(obj.rectangle3);
     obj.layout420:setLeft(726);
-    obj.layout420:setTop(844);
+    obj.layout420:setTop(823);
     obj.layout420:setWidth(143);
     obj.layout420:setHeight(18);
     obj.layout420:setName("layout420");
@@ -9371,13 +9371,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit413:setTop(0);
     obj.edit413:setWidth(143);
     obj.edit413:setHeight(19);
-    obj.edit413:setField("L_Leg_Data_2");
+    obj.edit413:setField("L_Leg_Data_1");
     obj.edit413:setName("edit413");
 
     obj.layout421 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout421:setParent(obj.rectangle3);
-    obj.layout421:setLeft(575);
-    obj.layout421:setTop(843);
+    obj.layout421:setLeft(726);
+    obj.layout421:setTop(844);
     obj.layout421:setWidth(143);
     obj.layout421:setHeight(18);
     obj.layout421:setName("layout421");
@@ -9393,13 +9393,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit414:setTop(0);
     obj.edit414:setWidth(143);
     obj.edit414:setHeight(19);
-    obj.edit414:setField("L_Leg_2");
+    obj.edit414:setField("L_Leg_Data_2");
     obj.edit414:setName("edit414");
 
     obj.layout422 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout422:setParent(obj.rectangle3);
-    obj.layout422:setLeft(726);
-    obj.layout422:setTop(865);
+    obj.layout422:setLeft(575);
+    obj.layout422:setTop(843);
     obj.layout422:setWidth(143);
     obj.layout422:setHeight(18);
     obj.layout422:setName("layout422");
@@ -9415,13 +9415,13 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit415:setTop(0);
     obj.edit415:setWidth(143);
     obj.edit415:setHeight(19);
-    obj.edit415:setField("L_Leg_Data_3");
+    obj.edit415:setField("L_Leg_2");
     obj.edit415:setName("edit415");
 
     obj.layout423 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout423:setParent(obj.rectangle3);
-    obj.layout423:setLeft(575);
-    obj.layout423:setTop(866);
+    obj.layout423:setLeft(726);
+    obj.layout423:setTop(865);
     obj.layout423:setWidth(143);
     obj.layout423:setHeight(18);
     obj.layout423:setName("layout423");
@@ -9437,14 +9437,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit416:setTop(0);
     obj.edit416:setWidth(143);
     obj.edit416:setHeight(19);
-    obj.edit416:setField("L_Leg_3");
+    obj.edit416:setField("L_Leg_Data_3");
     obj.edit416:setName("edit416");
 
     obj.layout424 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout424:setParent(obj.rectangle3);
-    obj.layout424:setLeft(909);
-    obj.layout424:setTop(133);
-    obj.layout424:setWidth(130);
+    obj.layout424:setLeft(575);
+    obj.layout424:setTop(866);
+    obj.layout424:setWidth(143);
     obj.layout424:setHeight(18);
     obj.layout424:setName("layout424");
 
@@ -9457,16 +9457,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit417:setVertTextAlign("center");
     obj.edit417:setLeft(0);
     obj.edit417:setTop(0);
-    obj.edit417:setWidth(130);
+    obj.edit417:setWidth(143);
     obj.edit417:setHeight(19);
-    obj.edit417:setField("IC_1");
+    obj.edit417:setField("L_Leg_3");
     obj.edit417:setName("edit417");
 
     obj.layout425 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout425:setParent(obj.rectangle3);
-    obj.layout425:setLeft(1047);
+    obj.layout425:setLeft(909);
     obj.layout425:setTop(133);
-    obj.layout425:setWidth(132);
+    obj.layout425:setWidth(130);
     obj.layout425:setHeight(18);
     obj.layout425:setName("layout425");
 
@@ -9479,16 +9479,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit418:setVertTextAlign("center");
     obj.edit418:setLeft(0);
     obj.edit418:setTop(0);
-    obj.edit418:setWidth(132);
+    obj.edit418:setWidth(130);
     obj.edit418:setHeight(19);
-    obj.edit418:setField("ICD1");
+    obj.edit418:setField("IC_1");
     obj.edit418:setName("edit418");
 
     obj.layout426 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout426:setParent(obj.rectangle3);
-    obj.layout426:setLeft(909);
-    obj.layout426:setTop(155);
-    obj.layout426:setWidth(130);
+    obj.layout426:setLeft(1047);
+    obj.layout426:setTop(133);
+    obj.layout426:setWidth(132);
     obj.layout426:setHeight(18);
     obj.layout426:setName("layout426");
 
@@ -9501,16 +9501,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit419:setVertTextAlign("center");
     obj.edit419:setLeft(0);
     obj.edit419:setTop(0);
-    obj.edit419:setWidth(130);
+    obj.edit419:setWidth(132);
     obj.edit419:setHeight(19);
-    obj.edit419:setField("IC_2");
+    obj.edit419:setField("ICD1");
     obj.edit419:setName("edit419");
 
     obj.layout427 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout427:setParent(obj.rectangle3);
-    obj.layout427:setLeft(1047);
+    obj.layout427:setLeft(909);
     obj.layout427:setTop(155);
-    obj.layout427:setWidth(132);
+    obj.layout427:setWidth(130);
     obj.layout427:setHeight(18);
     obj.layout427:setName("layout427");
 
@@ -9523,16 +9523,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit420:setVertTextAlign("center");
     obj.edit420:setLeft(0);
     obj.edit420:setTop(0);
-    obj.edit420:setWidth(132);
+    obj.edit420:setWidth(130);
     obj.edit420:setHeight(19);
-    obj.edit420:setField("ICD3");
+    obj.edit420:setField("IC_2");
     obj.edit420:setName("edit420");
 
     obj.layout428 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout428:setParent(obj.rectangle3);
-    obj.layout428:setLeft(909);
-    obj.layout428:setTop(199);
-    obj.layout428:setWidth(130);
+    obj.layout428:setLeft(1047);
+    obj.layout428:setTop(155);
+    obj.layout428:setWidth(132);
     obj.layout428:setHeight(18);
     obj.layout428:setName("layout428");
 
@@ -9545,16 +9545,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit421:setVertTextAlign("center");
     obj.edit421:setLeft(0);
     obj.edit421:setTop(0);
-    obj.edit421:setWidth(130);
+    obj.edit421:setWidth(132);
     obj.edit421:setHeight(19);
-    obj.edit421:setField("IC_4");
+    obj.edit421:setField("ICD3");
     obj.edit421:setName("edit421");
 
     obj.layout429 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout429:setParent(obj.rectangle3);
-    obj.layout429:setLeft(1047);
-    obj.layout429:setTop(198);
-    obj.layout429:setWidth(132);
+    obj.layout429:setLeft(909);
+    obj.layout429:setTop(199);
+    obj.layout429:setWidth(130);
     obj.layout429:setHeight(18);
     obj.layout429:setName("layout429");
 
@@ -9567,16 +9567,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit422:setVertTextAlign("center");
     obj.edit422:setLeft(0);
     obj.edit422:setTop(0);
-    obj.edit422:setWidth(132);
+    obj.edit422:setWidth(130);
     obj.edit422:setHeight(19);
-    obj.edit422:setField("ICD5");
+    obj.edit422:setField("IC_4");
     obj.edit422:setName("edit422");
 
     obj.layout430 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout430:setParent(obj.rectangle3);
-    obj.layout430:setLeft(909);
-    obj.layout430:setTop(177);
-    obj.layout430:setWidth(130);
+    obj.layout430:setLeft(1047);
+    obj.layout430:setTop(198);
+    obj.layout430:setWidth(132);
     obj.layout430:setHeight(18);
     obj.layout430:setName("layout430");
 
@@ -9589,16 +9589,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit423:setVertTextAlign("center");
     obj.edit423:setLeft(0);
     obj.edit423:setTop(0);
-    obj.edit423:setWidth(130);
+    obj.edit423:setWidth(132);
     obj.edit423:setHeight(19);
-    obj.edit423:setField("IC_3");
+    obj.edit423:setField("ICD5");
     obj.edit423:setName("edit423");
 
     obj.layout431 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout431:setParent(obj.rectangle3);
-    obj.layout431:setLeft(1047);
-    obj.layout431:setTop(176);
-    obj.layout431:setWidth(132);
+    obj.layout431:setLeft(909);
+    obj.layout431:setTop(177);
+    obj.layout431:setWidth(130);
     obj.layout431:setHeight(18);
     obj.layout431:setName("layout431");
 
@@ -9611,16 +9611,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit424:setVertTextAlign("center");
     obj.edit424:setLeft(0);
     obj.edit424:setTop(0);
-    obj.edit424:setWidth(132);
+    obj.edit424:setWidth(130);
     obj.edit424:setHeight(19);
-    obj.edit424:setField("ICD4");
+    obj.edit424:setField("IC_3");
     obj.edit424:setName("edit424");
 
     obj.layout432 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout432:setParent(obj.rectangle3);
-    obj.layout432:setLeft(909);
-    obj.layout432:setTop(263);
-    obj.layout432:setWidth(130);
+    obj.layout432:setLeft(1047);
+    obj.layout432:setTop(176);
+    obj.layout432:setWidth(132);
     obj.layout432:setHeight(18);
     obj.layout432:setName("layout432");
 
@@ -9633,16 +9633,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit425:setVertTextAlign("center");
     obj.edit425:setLeft(0);
     obj.edit425:setTop(0);
-    obj.edit425:setWidth(130);
+    obj.edit425:setWidth(132);
     obj.edit425:setHeight(19);
-    obj.edit425:setField("IC_7");
+    obj.edit425:setField("ICD4");
     obj.edit425:setName("edit425");
 
     obj.layout433 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout433:setParent(obj.rectangle3);
-    obj.layout433:setLeft(1047);
-    obj.layout433:setTop(262);
-    obj.layout433:setWidth(132);
+    obj.layout433:setLeft(909);
+    obj.layout433:setTop(263);
+    obj.layout433:setWidth(130);
     obj.layout433:setHeight(18);
     obj.layout433:setName("layout433");
 
@@ -9655,16 +9655,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit426:setVertTextAlign("center");
     obj.edit426:setLeft(0);
     obj.edit426:setTop(0);
-    obj.edit426:setWidth(132);
+    obj.edit426:setWidth(130);
     obj.edit426:setHeight(19);
-    obj.edit426:setField("ICD8");
+    obj.edit426:setField("IC_7");
     obj.edit426:setName("edit426");
 
     obj.layout434 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout434:setParent(obj.rectangle3);
-    obj.layout434:setLeft(909);
-    obj.layout434:setTop(241);
-    obj.layout434:setWidth(130);
+    obj.layout434:setLeft(1047);
+    obj.layout434:setTop(262);
+    obj.layout434:setWidth(132);
     obj.layout434:setHeight(18);
     obj.layout434:setName("layout434");
 
@@ -9677,16 +9677,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit427:setVertTextAlign("center");
     obj.edit427:setLeft(0);
     obj.edit427:setTop(0);
-    obj.edit427:setWidth(130);
+    obj.edit427:setWidth(132);
     obj.edit427:setHeight(19);
-    obj.edit427:setField("IC_6");
+    obj.edit427:setField("ICD8");
     obj.edit427:setName("edit427");
 
     obj.layout435 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout435:setParent(obj.rectangle3);
-    obj.layout435:setLeft(1047);
+    obj.layout435:setLeft(909);
     obj.layout435:setTop(241);
-    obj.layout435:setWidth(132);
+    obj.layout435:setWidth(130);
     obj.layout435:setHeight(18);
     obj.layout435:setName("layout435");
 
@@ -9699,16 +9699,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit428:setVertTextAlign("center");
     obj.edit428:setLeft(0);
     obj.edit428:setTop(0);
-    obj.edit428:setWidth(132);
+    obj.edit428:setWidth(130);
     obj.edit428:setHeight(19);
-    obj.edit428:setField("ICD7");
+    obj.edit428:setField("IC_6");
     obj.edit428:setName("edit428");
 
     obj.layout436 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout436:setParent(obj.rectangle3);
-    obj.layout436:setLeft(909);
-    obj.layout436:setTop(219);
-    obj.layout436:setWidth(130);
+    obj.layout436:setLeft(1047);
+    obj.layout436:setTop(241);
+    obj.layout436:setWidth(132);
     obj.layout436:setHeight(18);
     obj.layout436:setName("layout436");
 
@@ -9721,16 +9721,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit429:setVertTextAlign("center");
     obj.edit429:setLeft(0);
     obj.edit429:setTop(0);
-    obj.edit429:setWidth(130);
+    obj.edit429:setWidth(132);
     obj.edit429:setHeight(19);
-    obj.edit429:setField("IC_5");
+    obj.edit429:setField("ICD7");
     obj.edit429:setName("edit429");
 
     obj.layout437 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout437:setParent(obj.rectangle3);
-    obj.layout437:setLeft(1047);
+    obj.layout437:setLeft(909);
     obj.layout437:setTop(219);
-    obj.layout437:setWidth(132);
+    obj.layout437:setWidth(130);
     obj.layout437:setHeight(18);
     obj.layout437:setName("layout437");
 
@@ -9743,16 +9743,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit430:setVertTextAlign("center");
     obj.edit430:setLeft(0);
     obj.edit430:setTop(0);
-    obj.edit430:setWidth(132);
+    obj.edit430:setWidth(130);
     obj.edit430:setHeight(19);
-    obj.edit430:setField("ICD6");
+    obj.edit430:setField("IC_5");
     obj.edit430:setName("edit430");
 
     obj.layout438 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout438:setParent(obj.rectangle3);
-    obj.layout438:setLeft(908);
-    obj.layout438:setTop(334);
-    obj.layout438:setWidth(130);
+    obj.layout438:setLeft(1047);
+    obj.layout438:setTop(219);
+    obj.layout438:setWidth(132);
     obj.layout438:setHeight(18);
     obj.layout438:setName("layout438");
 
@@ -9765,16 +9765,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit431:setVertTextAlign("center");
     obj.edit431:setLeft(0);
     obj.edit431:setTop(0);
-    obj.edit431:setWidth(130);
+    obj.edit431:setWidth(132);
     obj.edit431:setHeight(19);
-    obj.edit431:setField("EC_1");
+    obj.edit431:setField("ICD6");
     obj.edit431:setName("edit431");
 
     obj.layout439 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout439:setParent(obj.rectangle3);
-    obj.layout439:setLeft(1046);
-    obj.layout439:setTop(463);
-    obj.layout439:setWidth(132);
+    obj.layout439:setLeft(908);
+    obj.layout439:setTop(334);
+    obj.layout439:setWidth(130);
     obj.layout439:setHeight(18);
     obj.layout439:setName("layout439");
 
@@ -9787,15 +9787,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit432:setVertTextAlign("center");
     obj.edit432:setLeft(0);
     obj.edit432:setTop(0);
-    obj.edit432:setWidth(132);
+    obj.edit432:setWidth(130);
     obj.edit432:setHeight(19);
-    obj.edit432:setField("ECD7");
+    obj.edit432:setField("EC_1");
     obj.edit432:setName("edit432");
 
     obj.layout440 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout440:setParent(obj.rectangle3);
     obj.layout440:setLeft(1046);
-    obj.layout440:setTop(333);
+    obj.layout440:setTop(463);
     obj.layout440:setWidth(132);
     obj.layout440:setHeight(18);
     obj.layout440:setName("layout440");
@@ -9811,14 +9811,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit433:setTop(0);
     obj.edit433:setWidth(132);
     obj.edit433:setHeight(19);
-    obj.edit433:setField("ECD1");
+    obj.edit433:setField("ECD7");
     obj.edit433:setName("edit433");
 
     obj.layout441 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout441:setParent(obj.rectangle3);
-    obj.layout441:setLeft(908);
-    obj.layout441:setTop(355);
-    obj.layout441:setWidth(130);
+    obj.layout441:setLeft(1046);
+    obj.layout441:setTop(333);
+    obj.layout441:setWidth(132);
     obj.layout441:setHeight(18);
     obj.layout441:setName("layout441");
 
@@ -9831,16 +9831,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit434:setVertTextAlign("center");
     obj.edit434:setLeft(0);
     obj.edit434:setTop(0);
-    obj.edit434:setWidth(130);
+    obj.edit434:setWidth(132);
     obj.edit434:setHeight(19);
-    obj.edit434:setField("EC2");
+    obj.edit434:setField("ECD1");
     obj.edit434:setName("edit434");
 
     obj.layout442 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout442:setParent(obj.rectangle3);
-    obj.layout442:setLeft(1046);
+    obj.layout442:setLeft(908);
     obj.layout442:setTop(355);
-    obj.layout442:setWidth(132);
+    obj.layout442:setWidth(130);
     obj.layout442:setHeight(18);
     obj.layout442:setName("layout442");
 
@@ -9853,16 +9853,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit435:setVertTextAlign("center");
     obj.edit435:setLeft(0);
     obj.edit435:setTop(0);
-    obj.edit435:setWidth(132);
+    obj.edit435:setWidth(130);
     obj.edit435:setHeight(19);
-    obj.edit435:setField("ECD2");
+    obj.edit435:setField("EC2");
     obj.edit435:setName("edit435");
 
     obj.layout443 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout443:setParent(obj.rectangle3);
-    obj.layout443:setLeft(908);
-    obj.layout443:setTop(399);
-    obj.layout443:setWidth(130);
+    obj.layout443:setLeft(1046);
+    obj.layout443:setTop(355);
+    obj.layout443:setWidth(132);
     obj.layout443:setHeight(18);
     obj.layout443:setName("layout443");
 
@@ -9875,16 +9875,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit436:setVertTextAlign("center");
     obj.edit436:setLeft(0);
     obj.edit436:setTop(0);
-    obj.edit436:setWidth(130);
+    obj.edit436:setWidth(132);
     obj.edit436:setHeight(19);
-    obj.edit436:setField("EC4");
+    obj.edit436:setField("ECD2");
     obj.edit436:setName("edit436");
 
     obj.layout444 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout444:setParent(obj.rectangle3);
-    obj.layout444:setLeft(1046);
+    obj.layout444:setLeft(908);
     obj.layout444:setTop(399);
-    obj.layout444:setWidth(132);
+    obj.layout444:setWidth(130);
     obj.layout444:setHeight(18);
     obj.layout444:setName("layout444");
 
@@ -9897,16 +9897,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit437:setVertTextAlign("center");
     obj.edit437:setLeft(0);
     obj.edit437:setTop(0);
-    obj.edit437:setWidth(132);
+    obj.edit437:setWidth(130);
     obj.edit437:setHeight(19);
-    obj.edit437:setField("ECD4");
+    obj.edit437:setField("EC4");
     obj.edit437:setName("edit437");
 
     obj.layout445 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout445:setParent(obj.rectangle3);
-    obj.layout445:setLeft(908);
-    obj.layout445:setTop(377);
-    obj.layout445:setWidth(130);
+    obj.layout445:setLeft(1046);
+    obj.layout445:setTop(399);
+    obj.layout445:setWidth(132);
     obj.layout445:setHeight(18);
     obj.layout445:setName("layout445");
 
@@ -9919,16 +9919,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit438:setVertTextAlign("center");
     obj.edit438:setLeft(0);
     obj.edit438:setTop(0);
-    obj.edit438:setWidth(130);
+    obj.edit438:setWidth(132);
     obj.edit438:setHeight(19);
-    obj.edit438:setField("EC3");
+    obj.edit438:setField("ECD4");
     obj.edit438:setName("edit438");
 
     obj.layout446 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout446:setParent(obj.rectangle3);
-    obj.layout446:setLeft(1046);
+    obj.layout446:setLeft(908);
     obj.layout446:setTop(377);
-    obj.layout446:setWidth(132);
+    obj.layout446:setWidth(130);
     obj.layout446:setHeight(18);
     obj.layout446:setName("layout446");
 
@@ -9941,16 +9941,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit439:setVertTextAlign("center");
     obj.edit439:setLeft(0);
     obj.edit439:setTop(0);
-    obj.edit439:setWidth(132);
+    obj.edit439:setWidth(130);
     obj.edit439:setHeight(19);
-    obj.edit439:setField("ECD3");
+    obj.edit439:setField("EC3");
     obj.edit439:setName("edit439");
 
     obj.layout447 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout447:setParent(obj.rectangle3);
-    obj.layout447:setLeft(908);
-    obj.layout447:setTop(463);
-    obj.layout447:setWidth(130);
+    obj.layout447:setLeft(1046);
+    obj.layout447:setTop(377);
+    obj.layout447:setWidth(132);
     obj.layout447:setHeight(18);
     obj.layout447:setName("layout447");
 
@@ -9963,15 +9963,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit440:setVertTextAlign("center");
     obj.edit440:setLeft(0);
     obj.edit440:setTop(0);
-    obj.edit440:setWidth(130);
+    obj.edit440:setWidth(132);
     obj.edit440:setHeight(19);
-    obj.edit440:setField("EC7");
+    obj.edit440:setField("ECD3");
     obj.edit440:setName("edit440");
 
     obj.layout448 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout448:setParent(obj.rectangle3);
     obj.layout448:setLeft(908);
-    obj.layout448:setTop(441);
+    obj.layout448:setTop(463);
     obj.layout448:setWidth(130);
     obj.layout448:setHeight(18);
     obj.layout448:setName("layout448");
@@ -9987,14 +9987,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit441:setTop(0);
     obj.edit441:setWidth(130);
     obj.edit441:setHeight(19);
-    obj.edit441:setField("EC6");
+    obj.edit441:setField("EC7");
     obj.edit441:setName("edit441");
 
     obj.layout449 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout449:setParent(obj.rectangle3);
-    obj.layout449:setLeft(1046);
+    obj.layout449:setLeft(908);
     obj.layout449:setTop(441);
-    obj.layout449:setWidth(132);
+    obj.layout449:setWidth(130);
     obj.layout449:setHeight(18);
     obj.layout449:setName("layout449");
 
@@ -10007,16 +10007,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit442:setVertTextAlign("center");
     obj.edit442:setLeft(0);
     obj.edit442:setTop(0);
-    obj.edit442:setWidth(132);
+    obj.edit442:setWidth(130);
     obj.edit442:setHeight(19);
-    obj.edit442:setField("ECD6");
+    obj.edit442:setField("EC6");
     obj.edit442:setName("edit442");
 
     obj.layout450 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout450:setParent(obj.rectangle3);
-    obj.layout450:setLeft(908);
-    obj.layout450:setTop(420);
-    obj.layout450:setWidth(130);
+    obj.layout450:setLeft(1046);
+    obj.layout450:setTop(441);
+    obj.layout450:setWidth(132);
     obj.layout450:setHeight(18);
     obj.layout450:setName("layout450");
 
@@ -10029,16 +10029,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit443:setVertTextAlign("center");
     obj.edit443:setLeft(0);
     obj.edit443:setTop(0);
-    obj.edit443:setWidth(130);
+    obj.edit443:setWidth(132);
     obj.edit443:setHeight(19);
-    obj.edit443:setField("EC5");
+    obj.edit443:setField("ECD6");
     obj.edit443:setName("edit443");
 
     obj.layout451 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout451:setParent(obj.rectangle3);
-    obj.layout451:setLeft(1046);
-    obj.layout451:setTop(419);
-    obj.layout451:setWidth(132);
+    obj.layout451:setLeft(908);
+    obj.layout451:setTop(420);
+    obj.layout451:setWidth(130);
     obj.layout451:setHeight(18);
     obj.layout451:setName("layout451");
 
@@ -10051,16 +10051,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit444:setVertTextAlign("center");
     obj.edit444:setLeft(0);
     obj.edit444:setTop(0);
-    obj.edit444:setWidth(132);
+    obj.edit444:setWidth(130);
     obj.edit444:setHeight(19);
-    obj.edit444:setField("ECD5");
+    obj.edit444:setField("EC5");
     obj.edit444:setName("edit444");
 
     obj.layout452 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout452:setParent(obj.rectangle3);
-    obj.layout452:setLeft(909);
-    obj.layout452:setTop(535);
-    obj.layout452:setWidth(130);
+    obj.layout452:setLeft(1046);
+    obj.layout452:setTop(419);
+    obj.layout452:setWidth(132);
     obj.layout452:setHeight(18);
     obj.layout452:setName("layout452");
 
@@ -10073,16 +10073,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit445:setVertTextAlign("center");
     obj.edit445:setLeft(0);
     obj.edit445:setTop(0);
-    obj.edit445:setWidth(130);
+    obj.edit445:setWidth(132);
     obj.edit445:setHeight(19);
-    obj.edit445:setField("FW1");
+    obj.edit445:setField("ECD5");
     obj.edit445:setName("edit445");
 
     obj.layout453 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout453:setParent(obj.rectangle3);
-    obj.layout453:setLeft(1047);
-    obj.layout453:setTop(664);
-    obj.layout453:setWidth(132);
+    obj.layout453:setLeft(909);
+    obj.layout453:setTop(535);
+    obj.layout453:setWidth(130);
     obj.layout453:setHeight(18);
     obj.layout453:setName("layout453");
 
@@ -10095,15 +10095,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit446:setVertTextAlign("center");
     obj.edit446:setLeft(0);
     obj.edit446:setTop(0);
-    obj.edit446:setWidth(132);
+    obj.edit446:setWidth(130);
     obj.edit446:setHeight(19);
-    obj.edit446:setField("FWD7");
+    obj.edit446:setField("FW1");
     obj.edit446:setName("edit446");
 
     obj.layout454 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout454:setParent(obj.rectangle3);
     obj.layout454:setLeft(1047);
-    obj.layout454:setTop(534);
+    obj.layout454:setTop(664);
     obj.layout454:setWidth(132);
     obj.layout454:setHeight(18);
     obj.layout454:setName("layout454");
@@ -10119,14 +10119,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit447:setTop(0);
     obj.edit447:setWidth(132);
     obj.edit447:setHeight(19);
-    obj.edit447:setField("FWD1");
+    obj.edit447:setField("FWD7");
     obj.edit447:setName("edit447");
 
     obj.layout455 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout455:setParent(obj.rectangle3);
-    obj.layout455:setLeft(909);
-    obj.layout455:setTop(556);
-    obj.layout455:setWidth(130);
+    obj.layout455:setLeft(1047);
+    obj.layout455:setTop(534);
+    obj.layout455:setWidth(132);
     obj.layout455:setHeight(18);
     obj.layout455:setName("layout455");
 
@@ -10139,16 +10139,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit448:setVertTextAlign("center");
     obj.edit448:setLeft(0);
     obj.edit448:setTop(0);
-    obj.edit448:setWidth(130);
+    obj.edit448:setWidth(132);
     obj.edit448:setHeight(19);
-    obj.edit448:setField("FW2");
+    obj.edit448:setField("FWD1");
     obj.edit448:setName("edit448");
 
     obj.layout456 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout456:setParent(obj.rectangle3);
-    obj.layout456:setLeft(1047);
+    obj.layout456:setLeft(909);
     obj.layout456:setTop(556);
-    obj.layout456:setWidth(132);
+    obj.layout456:setWidth(130);
     obj.layout456:setHeight(18);
     obj.layout456:setName("layout456");
 
@@ -10161,16 +10161,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit449:setVertTextAlign("center");
     obj.edit449:setLeft(0);
     obj.edit449:setTop(0);
-    obj.edit449:setWidth(132);
+    obj.edit449:setWidth(130);
     obj.edit449:setHeight(19);
-    obj.edit449:setField("FWD2");
+    obj.edit449:setField("FW2");
     obj.edit449:setName("edit449");
 
     obj.layout457 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout457:setParent(obj.rectangle3);
-    obj.layout457:setLeft(909);
-    obj.layout457:setTop(600);
-    obj.layout457:setWidth(130);
+    obj.layout457:setLeft(1047);
+    obj.layout457:setTop(556);
+    obj.layout457:setWidth(132);
     obj.layout457:setHeight(18);
     obj.layout457:setName("layout457");
 
@@ -10183,16 +10183,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit450:setVertTextAlign("center");
     obj.edit450:setLeft(0);
     obj.edit450:setTop(0);
-    obj.edit450:setWidth(130);
+    obj.edit450:setWidth(132);
     obj.edit450:setHeight(19);
-    obj.edit450:setField("FW4");
+    obj.edit450:setField("FWD2");
     obj.edit450:setName("edit450");
 
     obj.layout458 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout458:setParent(obj.rectangle3);
-    obj.layout458:setLeft(1047);
-    obj.layout458:setTop(599);
-    obj.layout458:setWidth(132);
+    obj.layout458:setLeft(909);
+    obj.layout458:setTop(600);
+    obj.layout458:setWidth(130);
     obj.layout458:setHeight(18);
     obj.layout458:setName("layout458");
 
@@ -10205,16 +10205,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit451:setVertTextAlign("center");
     obj.edit451:setLeft(0);
     obj.edit451:setTop(0);
-    obj.edit451:setWidth(132);
+    obj.edit451:setWidth(130);
     obj.edit451:setHeight(19);
-    obj.edit451:setField("FWD4");
+    obj.edit451:setField("FW4");
     obj.edit451:setName("edit451");
 
     obj.layout459 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout459:setParent(obj.rectangle3);
-    obj.layout459:setLeft(909);
-    obj.layout459:setTop(578);
-    obj.layout459:setWidth(130);
+    obj.layout459:setLeft(1047);
+    obj.layout459:setTop(599);
+    obj.layout459:setWidth(132);
     obj.layout459:setHeight(18);
     obj.layout459:setName("layout459");
 
@@ -10227,16 +10227,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit452:setVertTextAlign("center");
     obj.edit452:setLeft(0);
     obj.edit452:setTop(0);
-    obj.edit452:setWidth(130);
+    obj.edit452:setWidth(132);
     obj.edit452:setHeight(19);
-    obj.edit452:setField("FW3");
+    obj.edit452:setField("FWD4");
     obj.edit452:setName("edit452");
 
     obj.layout460 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout460:setParent(obj.rectangle3);
-    obj.layout460:setLeft(1047);
+    obj.layout460:setLeft(909);
     obj.layout460:setTop(578);
-    obj.layout460:setWidth(132);
+    obj.layout460:setWidth(130);
     obj.layout460:setHeight(18);
     obj.layout460:setName("layout460");
 
@@ -10249,16 +10249,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit453:setVertTextAlign("center");
     obj.edit453:setLeft(0);
     obj.edit453:setTop(0);
-    obj.edit453:setWidth(132);
+    obj.edit453:setWidth(130);
     obj.edit453:setHeight(19);
-    obj.edit453:setField("FWD3");
+    obj.edit453:setField("FW3");
     obj.edit453:setName("edit453");
 
     obj.layout461 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout461:setParent(obj.rectangle3);
-    obj.layout461:setLeft(909);
-    obj.layout461:setTop(664);
-    obj.layout461:setWidth(130);
+    obj.layout461:setLeft(1047);
+    obj.layout461:setTop(578);
+    obj.layout461:setWidth(132);
     obj.layout461:setHeight(18);
     obj.layout461:setName("layout461");
 
@@ -10271,15 +10271,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit454:setVertTextAlign("center");
     obj.edit454:setLeft(0);
     obj.edit454:setTop(0);
-    obj.edit454:setWidth(130);
+    obj.edit454:setWidth(132);
     obj.edit454:setHeight(19);
-    obj.edit454:setField("FW7");
+    obj.edit454:setField("FWD3");
     obj.edit454:setName("edit454");
 
     obj.layout462 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout462:setParent(obj.rectangle3);
     obj.layout462:setLeft(909);
-    obj.layout462:setTop(642);
+    obj.layout462:setTop(664);
     obj.layout462:setWidth(130);
     obj.layout462:setHeight(18);
     obj.layout462:setName("layout462");
@@ -10295,14 +10295,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit455:setTop(0);
     obj.edit455:setWidth(130);
     obj.edit455:setHeight(19);
-    obj.edit455:setField("FW6");
+    obj.edit455:setField("FW7");
     obj.edit455:setName("edit455");
 
     obj.layout463 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout463:setParent(obj.rectangle3);
-    obj.layout463:setLeft(1047);
+    obj.layout463:setLeft(909);
     obj.layout463:setTop(642);
-    obj.layout463:setWidth(132);
+    obj.layout463:setWidth(130);
     obj.layout463:setHeight(18);
     obj.layout463:setName("layout463");
 
@@ -10315,16 +10315,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit456:setVertTextAlign("center");
     obj.edit456:setLeft(0);
     obj.edit456:setTop(0);
-    obj.edit456:setWidth(132);
+    obj.edit456:setWidth(130);
     obj.edit456:setHeight(19);
-    obj.edit456:setField("FWD6");
+    obj.edit456:setField("FW6");
     obj.edit456:setName("edit456");
 
     obj.layout464 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout464:setParent(obj.rectangle3);
-    obj.layout464:setLeft(909);
-    obj.layout464:setTop(621);
-    obj.layout464:setWidth(130);
+    obj.layout464:setLeft(1047);
+    obj.layout464:setTop(642);
+    obj.layout464:setWidth(132);
     obj.layout464:setHeight(18);
     obj.layout464:setName("layout464");
 
@@ -10337,16 +10337,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit457:setVertTextAlign("center");
     obj.edit457:setLeft(0);
     obj.edit457:setTop(0);
-    obj.edit457:setWidth(130);
+    obj.edit457:setWidth(132);
     obj.edit457:setHeight(19);
-    obj.edit457:setField("FW5");
+    obj.edit457:setField("FWD6");
     obj.edit457:setName("edit457");
 
     obj.layout465 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout465:setParent(obj.rectangle3);
-    obj.layout465:setLeft(1047);
-    obj.layout465:setTop(620);
-    obj.layout465:setWidth(132);
+    obj.layout465:setLeft(909);
+    obj.layout465:setTop(621);
+    obj.layout465:setWidth(130);
     obj.layout465:setHeight(18);
     obj.layout465:setName("layout465");
 
@@ -10359,16 +10359,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit458:setVertTextAlign("center");
     obj.edit458:setLeft(0);
     obj.edit458:setTop(0);
-    obj.edit458:setWidth(132);
+    obj.edit458:setWidth(130);
     obj.edit458:setHeight(19);
-    obj.edit458:setField("FWD5");
+    obj.edit458:setField("FW5");
     obj.edit458:setName("edit458");
 
     obj.layout466 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout466:setParent(obj.rectangle3);
-    obj.layout466:setLeft(908);
-    obj.layout466:setTop(736);
-    obj.layout466:setWidth(130);
+    obj.layout466:setLeft(1047);
+    obj.layout466:setTop(620);
+    obj.layout466:setWidth(132);
     obj.layout466:setHeight(18);
     obj.layout466:setName("layout466");
 
@@ -10381,16 +10381,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit459:setVertTextAlign("center");
     obj.edit459:setLeft(0);
     obj.edit459:setTop(0);
-    obj.edit459:setWidth(130);
+    obj.edit459:setWidth(132);
     obj.edit459:setHeight(19);
-    obj.edit459:setField("Borg1");
+    obj.edit459:setField("FWD5");
     obj.edit459:setName("edit459");
 
     obj.layout467 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout467:setParent(obj.rectangle3);
-    obj.layout467:setLeft(1046);
-    obj.layout467:setTop(865);
-    obj.layout467:setWidth(132);
+    obj.layout467:setLeft(908);
+    obj.layout467:setTop(736);
+    obj.layout467:setWidth(130);
     obj.layout467:setHeight(18);
     obj.layout467:setName("layout467");
 
@@ -10403,15 +10403,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit460:setVertTextAlign("center");
     obj.edit460:setLeft(0);
     obj.edit460:setTop(0);
-    obj.edit460:setWidth(132);
+    obj.edit460:setWidth(130);
     obj.edit460:setHeight(19);
-    obj.edit460:setField("BorgD7");
+    obj.edit460:setField("Borg1");
     obj.edit460:setName("edit460");
 
     obj.layout468 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout468:setParent(obj.rectangle3);
     obj.layout468:setLeft(1046);
-    obj.layout468:setTop(735);
+    obj.layout468:setTop(865);
     obj.layout468:setWidth(132);
     obj.layout468:setHeight(18);
     obj.layout468:setName("layout468");
@@ -10427,14 +10427,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit461:setTop(0);
     obj.edit461:setWidth(132);
     obj.edit461:setHeight(19);
-    obj.edit461:setField("BorgD1");
+    obj.edit461:setField("BorgD7");
     obj.edit461:setName("edit461");
 
     obj.layout469 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout469:setParent(obj.rectangle3);
-    obj.layout469:setLeft(908);
-    obj.layout469:setTop(757);
-    obj.layout469:setWidth(130);
+    obj.layout469:setLeft(1046);
+    obj.layout469:setTop(735);
+    obj.layout469:setWidth(132);
     obj.layout469:setHeight(18);
     obj.layout469:setName("layout469");
 
@@ -10447,16 +10447,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit462:setVertTextAlign("center");
     obj.edit462:setLeft(0);
     obj.edit462:setTop(0);
-    obj.edit462:setWidth(130);
+    obj.edit462:setWidth(132);
     obj.edit462:setHeight(19);
-    obj.edit462:setField("Borg2");
+    obj.edit462:setField("BorgD1");
     obj.edit462:setName("edit462");
 
     obj.layout470 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout470:setParent(obj.rectangle3);
-    obj.layout470:setLeft(1046);
+    obj.layout470:setLeft(908);
     obj.layout470:setTop(757);
-    obj.layout470:setWidth(132);
+    obj.layout470:setWidth(130);
     obj.layout470:setHeight(18);
     obj.layout470:setName("layout470");
 
@@ -10469,16 +10469,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit463:setVertTextAlign("center");
     obj.edit463:setLeft(0);
     obj.edit463:setTop(0);
-    obj.edit463:setWidth(132);
+    obj.edit463:setWidth(130);
     obj.edit463:setHeight(19);
-    obj.edit463:setField("BorgD2");
+    obj.edit463:setField("Borg2");
     obj.edit463:setName("edit463");
 
     obj.layout471 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout471:setParent(obj.rectangle3);
-    obj.layout471:setLeft(908);
-    obj.layout471:setTop(801);
-    obj.layout471:setWidth(130);
+    obj.layout471:setLeft(1046);
+    obj.layout471:setTop(757);
+    obj.layout471:setWidth(132);
     obj.layout471:setHeight(18);
     obj.layout471:setName("layout471");
 
@@ -10491,16 +10491,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit464:setVertTextAlign("center");
     obj.edit464:setLeft(0);
     obj.edit464:setTop(0);
-    obj.edit464:setWidth(130);
+    obj.edit464:setWidth(132);
     obj.edit464:setHeight(19);
-    obj.edit464:setField("Borg4");
+    obj.edit464:setField("BorgD2");
     obj.edit464:setName("edit464");
 
     obj.layout472 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout472:setParent(obj.rectangle3);
-    obj.layout472:setLeft(1046);
-    obj.layout472:setTop(800);
-    obj.layout472:setWidth(132);
+    obj.layout472:setLeft(908);
+    obj.layout472:setTop(801);
+    obj.layout472:setWidth(130);
     obj.layout472:setHeight(18);
     obj.layout472:setName("layout472");
 
@@ -10513,16 +10513,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit465:setVertTextAlign("center");
     obj.edit465:setLeft(0);
     obj.edit465:setTop(0);
-    obj.edit465:setWidth(132);
+    obj.edit465:setWidth(130);
     obj.edit465:setHeight(19);
-    obj.edit465:setField("BorgD4");
+    obj.edit465:setField("Borg4");
     obj.edit465:setName("edit465");
 
     obj.layout473 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout473:setParent(obj.rectangle3);
-    obj.layout473:setLeft(908);
-    obj.layout473:setTop(779);
-    obj.layout473:setWidth(130);
+    obj.layout473:setLeft(1046);
+    obj.layout473:setTop(800);
+    obj.layout473:setWidth(132);
     obj.layout473:setHeight(18);
     obj.layout473:setName("layout473");
 
@@ -10535,16 +10535,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit466:setVertTextAlign("center");
     obj.edit466:setLeft(0);
     obj.edit466:setTop(0);
-    obj.edit466:setWidth(130);
+    obj.edit466:setWidth(132);
     obj.edit466:setHeight(19);
-    obj.edit466:setField("Borg3");
+    obj.edit466:setField("BorgD4");
     obj.edit466:setName("edit466");
 
     obj.layout474 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout474:setParent(obj.rectangle3);
-    obj.layout474:setLeft(1046);
+    obj.layout474:setLeft(908);
     obj.layout474:setTop(779);
-    obj.layout474:setWidth(132);
+    obj.layout474:setWidth(130);
     obj.layout474:setHeight(18);
     obj.layout474:setName("layout474");
 
@@ -10557,16 +10557,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit467:setVertTextAlign("center");
     obj.edit467:setLeft(0);
     obj.edit467:setTop(0);
-    obj.edit467:setWidth(132);
+    obj.edit467:setWidth(130);
     obj.edit467:setHeight(19);
-    obj.edit467:setField("BorgD3");
+    obj.edit467:setField("Borg3");
     obj.edit467:setName("edit467");
 
     obj.layout475 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout475:setParent(obj.rectangle3);
-    obj.layout475:setLeft(908);
-    obj.layout475:setTop(865);
-    obj.layout475:setWidth(130);
+    obj.layout475:setLeft(1046);
+    obj.layout475:setTop(779);
+    obj.layout475:setWidth(132);
     obj.layout475:setHeight(18);
     obj.layout475:setName("layout475");
 
@@ -10579,15 +10579,15 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit468:setVertTextAlign("center");
     obj.edit468:setLeft(0);
     obj.edit468:setTop(0);
-    obj.edit468:setWidth(130);
+    obj.edit468:setWidth(132);
     obj.edit468:setHeight(19);
-    obj.edit468:setField("Borg7");
+    obj.edit468:setField("BorgD3");
     obj.edit468:setName("edit468");
 
     obj.layout476 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout476:setParent(obj.rectangle3);
     obj.layout476:setLeft(908);
-    obj.layout476:setTop(843);
+    obj.layout476:setTop(865);
     obj.layout476:setWidth(130);
     obj.layout476:setHeight(18);
     obj.layout476:setName("layout476");
@@ -10603,14 +10603,14 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit469:setTop(0);
     obj.edit469:setWidth(130);
     obj.edit469:setHeight(19);
-    obj.edit469:setField("Borg6");
+    obj.edit469:setField("Borg7");
     obj.edit469:setName("edit469");
 
     obj.layout477 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout477:setParent(obj.rectangle3);
-    obj.layout477:setLeft(1046);
+    obj.layout477:setLeft(908);
     obj.layout477:setTop(843);
-    obj.layout477:setWidth(132);
+    obj.layout477:setWidth(130);
     obj.layout477:setHeight(18);
     obj.layout477:setName("layout477");
 
@@ -10623,16 +10623,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit470:setVertTextAlign("center");
     obj.edit470:setLeft(0);
     obj.edit470:setTop(0);
-    obj.edit470:setWidth(132);
+    obj.edit470:setWidth(130);
     obj.edit470:setHeight(19);
-    obj.edit470:setField("BorgD6");
+    obj.edit470:setField("Borg6");
     obj.edit470:setName("edit470");
 
     obj.layout478 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout478:setParent(obj.rectangle3);
-    obj.layout478:setLeft(908);
-    obj.layout478:setTop(822);
-    obj.layout478:setWidth(130);
+    obj.layout478:setLeft(1046);
+    obj.layout478:setTop(843);
+    obj.layout478:setWidth(132);
     obj.layout478:setHeight(18);
     obj.layout478:setName("layout478");
 
@@ -10645,16 +10645,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit471:setVertTextAlign("center");
     obj.edit471:setLeft(0);
     obj.edit471:setTop(0);
-    obj.edit471:setWidth(130);
+    obj.edit471:setWidth(132);
     obj.edit471:setHeight(19);
-    obj.edit471:setField("Borg5");
+    obj.edit471:setField("BorgD6");
     obj.edit471:setName("edit471");
 
     obj.layout479 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout479:setParent(obj.rectangle3);
-    obj.layout479:setLeft(1046);
-    obj.layout479:setTop(821);
-    obj.layout479:setWidth(132);
+    obj.layout479:setLeft(908);
+    obj.layout479:setTop(822);
+    obj.layout479:setWidth(130);
     obj.layout479:setHeight(18);
     obj.layout479:setName("layout479");
 
@@ -10667,21 +10667,43 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.edit472:setVertTextAlign("center");
     obj.edit472:setLeft(0);
     obj.edit472:setTop(0);
-    obj.edit472:setWidth(132);
+    obj.edit472:setWidth(130);
     obj.edit472:setHeight(19);
-    obj.edit472:setField("BorgD5");
+    obj.edit472:setField("Borg5");
     obj.edit472:setName("edit472");
 
     obj.layout480 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout480:setParent(obj.rectangle3);
-    obj.layout480:setLeft(446);
-    obj.layout480:setTop(108);
-    obj.layout480:setWidth(26);
-    obj.layout480:setHeight(19);
+    obj.layout480:setLeft(1046);
+    obj.layout480:setTop(821);
+    obj.layout480:setWidth(132);
+    obj.layout480:setHeight(18);
     obj.layout480:setName("layout480");
 
+    obj.edit473 = GUI.fromHandle(_obj_newObject("edit"));
+    obj.edit473:setParent(obj.layout480);
+    obj.edit473:setTransparent(true);
+    obj.edit473:setFontSize(11.3);
+    obj.edit473:setFontColor("#000000");
+    obj.edit473:setHorzTextAlign("center");
+    obj.edit473:setVertTextAlign("center");
+    obj.edit473:setLeft(0);
+    obj.edit473:setTop(0);
+    obj.edit473:setWidth(132);
+    obj.edit473:setHeight(19);
+    obj.edit473:setField("BorgD5");
+    obj.edit473:setName("edit473");
+
+    obj.layout481 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout481:setParent(obj.rectangle3);
+    obj.layout481:setLeft(446);
+    obj.layout481:setTop(108);
+    obj.layout481:setWidth(26);
+    obj.layout481:setHeight(19);
+    obj.layout481:setName("layout481");
+
     obj.checkBox1 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox1:setParent(obj.layout480);
+    obj.checkBox1:setParent(obj.layout481);
     obj.checkBox1:setLeft(0);
     obj.checkBox1:setTop(0);
     obj.checkBox1:setWidth(26);
@@ -10689,16 +10711,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.checkBox1:setField("Audio_Box");
     obj.checkBox1:setName("checkBox1");
 
-    obj.layout481 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout481:setParent(obj.rectangle3);
-    obj.layout481:setLeft(210);
-    obj.layout481:setTop(221);
-    obj.layout481:setWidth(26);
-    obj.layout481:setHeight(18);
-    obj.layout481:setName("layout481");
+    obj.layout482 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout482:setParent(obj.rectangle3);
+    obj.layout482:setLeft(210);
+    obj.layout482:setTop(221);
+    obj.layout482:setWidth(26);
+    obj.layout482:setHeight(18);
+    obj.layout482:setName("layout482");
 
     obj.checkBox2 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox2:setParent(obj.layout481);
+    obj.checkBox2:setParent(obj.layout482);
     obj.checkBox2:setLeft(0);
     obj.checkBox2:setTop(0);
     obj.checkBox2:setWidth(26);
@@ -10706,16 +10728,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.checkBox2:setField("R_Eye_Box");
     obj.checkBox2:setName("checkBox2");
 
-    obj.layout482 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout482:setParent(obj.rectangle3);
-    obj.layout482:setLeft(692);
-    obj.layout482:setTop(221);
-    obj.layout482:setWidth(26);
-    obj.layout482:setHeight(18);
-    obj.layout482:setName("layout482");
+    obj.layout483 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout483:setParent(obj.rectangle3);
+    obj.layout483:setLeft(692);
+    obj.layout483:setTop(221);
+    obj.layout483:setWidth(26);
+    obj.layout483:setHeight(18);
+    obj.layout483:setName("layout483");
 
     obj.checkBox3 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox3:setParent(obj.layout482);
+    obj.checkBox3:setParent(obj.layout483);
     obj.checkBox3:setLeft(0);
     obj.checkBox3:setTop(0);
     obj.checkBox3:setWidth(26);
@@ -10723,16 +10745,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.checkBox3:setField("L_Eye_Box");
     obj.checkBox3:setName("checkBox3");
 
-    obj.layout483 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout483:setParent(obj.rectangle3);
-    obj.layout483:setLeft(203);
-    obj.layout483:setTop(339);
-    obj.layout483:setWidth(26);
-    obj.layout483:setHeight(19);
-    obj.layout483:setName("layout483");
+    obj.layout484 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout484:setParent(obj.rectangle3);
+    obj.layout484:setLeft(203);
+    obj.layout484:setTop(339);
+    obj.layout484:setWidth(26);
+    obj.layout484:setHeight(19);
+    obj.layout484:setName("layout484");
 
     obj.checkBox4 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox4:setParent(obj.layout483);
+    obj.checkBox4:setParent(obj.layout484);
     obj.checkBox4:setLeft(0);
     obj.checkBox4:setTop(0);
     obj.checkBox4:setWidth(26);
@@ -10740,16 +10762,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.checkBox4:setField("R_Arm_Box");
     obj.checkBox4:setName("checkBox4");
 
-    obj.layout484 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout484:setParent(obj.rectangle3);
-    obj.layout484:setLeft(692);
-    obj.layout484:setTop(339);
-    obj.layout484:setWidth(26);
-    obj.layout484:setHeight(18);
-    obj.layout484:setName("layout484");
+    obj.layout485 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout485:setParent(obj.rectangle3);
+    obj.layout485:setLeft(692);
+    obj.layout485:setTop(339);
+    obj.layout485:setWidth(26);
+    obj.layout485:setHeight(18);
+    obj.layout485:setName("layout485");
 
     obj.checkBox5 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox5:setParent(obj.layout484);
+    obj.checkBox5:setParent(obj.layout485);
     obj.checkBox5:setLeft(0);
     obj.checkBox5:setTop(0);
     obj.checkBox5:setWidth(26);
@@ -10757,16 +10779,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.checkBox5:setField("L_Arm_Box");
     obj.checkBox5:setName("checkBox5");
 
-    obj.layout485 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout485:setParent(obj.rectangle3);
-    obj.layout485:setLeft(447);
-    obj.layout485:setTop(636);
-    obj.layout485:setWidth(26);
-    obj.layout485:setHeight(17);
-    obj.layout485:setName("layout485");
+    obj.layout486 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout486:setParent(obj.rectangle3);
+    obj.layout486:setLeft(447);
+    obj.layout486:setTop(636);
+    obj.layout486:setWidth(26);
+    obj.layout486:setHeight(17);
+    obj.layout486:setName("layout486");
 
     obj.checkBox6 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox6:setParent(obj.layout485);
+    obj.checkBox6:setParent(obj.layout486);
     obj.checkBox6:setLeft(0);
     obj.checkBox6:setTop(0);
     obj.checkBox6:setWidth(26);
@@ -10774,16 +10796,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.checkBox6:setField("Link_Box");
     obj.checkBox6:setName("checkBox6");
 
-    obj.layout486 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout486:setParent(obj.rectangle3);
-    obj.layout486:setLeft(208);
-    obj.layout486:setTop(801);
-    obj.layout486:setWidth(26);
-    obj.layout486:setHeight(17);
-    obj.layout486:setName("layout486");
+    obj.layout487 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout487:setParent(obj.rectangle3);
+    obj.layout487:setLeft(208);
+    obj.layout487:setTop(801);
+    obj.layout487:setWidth(26);
+    obj.layout487:setHeight(17);
+    obj.layout487:setName("layout487");
 
     obj.checkBox7 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox7:setParent(obj.layout486);
+    obj.checkBox7:setParent(obj.layout487);
     obj.checkBox7:setLeft(0);
     obj.checkBox7:setTop(0);
     obj.checkBox7:setWidth(26);
@@ -10791,16 +10813,16 @@ local function constructNew_frmCyberpunkRedSheet()
     obj.checkBox7:setField("R_Leg_Box");
     obj.checkBox7:setName("checkBox7");
 
-    obj.layout487 = GUI.fromHandle(_obj_newObject("layout"));
-    obj.layout487:setParent(obj.rectangle3);
-    obj.layout487:setLeft(692);
-    obj.layout487:setTop(800);
-    obj.layout487:setWidth(26);
-    obj.layout487:setHeight(18);
-    obj.layout487:setName("layout487");
+    obj.layout488 = GUI.fromHandle(_obj_newObject("layout"));
+    obj.layout488:setParent(obj.rectangle3);
+    obj.layout488:setLeft(692);
+    obj.layout488:setTop(800);
+    obj.layout488:setWidth(26);
+    obj.layout488:setHeight(18);
+    obj.layout488:setName("layout488");
 
     obj.checkBox8 = GUI.fromHandle(_obj_newObject("checkBox"));
-    obj.checkBox8:setParent(obj.layout487);
+    obj.checkBox8:setParent(obj.layout488);
     obj.checkBox8:setLeft(0);
     obj.checkBox8:setTop(0);
     obj.checkBox8:setWidth(26);
@@ -10982,6 +11004,7 @@ local function constructNew_frmCyberpunkRedSheet()
         if self.layout320 ~= nil then self.layout320:destroy(); self.layout320 = nil; end;
         if self.edit128 ~= nil then self.edit128:destroy(); self.edit128 = nil; end;
         if self.edit355 ~= nil then self.edit355:destroy(); self.edit355 = nil; end;
+        if self.edit473 ~= nil then self.edit473:destroy(); self.edit473 = nil; end;
         if self.layout200 ~= nil then self.layout200:destroy(); self.layout200 = nil; end;
         if self.edit187 ~= nil then self.edit187:destroy(); self.edit187 = nil; end;
         if self.layout370 ~= nil then self.layout370:destroy(); self.layout370 = nil; end;
@@ -11258,6 +11281,7 @@ local function constructNew_frmCyberpunkRedSheet()
         if self.edit144 ~= nil then self.edit144:destroy(); self.edit144 = nil; end;
         if self.layout358 ~= nil then self.layout358:destroy(); self.layout358 = nil; end;
         if self.edit346 ~= nil then self.edit346:destroy(); self.edit346 = nil; end;
+        if self.layout488 ~= nil then self.layout488:destroy(); self.layout488 = nil; end;
         if self.rectangle3 ~= nil then self.rectangle3:destroy(); self.rectangle3 = nil; end;
         if self.edit376 ~= nil then self.edit376:destroy(); self.edit376 = nil; end;
         if self.edit399 ~= nil then self.edit399:destroy(); self.edit399 = nil; end;
