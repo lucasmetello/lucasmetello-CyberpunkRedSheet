@@ -344,8 +344,6 @@
 
             <!-- Accounting -->
             <!-- level -->
-
-
   <layout left="550" top="495" width="27" height="18" compilerOrder="191">
               <edit transparent="true" fontSize="11.3" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="27" height="19" field="Accounting_Level" compilerOrder="192"/>
           </layout>&#xD;
@@ -359,20 +357,79 @@
             </layout>&#xD;
 
             <!-- Animal Handling -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Bureaucracy -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Business -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Composition  -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Criminology -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Cryptography -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Deduction -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Education -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Gamble  -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Language -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Library Search -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Local Expert -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Science -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Tactics -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Wilderness Survival -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
 
             <!-- FIGHTING -->
             <!-- level -->
@@ -380,11 +437,29 @@
             <!-- base -->
 
             <!-- Brawling -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Evasion -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Martial Arts -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Melee Weapon -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
 
             <!-- PERFORMANCE -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
 
             <!-- Acting -->
             <!-- level -->
@@ -404,9 +479,24 @@
             <!-- base -->
 
             <!-- Autofire -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Handgun -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Heavy Weapons -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Shoulder Arms -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
 
             <!-- SOCIAL -->
 
@@ -416,32 +506,125 @@
             <!-- base -->
 
             <!-- Conversation -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Human Perception -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Interrogation -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Persuasion -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- Personal Grooming -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Streetwise -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Trading -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Wardrobe & Style -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
 
             <!-- TECHNIQUE -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
-            <!-- -->
+            <!-- Air Vehicle Tech -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Basic Tech -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Cybertech -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Demolitions -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Electronics/Security Tech -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- First Aid -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Forgery -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Land Vehicle Tech -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Paint/Draw/Sculpt -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Paramedic -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Photography/Film -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Pick Lock -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Pick Pocket -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
+            <!-- Sea Vehicle Tech -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
             <layout left="1150" top="668" width="34" height="19" compilerOrder="559">
                 <edit transparent="true" fontSize="12" fontColor="#000000" horzTextAlign="center" vertTextAlign="center" left="0" top="0" width="34" height="20" field="Sea_Vehicle_Tech_Base" compilerOrder="560"/>
             </layout>&#xD;
+
+            <!-- Weaponstech -->
+            <!-- level -->
+            <!-- stat -->
+            <!-- base -->
+
             <!-- -->
 
             <!-- WEAPON AND ARMOR -->
